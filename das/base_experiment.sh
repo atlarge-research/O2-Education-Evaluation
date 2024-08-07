@@ -1,33 +1,30 @@
 #!/bin/bash
 
-# List of num_players options
-
+# Node details, benchmark duration and client interval
 source config.cfg
 
-# 5, 6, 10, 15, 20, 24, 30, 40, 45, 54, 60, 90, 108
-terrain_options=("4-Layer" "4-Layer" "5-Layer" "5-Layer" "5-Layer")
-active_status=("-activeLogic" "-activeLogic" "-activeLogic" "-activeLogic" "-activeLogic")
-circuitXes=("5" "6" "5" "5" "6")
-circuitZes=("6" "6" "5" "6" "6")
+terrain_options=() # "Empty", "1-Layer" etc.
+active_status=() # either "" or "-activeLogic"
+circuitXes=() # Numbers up to 6
+circuitZes=() # Numbers up to 6
+num_players=1
 
-# Config (so I can have formatted strings)
-## Folder locations
+# Folder locations
 student_id="zmr280"
 build_location="/var/scratch/${student_id}/"
 home_folder="/home/${student_id}/"
 
-## Build locations
+# Build locations
 build_folder="${build_location}opencraft/"
 raw_executable="opencraft.x86_64"
 opencraft_executable="${build_folder}${raw_executable}"
 runs_dir="${build_location}runs/"
 mkdir -p ${runs_dir}
 
-## Scripts locations
-net_celerity_folder="${home_folder}Net-Celerity/"
-system_monitor_script="${net_celerity_folder}system_monitor.py"
-client_system_monitor_script="${net_celerity_folder}client_system_monitor.py"
-collect_script="${net_celerity_folder}collect_script.py"
+# Scripts locations
+das_folder="${home_folder}das/"
+system_monitor_script="${das_folder}system_monitor.py"
+client_system_monitor_script="${das_folder}client_system_monitor.py"
 
 for index in "${!terrain_options[@]}"; do
     terrain_type2=${terrain_options[$index]}
@@ -81,7 +78,7 @@ for index in "${!terrain_options[@]}"; do
 
         for i in $(seq $start_client $end_client); do
             echo "Starting client $i on $client_node..."
-            simulation_type="" # -emulationType Simulation -playerSimulationBehaviour FixedDirection
+            simulation_type="" 
             client_command="${shared_command} -serverUrl $server_ip -statsFile ${opencraft_stats}client$i.csv -userID $i -playType Client ${simulation_type} > ${opencraft_logs}client${i}.log 2>&1 &"
             ssh $client_node "${client_command}" &
             sleep $client_interval
@@ -113,10 +110,6 @@ for index in "${!terrain_options[@]}"; do
         ssh $client_node "pkill -0 opencraft" && ssh $client_node "pkill -9 opencraft"
         echo "Stopped clients on $client_node."
     done
-
-    echo "Running collection script..."
-    python3 $collect_script $system_logs $run_config
-    wait
 
     echo "Benchmarking completed for ${run_config} config."
 done

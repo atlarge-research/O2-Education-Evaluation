@@ -1,9 +1,5 @@
-name: net-celerity-env
+name: experiment-env
 channels:
   - defaults
 dependencies:
-  - matplotlib=3.8.0
-  - numpy=1.26.4
-  - pandas=2.2.1
   - psutil=5.9.0
-  - seaborn=0.12.2

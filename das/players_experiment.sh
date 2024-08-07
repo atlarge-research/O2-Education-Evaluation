@@ -1,32 +1,29 @@
 #!/bin/bash
 
-# List of num_players options
-
+# Node details, benchmark duration and client interval
 source config.cfg
 
-num_players_options=(100) 
-terrain_types=("TerrainCircuitry")
-active_status=("-activeLogic" )
-radiuses=(6) 
+num_players_options=() # Increments of 10 usually
+terrain_types=() # "Empty", "1-Layer" etc.
+active_status=() # either "" or "-activeLogic"
+radiuses=() # Numbers up to 6
 
-# Config (so I can have formatted strings)
-## Folder locations
+# Folder locations
 student_id="zmr280"
 build_location="/var/scratch/${student_id}/"
 home_folder="/home/${student_id}/"
 
-## Build locations
+# Build locations
 build_folder="${build_location}opencraft/"
 raw_executable="opencraft.x86_64"
 opencraft_executable="${build_folder}${raw_executable}"
 runs_dir="${build_location}runs/"
 mkdir -p ${runs_dir}
 
-## Scripts locations
-net_celerity_folder="${home_folder}Net-Celerity/"
-system_monitor_script="${net_celerity_folder}system_monitor.py"
-client_system_monitor_script="${net_celerity_folder}client_system_monitor.py"
-collect_script="${net_celerity_folder}collect_script.py"
+# Scripts locations
+das_folder="${home_folder}das/"
+system_monitor_script="${das_folder}system_monitor.py"
+client_system_monitor_script="${das_folder}client_system_monitor.py"
 
 for index in "${!num_players_options[@]}"; do
     num_players2=${num_players_options[$index]}
@@ -114,10 +111,6 @@ for index in "${!num_players_options[@]}"; do
         ssh $client_node "pkill -0 opencraft" && ssh $client_node "pkill -9 opencraft"
         echo "Stopped clients on $client_node."
     done
-
-    echo "Running collection script..."
-    python3 $collect_script $system_logs $run_config
-    wait
 
     echo "Benchmarking completed for ${run_config} players."
 done
