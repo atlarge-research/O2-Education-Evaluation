@@ -1,0 +1,2156 @@
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Remaining time:29s
+Found 2 interfaces on host : 0) 10.141.0.1 1) 10.149.0.1
+Player connection [140467932315520] Multi-casting "[IP] 10.141.0.1 [Port] 55000 [Flags] 19 [Guid] 993096405 [EditorId] 3988235067 [Version] 1048832 [Id] LinuxPlayer(13,10.141.0.1) [Debug] 0 [PackageName] LinuxPlayer [ProjectName] Opencraft" to [225.0.0.222:54997]...
+
+Direct connection to host time out.
+Stopping profiler. Profiler is not able to flush data to a file or socket and exceeded maximum allowed memory for buffering.
+Please use Profiler.maxUsedMemory API or -profiler-maxusedmemory command line parameter to increase maximum allowed memory usage.
+Using 134234112 bytes while Profiler.maxUsedMemory is 134217728 bytes.
+Failed to initialize networking layer after 30 seconds, skipping waiting for connection before starting playback.
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libwebrtc.so'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 47 workers.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path /var/scratch/zmr280/opencraft/opencraft_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+ERROR: Shader Hidden/Universal Render Pipeline/Blit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/CopyDepth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Sampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderLdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderHdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/UberPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Debug/DebugReplacement shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/StencilDeferred shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/CameraMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ObjectMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LensFlareDataDriven shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Stop NaN shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/TemporalAA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Scaling Setup shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/FinalPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 0.882015 ms
+Parsing args: /var/scratch/zmr280/opencraft/opencraft.x86_64, -batchmode, -nographics, -logStats, True, -terrainType, 5-Layer, -statsFile, /var/scratch/zmr280/runs/pareto-activeLogic_5-Layer_7x_6z_160p_120s/opencraft_stats/server.csv, -activeLogic, -circuitX, 7, -circuitZ, 6, -playType, Server
+Setting up worlds with playType Server and streaming role Disabled
+Connecting worlds with playType Server and streaming role Disabled
+Created listen request for 0.0.0.0:7979
+Creating statistics writer!
+Recorder [GhostSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PredictedSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Initializing multiplay!
+Found non-specified codec: VP8 Internal video/VP8 implementation_name=Internal
+Found codec: VP9 Profile0
+Found codec: VP9 Profile2
+Found codec: VP9 Profile1
+Found codec: VP9 Profile3
+Found codec: AV1 Profile0
+Found codec: AV1 Profile1
+Could not find H264.High as streaming codec!
+Adding terrain areas statistics recorders
+Streamed scene with   34ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/bea83102298cfb741939cdba85abe535.0.entities
+AutoLoading authoring scene in world ServerWorld
+ERROR: Shader Custom/VoxelShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Streamed scene with   39ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/62561c7118c5bbb46929c6bf65331faa.0.entities
+Setting player spawn to 0, 13, 0
+TerrainLogicSystem Tick 1
+[11:43:38.3144710]:[ServerWorld] New connection ID:1
+[11:43:38.3482460]:[ServerWorld] New connection ID:2
+Starting game stream on connection 1!
+'Spawning a Ghost '' for user '204' on connection '1'!
+[11:43:38.4151540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 2!
+'Spawning a Ghost '' for user '202' on connection '2'!
+[11:43:38.4356870]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 2
+TerrainLogicSystem Tick 3
+TerrainLogicSystem Tick 4
+[11:43:47.7343810]:[ServerWorld] Connection disconnected ID:2 Reason:ClosedByRemote
+[11:43:48.6813230]:[ServerWorld] Connection disconnected ID:1 Reason:ClosedByRemote
+TerrainLogicSystem Tick 5
+TerrainLogicSystem Tick 6
+TerrainLogicSystem Tick 7
+TerrainLogicSystem Tick 8
+[11:44:05.2815670]:[ServerWorld] New connection ID:2
+[11:44:05.2976840]:[ServerWorld] New connection ID:1
+Starting game stream on connection 2!
+[11:44:05.3661460]:[ServerWorld] New connection ID:3
+'Spawning a Ghost '' for user '1' on connection '2'!
+[11:44:05.3824000]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 1!
+'Spawning a Ghost '' for user '2' on connection '1'!
+[11:44:05.3990210]:[ServerWorld] New connection ID:4
+[11:44:05.3990210]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:05.4151500]:[ServerWorld] New connection ID:6
+[11:44:05.4151500]:[ServerWorld] New connection ID:5
+Starting game stream on connection 3!
+'Spawning a Ghost '' for user '8' on connection '3'!
+[11:44:05.4682360]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 5!
+Starting game stream on connection 4!
+Starting game stream on connection 6!
+'Spawning a Ghost '' for user '3' on connection '5'!
+'Spawning a Ghost '' for user '7' on connection '4'!
+'Spawning a Ghost '' for user '5' on connection '6'!
+[11:44:05.4992840]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:05.4992840]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:05.4992840]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:05.5995920]:[ServerWorld] New connection ID:7
+Starting game stream on connection 7!
+'Spawning a Ghost '' for user '6' on connection '7'!
+[11:44:05.7341510]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:05.7658080]:[ServerWorld] New connection ID:8
+[11:44:05.8172950]:[ServerWorld] New connection ID:9
+[11:44:05.8172950]:[ServerWorld] New connection ID:10
+Starting game stream on connection 8!
+'Spawning a Ghost '' for user '10' on connection '8'!
+[11:44:05.8838880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 9!
+Starting game stream on connection 10!
+'Spawning a Ghost '' for user '4' on connection '10'!
+'Spawning a Ghost '' for user '9' on connection '9'!
+[11:44:05.9163880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:05.9163880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 9
+[11:44:08.4178120]:[ServerWorld] New connection ID:11
+[11:44:08.4513530]:[ServerWorld] New connection ID:12
+Starting game stream on connection 11!
+'Spawning a Ghost '' for user '15' on connection '11'!
+[11:44:08.5350130]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 12!
+'Spawning a Ghost '' for user '12' on connection '12'!
+[11:44:08.5855220]:[ServerWorld] New connection ID:13
+[11:44:08.5855220]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:08.5980990]:[ServerWorld] New connection ID:15
+[11:44:08.5980990]:[ServerWorld] New connection ID:14
+[11:44:08.6656440]:[ServerWorld] New connection ID:16
+Starting game stream on connection 13!
+Starting game stream on connection 14!
+'Spawning a Ghost '' for user '18' on connection '14'!
+'Spawning a Ghost '' for user '13' on connection '13'!
+[11:44:08.7187590]:[ServerWorld] New connection ID:17
+[11:44:08.7187590]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:08.7187590]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 15!
+'Spawning a Ghost '' for user '11' on connection '15'!
+[11:44:08.7323330]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 16!
+'Spawning a Ghost '' for user '14' on connection '16'!
+[11:44:08.7820570]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 17!
+'Spawning a Ghost '' for user '17' on connection '17'!
+[11:44:08.8324510]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:08.8668010]:[ServerWorld] New connection ID:18
+[11:44:08.9173580]:[ServerWorld] New connection ID:19
+[11:44:08.9644490]:[ServerWorld] New connection ID:20
+Starting game stream on connection 18!
+'Spawning a Ghost '' for user '20' on connection '18'!
+[11:44:09.0037750]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 19!
+'Spawning a Ghost '' for user '16' on connection '19'!
+[11:44:09.0538040]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 20!
+'Spawning a Ghost '' for user '19' on connection '20'!
+[11:44:09.0809680]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 10
+[11:44:11.7014800]:[ServerWorld] New connection ID:21
+[11:44:11.7825640]:[ServerWorld] New connection ID:22
+Starting game stream on connection 21!
+'Spawning a Ghost '' for user '25' on connection '21'!
+[11:44:11.8188280]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 22!
+'Spawning a Ghost '' for user '27' on connection '22'!
+[11:44:11.8993540]:[ServerWorld] New connection ID:23
+[11:44:11.8993540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:11.9655740]:[ServerWorld] New connection ID:24
+[11:44:11.9655740]:[ServerWorld] New connection ID:25
+[11:44:11.9846810]:[ServerWorld] New connection ID:26
+Starting game stream on connection 23!
+'Spawning a Ghost '' for user '22' on connection '23'!
+[11:44:12.0186700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:12.0510530]:[ServerWorld] New connection ID:27
+[11:44:12.0510530]:[ServerWorld] New connection ID:28
+Starting game stream on connection 26!
+Starting game stream on connection 24!
+'Spawning a Ghost '' for user '30' on connection '24'!
+[11:44:12.0848490]:[ServerWorld] New connection ID:29
+[11:44:12.0848490]:[ServerWorld] New connection ID:30
+[11:44:12.0848490]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '28' on connection '26'!
+[11:44:12.0987130]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 25!
+'Spawning a Ghost '' for user '23' on connection '25'!
+[11:44:12.1168950]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 28!
+Starting game stream on connection 27!
+'Spawning a Ghost '' for user '26' on connection '27'!
+[11:44:12.1819190]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 29!
+Starting game stream on connection 30!
+'Spawning a Ghost '' for user '29' on connection '29'!
+'Spawning a Ghost '' for user '21' on connection '30'!
+'Spawning a Ghost '' for user '24' on connection '28'!
+[11:44:12.1994280]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:12.1994280]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:12.1994280]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 11
+[11:44:14.6665270]:[ServerWorld] New connection ID:31
+Starting game stream on connection 31!
+'Spawning a Ghost '' for user '33' on connection '31'!
+[11:44:14.7870970]:[ServerWorld] New connection ID:32
+[11:44:14.7870970]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:14.8019830]:[ServerWorld] New connection ID:34
+[11:44:14.8019830]:[ServerWorld] New connection ID:33
+[11:44:14.8173030]:[ServerWorld] New connection ID:35
+[11:44:14.8352200]:[ServerWorld] New connection ID:37
+[11:44:14.8352200]:[ServerWorld] New connection ID:36
+[11:44:14.8486730]:[ServerWorld] New connection ID:38
+Starting game stream on connection 32!
+'Spawning a Ghost '' for user '38' on connection '32'!
+[11:44:14.9022830]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 33!
+'Spawning a Ghost '' for user '37' on connection '33'!
+[11:44:14.9357210]:[ServerWorld] New connection ID:39
+[11:44:14.9357210]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 34!
+Starting game stream on connection 36!
+Starting game stream on connection 37!
+'Spawning a Ghost '' for user '39' on connection '34'!
+[11:44:14.9568050]:[ServerWorld] New connection ID:40
+[11:44:14.9568050]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 38!
+Starting game stream on connection 35!
+'Spawning a Ghost '' for user '32' on connection '38'!
+'Spawning a Ghost '' for user '34' on connection '35'!
+'Spawning a Ghost '' for user '36' on connection '36'!
+'Spawning a Ghost '' for user '35' on connection '37'!
+[11:44:14.9671810]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:14.9671810]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:14.9671810]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:14.9671810]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 39!
+Starting game stream on connection 40!
+'Spawning a Ghost '' for user '40' on connection '40'!
+[11:44:15.0329420]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '31' on connection '39'!
+[11:44:15.0510370]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 12
+[11:44:17.5171180]:[ServerWorld] New connection ID:41
+[11:44:17.5521960]:[ServerWorld] New connection ID:42
+[11:44:17.5660820]:[ServerWorld] New connection ID:43
+Starting game stream on connection 41!
+'Spawning a Ghost '' for user '47' on connection '41'!
+[11:44:17.6353870]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 43!
+Starting game stream on connection 42!
+'Spawning a Ghost '' for user '50' on connection '42'!
+[11:44:17.6490690]:[ServerWorld] New connection ID:44
+[11:44:17.6490690]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '46' on connection '43'!
+[11:44:17.6680970]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:17.6834000]:[ServerWorld] New connection ID:45
+[11:44:17.7151110]:[ServerWorld] New connection ID:46
+Starting game stream on connection 44!
+Starting game stream on connection 45!
+'Spawning a Ghost '' for user '45' on connection '44'!
+[11:44:17.7818930]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '43' on connection '45'!
+[11:44:17.8012930]:[ServerWorld] New connection ID:47
+[11:44:17.8012930]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 46!
+'Spawning a Ghost '' for user '42' on connection '46'!
+[11:44:17.8347910]:[ServerWorld] New connection ID:48
+[11:44:17.8347910]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:17.9273560]:[ServerWorld] New connection ID:49
+[11:44:17.9273560]:[ServerWorld] New connection ID:50
+Starting game stream on connection 47!
+'Spawning a Ghost '' for user '49' on connection '47'!
+[11:44:17.9443400]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 48!
+'Spawning a Ghost '' for user '44' on connection '48'!
+[11:44:17.9457480]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 50!
+Starting game stream on connection 49!
+'Spawning a Ghost '' for user '48' on connection '49'!
+[11:44:17.9866120]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '41' on connection '50'!
+[11:44:18.0040710]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 13
+[11:44:20.4018560]:[ServerWorld] New connection ID:51
+[11:44:20.4186130]:[ServerWorld] New connection ID:52
+[11:44:20.4367850]:[ServerWorld] New connection ID:53
+[11:44:20.4541500]:[ServerWorld] New connection ID:54
+Starting game stream on connection 51!
+'Spawning a Ghost '' for user '53' on connection '51'!
+[11:44:20.4830740]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 52!
+'Spawning a Ghost '' for user '57' on connection '52'!
+[11:44:20.5186530]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 53!
+Starting game stream on connection 54!
+'Spawning a Ghost '' for user '58' on connection '53'!
+[11:44:20.5540130]:[ServerWorld] New connection ID:55
+[11:44:20.5540130]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '59' on connection '54'!
+[11:44:20.5652760]:[ServerWorld] New connection ID:57
+[11:44:20.5652760]:[ServerWorld] New connection ID:56
+[11:44:20.5652760]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 55!
+'Spawning a Ghost '' for user '54' on connection '55'!
+[11:44:20.6518280]:[ServerWorld] New connection ID:58
+[11:44:20.6518280]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 56!
+'Spawning a Ghost '' for user '52' on connection '56'!
+[11:44:20.6700770]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 57!
+'Spawning a Ghost '' for user '60' on connection '57'!
+[11:44:20.6825920]:[ServerWorld] New connection ID:59
+[11:44:20.6825920]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 58!
+'Spawning a Ghost '' for user '51' on connection '58'!
+[11:44:20.7530710]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 59!
+[11:44:20.7867240]:[ServerWorld] New connection ID:60
+'Spawning a Ghost '' for user '56' on connection '59'!
+[11:44:20.8048610]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 60!
+'Spawning a Ghost '' for user '55' on connection '60'!
+[11:44:20.8860810]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 14
+TerrainLogicSystem Tick 15
+TerrainLogicSystem Tick 16
+[11:44:23.4045990]:[ServerWorld] New connection ID:61
+[11:44:23.4222450]:[ServerWorld] New connection ID:63
+[11:44:23.4222450]:[ServerWorld] New connection ID:62
+Starting game stream on connection 61!
+'Spawning a Ghost '' for user '64' on connection '61'!
+[11:44:23.4862510]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:23.5027460]:[ServerWorld] New connection ID:64
+Starting game stream on connection 62!
+Starting game stream on connection 63!
+'Spawning a Ghost '' for user '61' on connection '62'!
+'Spawning a Ghost '' for user '67' on connection '63'!
+[11:44:23.5200380]:[ServerWorld] New connection ID:65
+[11:44:23.5200380]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:23.5200380]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:23.5571110]:[ServerWorld] New connection ID:66
+[11:44:23.5690820]:[ServerWorld] New connection ID:68
+[11:44:23.5690820]:[ServerWorld] New connection ID:67
+[11:44:23.5874060]:[ServerWorld] New connection ID:69
+Starting game stream on connection 64!
+Starting game stream on connection 65!
+'Spawning a Ghost '' for user '69' on connection '64'!
+[11:44:23.6044130]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '68' on connection '65'!
+[11:44:23.6426240]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 67!
+Starting game stream on connection 68!
+Starting game stream on connection 66!
+Starting game stream on connection 69!
+'Spawning a Ghost '' for user '62' on connection '67'!
+'Spawning a Ghost '' for user '70' on connection '68'!
+'Spawning a Ghost '' for user '63' on connection '66'!
+'Spawning a Ghost '' for user '65' on connection '69'!
+[11:44:23.7184550]:[ServerWorld] New connection ID:70
+[11:44:23.7184550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:23.7184550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:23.7184550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:23.7184550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 17
+Starting game stream on connection 70!
+'Spawning a Ghost '' for user '66' on connection '70'!
+[11:44:23.8602960]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 18
+TerrainLogicSystem Tick 19
+[11:44:26.4491210]:[ServerWorld] New connection ID:71
+Starting game stream on connection 71!
+[11:44:26.5354770]:[ServerWorld] New connection ID:72
+'Spawning a Ghost '' for user '78' on connection '71'!
+[11:44:26.5544070]:[ServerWorld] New connection ID:74
+[11:44:26.5544070]:[ServerWorld] New connection ID:73
+[11:44:26.5544070]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:26.5713870]:[ServerWorld] New connection ID:77
+[11:44:26.5713870]:[ServerWorld] New connection ID:76
+[11:44:26.5713870]:[ServerWorld] New connection ID:75
+[11:44:26.6031310]:[ServerWorld] New connection ID:78
+Starting game stream on connection 72!
+'Spawning a Ghost '' for user '77' on connection '72'!
+[11:44:26.6157790]:[ServerWorld] New connection ID:79
+[11:44:26.6157790]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 73!
+'Spawning a Ghost '' for user '79' on connection '73'!
+[11:44:26.6348640]:[ServerWorld] New connection ID:80
+[11:44:26.6348640]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 75!
+Starting game stream on connection 77!
+Starting game stream on connection 74!
+Starting game stream on connection 76!
+'Spawning a Ghost '' for user '75' on connection '74'!
+'Spawning a Ghost '' for user '71' on connection '76'!
+'Spawning a Ghost '' for user '74' on connection '75'!
+'Spawning a Ghost '' for user '76' on connection '77'!
+[11:44:26.6687620]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:26.6687620]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:26.6687620]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:26.6687620]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 79!
+Starting game stream on connection 78!
+'Spawning a Ghost '' for user '72' on connection '78'!
+[11:44:26.7177550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '73' on connection '79'!
+[11:44:26.7339790]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 80!
+'Spawning a Ghost '' for user '80' on connection '80'!
+[11:44:26.7721790]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 20
+TerrainLogicSystem Tick 21
+TerrainLogicSystem Tick 22
+[11:44:29.3260350]:[ServerWorld] New connection ID:81
+Starting game stream on connection 81!
+'Spawning a Ghost '' for user '86' on connection '81'!
+[11:44:29.4343790]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:29.4521770]:[ServerWorld] New connection ID:82
+[11:44:29.4629170]:[ServerWorld] New connection ID:83
+[11:44:29.5188080]:[ServerWorld] New connection ID:84
+[11:44:29.5188080]:[ServerWorld] New connection ID:85
+[11:44:29.5377430]:[ServerWorld] New connection ID:86
+[11:44:29.6676330]:[ServerWorld] New connection ID:87
+Starting game stream on connection 82!
+Starting game stream on connection 83!
+'Spawning a Ghost '' for user '84' on connection '82'!
+[11:44:29.6844160]:[ServerWorld] New connection ID:88
+[11:44:29.6844160]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 85!
+Starting game stream on connection 84!
+'Spawning a Ghost '' for user '85' on connection '85'!
+'Spawning a Ghost '' for user '87' on connection '84'!
+'Spawning a Ghost '' for user '83' on connection '83'!
+[11:44:29.6874260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:29.6874260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:29.6874260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 86!
+'Spawning a Ghost '' for user '90' on connection '86'!
+[11:44:29.6897520]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 23
+Starting game stream on connection 88!
+Starting game stream on connection 87!
+[11:44:29.8241840]:[ServerWorld] New connection ID:89
+'Spawning a Ghost '' for user '88' on connection '88'!
+'Spawning a Ghost '' for user '89' on connection '87'!
+[11:44:29.8263880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:29.8263880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 89!
+'Spawning a Ghost '' for user '82' on connection '89'!
+[11:44:29.8507590]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:30.6574130]:[ServerWorld] New connection ID:90
+Starting game stream on connection 90!
+'Spawning a Ghost '' for user '81' on connection '90'!
+[11:44:30.7034110]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 24
+TerrainLogicSystem Tick 25
+TerrainLogicSystem Tick 26
+[11:44:32.3501330]:[ServerWorld] New connection ID:91
+[11:44:32.3501330]:[ServerWorld] New connection ID:92
+[11:44:32.3826710]:[ServerWorld] New connection ID:93
+[11:44:32.3826710]:[ServerWorld] New connection ID:94
+[11:44:32.3826710]:[ServerWorld] New connection ID:95
+[11:44:32.4014170]:[ServerWorld] New connection ID:96
+Starting game stream on connection 91!
+Starting game stream on connection 92!
+'Spawning a Ghost '' for user '97' on connection '91'!
+[11:44:32.4521110]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 93!
+'Spawning a Ghost '' for user '95' on connection '92'!
+[11:44:32.4700790]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 96!
+Starting game stream on connection 94!
+'Spawning a Ghost '' for user '92' on connection '96'!
+'Spawning a Ghost '' for user '100' on connection '94'!
+'Spawning a Ghost '' for user '94' on connection '93'!
+[11:44:32.4842450]:[ServerWorld] New connection ID:97
+[11:44:32.4842450]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:32.4842450]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:32.4842450]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 95!
+'Spawning a Ghost '' for user '98' on connection '95'!
+[11:44:32.5045480]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:32.5182460]:[ServerWorld] New connection ID:98
+[11:44:32.5325840]:[ServerWorld] New connection ID:99
+Starting game stream on connection 97!
+'Spawning a Ghost '' for user '96' on connection '97'!
+[11:44:32.6049760]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 99!
+Starting game stream on connection 98!
+'Spawning a Ghost '' for user '99' on connection '98'!
+[11:44:32.6355680]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '91' on connection '99'!
+[11:44:32.6499060]:[ServerWorld] New connection ID:100
+[11:44:32.6499060]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 100!
+'Spawning a Ghost '' for user '93' on connection '100'!
+[11:44:32.8035780]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 27
+TerrainLogicSystem Tick 28
+TerrainLogicSystem Tick 29
+[11:44:35.3177840]:[ServerWorld] New connection ID:101
+[11:44:35.3331960]:[ServerWorld] New connection ID:102
+Starting game stream on connection 101!
+[11:44:35.4178140]:[ServerWorld] New connection ID:103
+'Spawning a Ghost '' for user '108' on connection '101'!
+[11:44:35.4330340]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 102!
+[11:44:35.4526140]:[ServerWorld] New connection ID:104
+[11:44:35.4526140]:[ServerWorld] New connection ID:105
+'Spawning a Ghost '' for user '106' on connection '102'!
+[11:44:35.4684220]:[ServerWorld] New connection ID:106
+[11:44:35.4684220]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 103!
+[11:44:35.5015300]:[ServerWorld] New connection ID:107
+'Spawning a Ghost '' for user '104' on connection '103'!
+[11:44:35.5162480]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 105!
+'Spawning a Ghost '' for user '105' on connection '105'!
+[11:44:35.5373270]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 106!
+'Spawning a Ghost '' for user '102' on connection '106'!
+[11:44:35.5734050]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 107!
+Starting game stream on connection 104!
+'Spawning a Ghost '' for user '110' on connection '107'!
+'Spawning a Ghost '' for user '101' on connection '104'!
+[11:44:35.6084840]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:35.6084840]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:35.6107190]:[ServerWorld] New connection ID:108
+[11:44:35.6107190]:[ServerWorld] New connection ID:109
+[11:44:35.6651860]:[ServerWorld] New connection ID:110
+Starting game stream on connection 108!
+Starting game stream on connection 109!
+Starting game stream on connection 110!
+'Spawning a Ghost '' for user '107' on connection '110'!
+[11:44:35.8499960]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 30
+'Spawning a Ghost '' for user '109' on connection '108'!
+'Spawning a Ghost '' for user '103' on connection '109'!
+[11:44:35.9613190]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:35.9613190]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 31
+TerrainLogicSystem Tick 32
+[11:44:38.3680050]:[ServerWorld] New connection ID:111
+TerrainLogicSystem Tick 33
+[11:44:38.5121510]:[ServerWorld] New connection ID:112
+[11:44:38.5121510]:[ServerWorld] New connection ID:113
+Starting game stream on connection 111!
+Starting game stream on connection 112!
+Starting game stream on connection 113!
+'Spawning a Ghost '' for user '114' on connection '112'!
+'Spawning a Ghost '' for user '113' on connection '113'!
+[11:44:38.5492350]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:38.5492350]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:38.5690610]:[ServerWorld] New connection ID:114
+[11:44:38.6042500]:[ServerWorld] New connection ID:115
+'Spawning a Ghost '' for user '112' on connection '111'!
+[11:44:38.6182110]:[ServerWorld] New connection ID:116
+[11:44:38.6182110]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:38.6335410]:[ServerWorld] New connection ID:117
+Starting game stream on connection 114!
+'Spawning a Ghost '' for user '115' on connection '114'!
+[11:44:38.6705310]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:38.6857490]:[ServerWorld] New connection ID:118
+Starting game stream on connection 115!
+'Spawning a Ghost '' for user '118' on connection '115'!
+[11:44:38.7170240]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 116!
+[11:44:38.7351810]:[ServerWorld] New connection ID:119
+'Spawning a Ghost '' for user '119' on connection '116'!
+[11:44:38.7502380]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 117!
+'Spawning a Ghost '' for user '111' on connection '117'!
+[11:44:38.8051740]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 118!
+'Spawning a Ghost '' for user '117' on connection '118'!
+[11:44:38.8516640]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 119!
+'Spawning a Ghost '' for user '116' on connection '119'!
+[11:44:38.8857800]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 34
+[11:44:39.4368490]:[ServerWorld] New connection ID:120
+Starting game stream on connection 120!
+'Spawning a Ghost '' for user '120' on connection '120'!
+[11:44:39.5632080]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 35
+TerrainLogicSystem Tick 36
+TerrainLogicSystem Tick 37
+[11:44:41.2793080]:[ServerWorld] New connection ID:121
+Starting game stream on connection 121!
+'Spawning a Ghost '' for user '122' on connection '121'!
+[11:44:41.3546140]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:41.3736250]:[ServerWorld] New connection ID:122
+Starting game stream on connection 122!
+TerrainLogicSystem Tick 38
+'Spawning a Ghost '' for user '125' on connection '122'!
+[11:44:41.5939570]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:41.5974800]:[ServerWorld] New connection ID:123
+Starting game stream on connection 123!
+'Spawning a Ghost '' for user '129' on connection '123'!
+[11:44:41.6400410]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:41.6535880]:[ServerWorld] New connection ID:124
+[11:44:41.7542900]:[ServerWorld] New connection ID:125
+Starting game stream on connection 124!
+'Spawning a Ghost '' for user '126' on connection '124'!
+[11:44:41.7834170]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:41.8165860]:[ServerWorld] New connection ID:126
+Starting game stream on connection 125!
+'Spawning a Ghost '' for user '128' on connection '125'!
+[11:44:41.8710150]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 126!
+'Spawning a Ghost '' for user '123' on connection '126'!
+[11:44:41.9339560]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:41.9456370]:[ServerWorld] New connection ID:127
+Starting game stream on connection 127!
+TerrainLogicSystem Tick 39
+'Spawning a Ghost '' for user '127' on connection '127'!
+[11:44:42.3684510]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:42.5605890]:[ServerWorld] New connection ID:128
+[11:44:42.5941910]:[ServerWorld] New connection ID:129
+[11:44:42.5941910]:[ServerWorld] New connection ID:130
+TerrainLogicSystem Tick 40
+Starting game stream on connection 128!
+Starting game stream on connection 129!
+Starting game stream on connection 130!
+'Spawning a Ghost '' for user '130' on connection '128'!
+'Spawning a Ghost '' for user '121' on connection '129'!
+'Spawning a Ghost '' for user '124' on connection '130'!
+[11:44:42.7319550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:42.7319550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:42.7319550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 41
+TerrainLogicSystem Tick 42
+[11:44:44.5830640]:[ServerWorld] New connection ID:131
+Starting game stream on connection 131!
+'Spawning a Ghost '' for user '132' on connection '131'!
+[11:44:44.6104320]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 43
+[11:44:44.7436060]:[ServerWorld] New connection ID:132
+[11:44:44.8351760]:[ServerWorld] New connection ID:133
+[11:44:44.8558560]:[ServerWorld] New connection ID:134
+Starting game stream on connection 132!
+[11:44:44.8830140]:[ServerWorld] New connection ID:135
+'Spawning a Ghost '' for user '138' on connection '132'!
+[11:44:44.9035130]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 133!
+'Spawning a Ghost '' for user '131' on connection '133'!
+[11:44:44.9624870]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:44.9852110]:[ServerWorld] New connection ID:136
+Starting game stream on connection 134!
+Starting game stream on connection 135!
+'Spawning a Ghost '' for user '139' on connection '135'!
+'Spawning a Ghost '' for user '137' on connection '134'!
+[11:44:45.0384700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:45.0384700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 136!
+'Spawning a Ghost '' for user '135' on connection '136'!
+[11:44:45.0952760]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:45.1402760]:[ServerWorld] New connection ID:137
+Starting game stream on connection 137!
+'Spawning a Ghost '' for user '133' on connection '137'!
+[11:44:45.2786360]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 44
+[11:44:45.8269130]:[ServerWorld] New connection ID:138
+Starting game stream on connection 138!
+TerrainLogicSystem Tick 45
+'Spawning a Ghost '' for user '134' on connection '138'!
+[11:44:46.0231480]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 46
+TerrainLogicSystem Tick 47
+TerrainLogicSystem Tick 48
+[11:44:47.5253300]:[ServerWorld] New connection ID:139
+TerrainLogicSystem Tick 49
+[11:44:47.6862800]:[ServerWorld] New connection ID:140
+[11:44:47.6893150]:[ServerWorld] New connection ID:141
+Starting game stream on connection 140!
+[11:44:47.7084300]:[ServerWorld] New connection ID:142
+[11:44:47.7084300]:[ServerWorld] New connection ID:143
+'Spawning a Ghost '' for user '143' on connection '140'!
+[11:44:47.7198590]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:47.7345070]:[ServerWorld] New connection ID:144
+Starting game stream on connection 142!
+Starting game stream on connection 143!
+'Spawning a Ghost '' for user '136' on connection '142'!
+'Spawning a Ghost '' for user '140' on connection '143'!
+[11:44:47.7670880]:[ServerWorld] New connection ID:145
+[11:44:47.7670880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:47.7670880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:47.7887740]:[ServerWorld] New connection ID:146
+Starting game stream on connection 141!
+'Spawning a Ghost '' for user '150' on connection '141'!
+[11:44:47.8376040]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 139!
+Starting game stream on connection 144!
+'Spawning a Ghost '' for user '148' on connection '139'!
+'Spawning a Ghost '' for user '145' on connection '144'!
+[11:44:47.8681330]:[ServerWorld] New connection ID:147
+[11:44:47.8681330]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:47.8681330]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 146!
+'Spawning a Ghost '' for user '147' on connection '146'!
+[11:44:47.8842850]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 145!
+'Spawning a Ghost '' for user '142' on connection '145'!
+[11:44:47.9028760]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 147!
+[11:44:47.9857710]:[ServerWorld] New connection ID:148
+'Spawning a Ghost '' for user '146' on connection '147'!
+[11:44:48.0070720]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[11:44:48.0579940]:[ServerWorld] New connection ID:149
+Starting game stream on connection 148!
+'Spawning a Ghost '' for user '144' on connection '148'!
+[11:44:48.1043460]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 149!
+'Spawning a Ghost '' for user '149' on connection '149'!
+[11:44:48.3496130]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 50
+[11:44:48.6368870]:[ServerWorld] New connection ID:150
+TerrainLogicSystem Tick 51
+Starting game stream on connection 150!
+'Spawning a Ghost '' for user '141' on connection '150'!
+[11:44:48.8548460]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 52
+TerrainLogicSystem Tick 53
+[11:44:50.4767980]:[ServerWorld] New connection ID:151
+Starting game stream on connection 151!
+'Spawning a Ghost '' for user '152' on connection '151'!
+[11:44:50.5924620]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 54
+[11:44:50.8511990]:[ServerWorld] New connection ID:152
+[11:44:50.8797000]:[ServerWorld] New connection ID:153
+Starting game stream on connection 152!
+TerrainLogicSystem Tick 55
+'Spawning a Ghost '' for user '160' on connection '152'!
+[11:44:51.0944300]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 153!
+'Spawning a Ghost '' for user '157' on connection '153'!
+[11:44:51.1735290]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 56
+[11:44:51.6871220]:[ServerWorld] New connection ID:154
+[11:44:51.7002110]:[ServerWorld] New connection ID:155
+[11:44:51.7207710]:[ServerWorld] New connection ID:156
+[11:44:51.7350860]:[ServerWorld] New connection ID:157
+Starting game stream on connection 154!
+'Spawning a Ghost '' for user '154' on connection '154'!
+[11:44:51.7699230]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 155!
+'Spawning a Ghost '' for user '153' on connection '155'!
+[11:44:51.7842430]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 156!
+'Spawning a Ghost '' for user '155' on connection '156'!
+[11:44:51.7996540]:[ServerWorld] New connection ID:158
+[11:44:51.7996540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 157!
+[11:44:51.8204390]:[ServerWorld] New connection ID:159
+'Spawning a Ghost '' for user '158' on connection '157'!
+[11:44:51.8362410]:[ServerWorld] New connection ID:160
+[11:44:51.8362410]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 158!
+'Spawning a Ghost '' for user '151' on connection '158'!
+[11:44:51.8873770]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 159!
+'Spawning a Ghost '' for user '156' on connection '159'!
+[11:44:51.9026280]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 160!
+'Spawning a Ghost '' for user '159' on connection '160'!
+[11:44:52.0426690]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 57
+TerrainLogicSystem Tick 58
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+TerrainLogicSystem Tick 59
+TerrainLogicSystem Tick 60
+TerrainLogicSystem Tick 61
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+TerrainLogicSystem Tick 62
+TerrainLogicSystem Tick 63
+TerrainLogicSystem Tick 64
+TerrainLogicSystem Tick 65
+TerrainLogicSystem Tick 66
+TerrainLogicSystem Tick 67
+TerrainLogicSystem Tick 68
+TerrainLogicSystem Tick 69
+TerrainLogicSystem Tick 70
+TerrainLogicSystem Tick 71
+TerrainLogicSystem Tick 72
+TerrainLogicSystem Tick 73
+TerrainLogicSystem Tick 74
+TerrainLogicSystem Tick 75
+TerrainLogicSystem Tick 76
+TerrainLogicSystem Tick 77
+TerrainLogicSystem Tick 78
+TerrainLogicSystem Tick 79
+TerrainLogicSystem Tick 80
+TerrainLogicSystem Tick 81
+TerrainLogicSystem Tick 82
+TerrainLogicSystem Tick 83
+TerrainLogicSystem Tick 84
+TerrainLogicSystem Tick 85
+TerrainLogicSystem Tick 86
+TerrainLogicSystem Tick 87
+TerrainLogicSystem Tick 88
+TerrainLogicSystem Tick 89
+TerrainLogicSystem Tick 90
+TerrainLogicSystem Tick 91
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+TerrainLogicSystem Tick 92
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Failed to send a snapshot to a client with error -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+CompleteSend failed with the following error code: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+An error occurred during EndSend. ErrorCode: -5
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+TerrainLogicSystem Tick 93
+TerrainLogicSystem Tick 94
+TerrainLogicSystem Tick 95
+TerrainLogicSystem Tick 96
+TerrainLogicSystem Tick 97
+TerrainLogicSystem Tick 98
+TerrainLogicSystem Tick 99
+TerrainLogicSystem Tick 100
+TerrainLogicSystem Tick 101
+TerrainLogicSystem Tick 102
+TerrainLogicSystem Tick 103
+TerrainLogicSystem Tick 104
+TerrainLogicSystem Tick 105
+TerrainLogicSystem Tick 106
+TerrainLogicSystem Tick 107
+TerrainLogicSystem Tick 108
+TerrainLogicSystem Tick 109
+TerrainLogicSystem Tick 110
+TerrainLogicSystem Tick 111
+TerrainLogicSystem Tick 112
+TerrainLogicSystem Tick 113
+TerrainLogicSystem Tick 114
+TerrainLogicSystem Tick 115
+TerrainLogicSystem Tick 116
+TerrainLogicSystem Tick 117
+TerrainLogicSystem Tick 118
+TerrainLogicSystem Tick 119
+TerrainLogicSystem Tick 120
+TerrainLogicSystem Tick 121
+TerrainLogicSystem Tick 122
+TerrainLogicSystem Tick 123
+TerrainLogicSystem Tick 124
+TerrainLogicSystem Tick 125
+TerrainLogicSystem Tick 126
+TerrainLogicSystem Tick 127
+TerrainLogicSystem Tick 128
+TerrainLogicSystem Tick 129
+TerrainLogicSystem Tick 130
+TerrainLogicSystem Tick 131
+TerrainLogicSystem Tick 132
+TerrainLogicSystem Tick 133
+TerrainLogicSystem Tick 134
+TerrainLogicSystem Tick 135
+TerrainLogicSystem Tick 136
+TerrainLogicSystem Tick 137
+TerrainLogicSystem Tick 138
+TerrainLogicSystem Tick 139
+TerrainLogicSystem Tick 140
+TerrainLogicSystem Tick 141
+TerrainLogicSystem Tick 142
+TerrainLogicSystem Tick 143
+TerrainLogicSystem Tick 144
+TerrainLogicSystem Tick 145
+TerrainLogicSystem Tick 146
+TerrainLogicSystem Tick 147
+TerrainLogicSystem Tick 148
+TerrainLogicSystem Tick 149
+TerrainLogicSystem Tick 150
+TerrainLogicSystem Tick 151
+TerrainLogicSystem Tick 152
+TerrainLogicSystem Tick 153
+TerrainLogicSystem Tick 154
+TerrainLogicSystem Tick 155
+TerrainLogicSystem Tick 156
+TerrainLogicSystem Tick 157
+TerrainLogicSystem Tick 158
+TerrainLogicSystem Tick 159
+TerrainLogicSystem Tick 160
+TerrainLogicSystem Tick 161
+TerrainLogicSystem Tick 162
+TerrainLogicSystem Tick 163
+TerrainLogicSystem Tick 164
+TerrainLogicSystem Tick 165
+TerrainLogicSystem Tick 166
+TerrainLogicSystem Tick 167
+TerrainLogicSystem Tick 168
+TerrainLogicSystem Tick 169
+TerrainLogicSystem Tick 170
+TerrainLogicSystem Tick 171
+TerrainLogicSystem Tick 172
+TerrainLogicSystem Tick 173
+TerrainLogicSystem Tick 174
+TerrainLogicSystem Tick 175
+TerrainLogicSystem Tick 176
+TerrainLogicSystem Tick 177
+TerrainLogicSystem Tick 178
+TerrainLogicSystem Tick 179
+TerrainLogicSystem Tick 180
+TerrainLogicSystem Tick 181
+TerrainLogicSystem Tick 182
+TerrainLogicSystem Tick 183
+TerrainLogicSystem Tick 184
+TerrainLogicSystem Tick 185
+TerrainLogicSystem Tick 186
+TerrainLogicSystem Tick 187
+TerrainLogicSystem Tick 188
+TerrainLogicSystem Tick 189
+TerrainLogicSystem Tick 190
+TerrainLogicSystem Tick 191
+TerrainLogicSystem Tick 192
+TerrainLogicSystem Tick 193
+TerrainLogicSystem Tick 194
+TerrainLogicSystem Tick 195
+TerrainLogicSystem Tick 196
+TerrainLogicSystem Tick 197
+TerrainLogicSystem Tick 198
+TerrainLogicSystem Tick 199
+TerrainLogicSystem Tick 200
+TerrainLogicSystem Tick 201
+TerrainLogicSystem Tick 202
+TerrainLogicSystem Tick 203
+TerrainLogicSystem Tick 204
+TerrainLogicSystem Tick 205
+TerrainLogicSystem Tick 206
+TerrainLogicSystem Tick 207
+TerrainLogicSystem Tick 208
+Caught fatal signal - signo:15 code:0 errno:0 addr:0x15020008c954
+Obtained 17 stack frames.
+#0  0x007fc13baa29c9 in PlayerMain(int, char**)
+#1  0x007fc13ba974b7 in (Unknown)
+#2  0x007fc1397ffc20 in funlockfile
+#3  0x007fc0d6ed8e72 in GC_header_cache_miss
+#4  0x007fc0d6ee2420 in GC_mark_from
+#5  0x007fc0d6ede339 in GC_mark_some
+#6  0x007fc0d6ede107 in GC_collect_a_little_inner
+#7  0x007fc0d6edca75 in GC_collect_a_little
+#8  0x007fc13b9e2088 in (Unknown)
+#9  0x007fc13b9e217e in (Unknown)
+#10 0x007fc13b52d373 in (Unknown)
+#11 0x007fc13b51a247 in (Unknown)
+#12 0x007fc13b51a201 in (Unknown)
+#13 0x007fc13b51a570 in (Unknown)
+#14 0x007fc13ba99077 in PlayerMain(int, char**)
+#15 0x007fc13944b493 in __libc_start_main
+#16 0x00000000201029 in _start
+Setting up 12 worker threads for Enlighten.
+Calling DomainUnloadOrPlayModeChangeShutdown!
+Writing stats to file
+Caught fatal signal - signo:11 code:1 errno:0 addr:0x48
+Obtained 25 stack frames.
+#0  0x007fc13baa29c9 in PlayerMain(int, char**)
+#1  0x007fc13ba974b7 in (Unknown)
+#2  0x007fc1397ffc20 in funlockfile
+#3  0x007fc13b45aff3 in (Unknown)
+#4  0x007fc13b45b671 in (Unknown)
+#5  0x007fc13b43be7a in (Unknown)
+#6  0x007fc13be3742e in PlayerMain(int, char**)
+#7  0x007fc13ade9426 in (Unknown)
+#8  0x007fc0dbf3c320 in ContentLoadInterface_ContentFile_UnloadAsync_Injected_mBD2F1D561285B0DE37DCDA4DEA75931201B5E680
+#9  0x007fc0dbf3b78f in ContentLoadInterface_ContentFile_UnloadAsync_m197A3C60564D4E9F9049BAD57B46FB404A8F17BD
+#10 0x007fc0dbf3b635 in ContentFile_UnloadAsync_mF35518E83FCF4C1701AF2C6CEBF7E507490481D6
+#11 0x007fc0db1b356a in RuntimeContentManager_ReleaseFile_m12EDB377B39EF4D01B3268E711303D79747A4F4C
+#12 0x007fc0db1b145c in RuntimeContentManager_ReleaseObjectImpl_m84E24B7727CAA367D95ABC97FC529A5594840414
+#13 0x007fc0db1afae8 in RuntimeContentManager_Cleanup_m6436DF58ED05204D0A7DFACFB212018BD6B813FD
+#14 0x007fc0db1b0f38 in RuntimeContentManager_OnShutdown_m09B1F0AD37BE7168472DDB84F55C43F02CD40113
+#15 0x007fc0d6cace76 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_Multicast(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*, Il2CppObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, MethodInfo const*)
+#16 0x007fc0da61e7b0 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96
+#17 0x007fc0d6e57073 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#18 0x007fc0d6e56fdb in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#19 0x007fc0d6e56b1c in il2cpp::vm::Runtime::Shutdown()
+#20 0x007fc13b9f0f56 in (Unknown)
+#21 0x007fc13b52c658 in (Unknown)
+#22 0x007fc13ba98ee6 in PlayerMain(int, char**)
+#23 0x007fc13944b493 in __libc_start_main
+#24 0x00000000201029 in _start

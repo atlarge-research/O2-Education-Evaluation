@@ -1,0 +1,774 @@
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Remaining time:29s
+Found 2 interfaces on host : 0) 10.141.0.1 1) 10.149.0.1
+Player connection [139708750253952] Multi-casting "[IP] 10.141.0.1 [Port] 55000 [Flags] 19 [Guid] 3285005606 [EditorId] 3988235067 [Version] 1048832 [Id] LinuxPlayer(13,10.141.0.1) [Debug] 0 [PackageName] LinuxPlayer [ProjectName] Opencraft" to [225.0.0.222:54997]...
+
+Direct connection to host time out.
+Stopping profiler. Profiler is not able to flush data to a file or socket and exceeded maximum allowed memory for buffering.
+Please use Profiler.maxUsedMemory API or -profiler-maxusedmemory command line parameter to increase maximum allowed memory usage.
+Using 134234112 bytes while Profiler.maxUsedMemory is 134217728 bytes.
+Failed to initialize networking layer after 30 seconds, skipping waiting for connection before starting playback.
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libwebrtc.so'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 47 workers.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path /var/scratch/zmr280/opencraft/opencraft_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+ERROR: Shader Hidden/Universal Render Pipeline/Blit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/CopyDepth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Sampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderLdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderHdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/UberPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Debug/DebugReplacement shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/StencilDeferred shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/CameraMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ObjectMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LensFlareDataDriven shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Stop NaN shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/TemporalAA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Scaling Setup shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/FinalPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 0.840496 ms
+Parsing args: /var/scratch/zmr280/opencraft/opencraft.x86_64, -batchmode, -nographics, -logStats, True, -terrainType, 4-Layer, -statsFile, /var/scratch/zmr280/runs/pareto-activeLogic_4-Layer_6x_6z_120p_120s/opencraft_stats/server.csv, -activeLogic, -circuitX, 6, -circuitZ, 6, -playType, Server
+Setting up worlds with playType Server and streaming role Disabled
+Connecting worlds with playType Server and streaming role Disabled
+Created listen request for 0.0.0.0:7979
+Creating statistics writer!
+Recorder [GhostSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PredictedSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Initializing multiplay!
+Found non-specified codec: VP8 Internal video/VP8 implementation_name=Internal
+Found codec: VP9 Profile0
+Found codec: VP9 Profile2
+Found codec: VP9 Profile1
+Found codec: VP9 Profile3
+Found codec: AV1 Profile0
+Found codec: AV1 Profile1
+Could not find H264.High as streaming codec!
+Adding terrain areas statistics recorders
+Streamed scene with   34ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/bea83102298cfb741939cdba85abe535.0.entities
+AutoLoading authoring scene in world ServerWorld
+ERROR: Shader Custom/VoxelShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Streamed scene with   45ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/62561c7118c5bbb46929c6bf65331faa.0.entities
+Setting player spawn to 0, 11, 0
+TerrainLogicSystem Tick 1
+[13:27:44.9624990]:[ServerWorld] New connection ID:1
+[13:27:44.9762450]:[ServerWorld] New connection ID:2
+[13:27:45.0278780]:[ServerWorld] New connection ID:3
+[13:27:45.0278780]:[ServerWorld] New connection ID:4
+[13:27:45.0278780]:[ServerWorld] New connection ID:5
+[13:27:45.0278780]:[ServerWorld] New connection ID:6
+Starting game stream on connection 1!
+Starting game stream on connection 2!
+'Spawning a Ghost '' for user '1' on connection '1'!
+'Spawning a Ghost '' for user '5' on connection '2'!
+[13:27:45.0581260]:[ServerWorld] New connection ID:7
+[13:27:45.0581260]:[ServerWorld] New connection ID:8
+[13:27:45.0581260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:45.0581260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 3!
+'Spawning a Ghost '' for user '8' on connection '3'!
+[13:27:45.1070120]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 6!
+Starting game stream on connection 5!
+Starting game stream on connection 4!
+'Spawning a Ghost '' for user '4' on connection '6'!
+'Spawning a Ghost '' for user '3' on connection '5'!
+'Spawning a Ghost '' for user '9' on connection '4'!
+[13:27:45.1277750]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:45.1277750]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:45.1277750]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 7!
+Starting game stream on connection 8!
+'Spawning a Ghost '' for user '10' on connection '8'!
+'Spawning a Ghost '' for user '6' on connection '7'!
+[13:27:45.1613930]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:45.1613930]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:45.3237310]:[ServerWorld] New connection ID:9
+Starting game stream on connection 9!
+'Spawning a Ghost '' for user '7' on connection '9'!
+[13:27:45.4234500]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:45.4414570]:[ServerWorld] New connection ID:10
+Starting game stream on connection 10!
+'Spawning a Ghost '' for user '2' on connection '10'!
+[13:27:45.5754020]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 2
+TerrainLogicSystem Tick 3
+[13:27:48.0574360]:[ServerWorld] New connection ID:11
+Starting game stream on connection 11!
+'Spawning a Ghost '' for user '18' on connection '11'!
+[13:27:48.1573990]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:48.2236970]:[ServerWorld] New connection ID:12
+[13:27:48.2236970]:[ServerWorld] New connection ID:13
+[13:27:48.2732870]:[ServerWorld] New connection ID:14
+[13:27:48.2732870]:[ServerWorld] New connection ID:15
+[13:27:48.3081000]:[ServerWorld] New connection ID:16
+Starting game stream on connection 12!
+Starting game stream on connection 13!
+'Spawning a Ghost '' for user '14' on connection '13'!
+[13:27:48.3422370]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '11' on connection '12'!
+[13:27:48.3562610]:[ServerWorld] New connection ID:17
+[13:27:48.3562610]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 14!
+Starting game stream on connection 15!
+'Spawning a Ghost '' for user '17' on connection '15'!
+'Spawning a Ghost '' for user '12' on connection '14'!
+[13:27:48.3922220]:[ServerWorld] New connection ID:18
+[13:27:48.3922220]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:48.3922220]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:48.4232670]:[ServerWorld] New connection ID:19
+Starting game stream on connection 16!
+'Spawning a Ghost '' for user '16' on connection '16'!
+[13:27:48.4408990]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 17!
+'Spawning a Ghost '' for user '19' on connection '17'!
+[13:27:48.4769380]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 18!
+[13:27:48.4905320]:[ServerWorld] New connection ID:20
+'Spawning a Ghost '' for user '13' on connection '18'!
+[13:27:48.5084040]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 19!
+'Spawning a Ghost '' for user '20' on connection '19'!
+[13:27:48.5394750]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 20!
+'Spawning a Ghost '' for user '15' on connection '20'!
+[13:27:48.6248240]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:51.0096710]:[ServerWorld] New connection ID:21
+Starting game stream on connection 21!
+'Spawning a Ghost '' for user '28' on connection '21'!
+[13:27:51.1063540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:51.1907280]:[ServerWorld] New connection ID:22
+[13:27:51.2738380]:[ServerWorld] New connection ID:23
+Starting game stream on connection 22!
+'Spawning a Ghost '' for user '24' on connection '22'!
+[13:27:51.3092300]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 23!
+'Spawning a Ghost '' for user '22' on connection '23'!
+[13:27:51.3903440]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:51.4257160]:[ServerWorld] New connection ID:24
+[13:27:51.4439550]:[ServerWorld] New connection ID:26
+[13:27:51.4439550]:[ServerWorld] New connection ID:25
+[13:27:51.4572390]:[ServerWorld] New connection ID:27
+Starting game stream on connection 24!
+Starting game stream on connection 25!
+'Spawning a Ghost '' for user '29' on connection '24'!
+'Spawning a Ghost '' for user '23' on connection '25'!
+[13:27:51.5235300]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:51.5235300]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:51.5413650]:[ServerWorld] New connection ID:28
+Starting game stream on connection 26!
+'Spawning a Ghost '' for user '25' on connection '26'!
+[13:27:51.5767510]:[ServerWorld] New connection ID:29
+[13:27:51.5767510]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 27!
+'Spawning a Ghost '' for user '26' on connection '27'!
+[13:27:51.6090780]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:51.6268590]:[ServerWorld] New connection ID:30
+Starting game stream on connection 28!
+Starting game stream on connection 29!
+'Spawning a Ghost '' for user '27' on connection '28'!
+[13:27:51.6918550]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '30' on connection '29'!
+[13:27:51.7099170]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 30!
+'Spawning a Ghost '' for user '21' on connection '30'!
+[13:27:51.7402230]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 4
+[13:27:54.1759580]:[ServerWorld] New connection ID:31
+Starting game stream on connection 31!
+'Spawning a Ghost '' for user '33' on connection '31'!
+[13:27:54.2740040]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:54.3600990]:[ServerWorld] New connection ID:32
+[13:27:54.3600990]:[ServerWorld] New connection ID:33
+[13:27:54.3600990]:[ServerWorld] New connection ID:34
+[13:27:54.4240480]:[ServerWorld] New connection ID:35
+[13:27:54.4425240]:[ServerWorld] New connection ID:36
+[13:27:54.4572410]:[ServerWorld] New connection ID:37
+Starting game stream on connection 32!
+Starting game stream on connection 33!
+[13:27:54.4731020]:[ServerWorld] New connection ID:39
+[13:27:54.4731020]:[ServerWorld] New connection ID:38
+Starting game stream on connection 34!
+'Spawning a Ghost '' for user '31' on connection '32'!
+'Spawning a Ghost '' for user '40' on connection '33'!
+[13:27:54.4937140]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:54.4937140]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '36' on connection '34'!
+[13:27:54.5097490]:[ServerWorld] New connection ID:40
+[13:27:54.5097490]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 35!
+'Spawning a Ghost '' for user '32' on connection '35'!
+[13:27:54.5417650]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 36!
+Starting game stream on connection 38!
+'Spawning a Ghost '' for user '39' on connection '36'!
+[13:27:54.5573890]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 39!
+'Spawning a Ghost '' for user '38' on connection '38'!
+[13:27:54.5770130]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 37!
+'Spawning a Ghost '' for user '35' on connection '37'!
+'Spawning a Ghost '' for user '34' on connection '39'!
+[13:27:54.5931060]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:54.5931060]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 40!
+'Spawning a Ghost '' for user '37' on connection '40'!
+[13:27:54.6566540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 5
+[13:27:57.0424100]:[ServerWorld] New connection ID:41
+Starting game stream on connection 41!
+'Spawning a Ghost '' for user '41' on connection '41'!
+[13:27:57.1434990]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:57.1584640]:[ServerWorld] New connection ID:42
+[13:27:57.2320980]:[ServerWorld] New connection ID:43
+[13:27:57.2320980]:[ServerWorld] New connection ID:44
+[13:27:57.2320980]:[ServerWorld] New connection ID:45
+Starting game stream on connection 42!
+'Spawning a Ghost '' for user '45' on connection '42'!
+[13:27:57.2451340]:[ServerWorld] New connection ID:48
+[13:27:57.2451340]:[ServerWorld] New connection ID:47
+[13:27:57.2451340]:[ServerWorld] New connection ID:46
+[13:27:57.2451340]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:57.2965290]:[ServerWorld] New connection ID:49
+Starting game stream on connection 45!
+'Spawning a Ghost '' for user '44' on connection '45'!
+[13:27:57.3070240]:[ServerWorld] New connection ID:50
+[13:27:57.3070240]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 43!
+Starting game stream on connection 44!
+Starting game stream on connection 46!
+'Spawning a Ghost '' for user '43' on connection '43'!
+'Spawning a Ghost '' for user '49' on connection '44'!
+[13:27:57.3270950]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:57.3270950]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 47!
+'Spawning a Ghost '' for user '47' on connection '46'!
+[13:27:57.3431270]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 48!
+'Spawning a Ghost '' for user '46' on connection '48'!
+'Spawning a Ghost '' for user '50' on connection '47'!
+[13:27:57.3587050]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:57.3587050]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 49!
+Starting game stream on connection 50!
+'Spawning a Ghost '' for user '42' on connection '50'!
+'Spawning a Ghost '' for user '48' on connection '49'!
+[13:27:57.4327580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:27:57.4327580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:00.0399770]:[ServerWorld] New connection ID:51
+TerrainLogicSystem Tick 6
+[13:28:00.1544250]:[ServerWorld] New connection ID:52
+[13:28:00.1544250]:[ServerWorld] New connection ID:53
+Starting game stream on connection 51!
+'Spawning a Ghost '' for user '56' on connection '51'!
+[13:28:00.1559730]:[ServerWorld] New connection ID:55
+[13:28:00.1559730]:[ServerWorld] New connection ID:54
+[13:28:00.1559730]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 53!
+[13:28:00.2249230]:[ServerWorld] New connection ID:56
+Starting game stream on connection 52!
+Starting game stream on connection 54!
+'Spawning a Ghost '' for user '57' on connection '54'!
+'Spawning a Ghost '' for user '53' on connection '53'!
+[13:28:00.2425700]:[ServerWorld] New connection ID:57
+[13:28:00.2425700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:00.2425700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 55!
+'Spawning a Ghost '' for user '54' on connection '52'!
+[13:28:00.2594670]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '59' on connection '55'!
+[13:28:00.2739070]:[ServerWorld] New connection ID:58
+[13:28:00.2739070]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 56!
+'Spawning a Ghost '' for user '55' on connection '56'!
+[13:28:00.3099670]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 57!
+[13:28:00.3413540]:[ServerWorld] New connection ID:59
+Starting game stream on connection 58!
+'Spawning a Ghost '' for user '52' on connection '58'!
+'Spawning a Ghost '' for user '58' on connection '57'!
+[13:28:00.3589900]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:00.3589900]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:00.3765510]:[ServerWorld] New connection ID:60
+Starting game stream on connection 59!
+Starting game stream on connection 60!
+'Spawning a Ghost '' for user '51' on connection '59'!
+[13:28:00.4426920]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '60' on connection '60'!
+[13:28:00.4568290]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:03.0425670]:[ServerWorld] New connection ID:61
+[13:28:03.0579310]:[ServerWorld] New connection ID:62
+[13:28:03.0738460]:[ServerWorld] New connection ID:63
+[13:28:03.1105320]:[ServerWorld] New connection ID:64
+[13:28:03.1105320]:[ServerWorld] New connection ID:65
+[13:28:03.1263380]:[ServerWorld] New connection ID:67
+[13:28:03.1263380]:[ServerWorld] New connection ID:66
+Starting game stream on connection 61!
+Starting game stream on connection 62!
+Starting game stream on connection 63!
+'Spawning a Ghost '' for user '62' on connection '63'!
+'Spawning a Ghost '' for user '63' on connection '61'!
+'Spawning a Ghost '' for user '70' on connection '62'!
+[13:28:03.1581580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:03.1581580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:03.1581580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:03.1932270]:[ServerWorld] New connection ID:68
+Starting game stream on connection 65!
+Starting game stream on connection 64!
+'Spawning a Ghost '' for user '61' on connection '65'!
+'Spawning a Ghost '' for user '64' on connection '64'!
+[13:28:03.2091060]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:03.2091060]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 67!
+Starting game stream on connection 66!
+'Spawning a Ghost '' for user '66' on connection '67'!
+[13:28:03.2258430]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '69' on connection '66'!
+[13:28:03.2426690]:[ServerWorld] New connection ID:69
+[13:28:03.2426690]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:03.2593670]:[ServerWorld] New connection ID:70
+Starting game stream on connection 68!
+'Spawning a Ghost '' for user '65' on connection '68'!
+[13:28:03.3091430]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 69!
+'Spawning a Ghost '' for user '67' on connection '69'!
+[13:28:03.3255870]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 70!
+'Spawning a Ghost '' for user '68' on connection '70'!
+[13:28:03.3999330]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 7
+TerrainLogicSystem Tick 8
+[13:28:06.0763010]:[ServerWorld] New connection ID:71
+[13:28:06.1098780]:[ServerWorld] New connection ID:72
+[13:28:06.1590900]:[ServerWorld] New connection ID:73
+[13:28:06.1590900]:[ServerWorld] New connection ID:74
+[13:28:06.1590900]:[ServerWorld] New connection ID:75
+[13:28:06.1590900]:[ServerWorld] New connection ID:76
+Starting game stream on connection 71!
+'Spawning a Ghost '' for user '73' on connection '71'!
+[13:28:06.1959780]:[ServerWorld] New connection ID:77
+[13:28:06.1959780]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 72!
+'Spawning a Ghost '' for user '75' on connection '72'!
+[13:28:06.2100530]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:06.2462220]:[ServerWorld] New connection ID:78
+Starting game stream on connection 76!
+Starting game stream on connection 73!
+Starting game stream on connection 74!
+Starting game stream on connection 77!
+'Spawning a Ghost '' for user '80' on connection '76'!
+'Spawning a Ghost '' for user '76' on connection '73'!
+'Spawning a Ghost '' for user '74' on connection '74'!
+'Spawning a Ghost '' for user '77' on connection '77'!
+[13:28:06.2608700]:[ServerWorld] New connection ID:79
+[13:28:06.2608700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:06.2608700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:06.2608700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:06.2608700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 75!
+'Spawning a Ghost '' for user '79' on connection '75'!
+[13:28:06.2951400]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 79!
+Starting game stream on connection 78!
+'Spawning a Ghost '' for user '72' on connection '79'!
+'Spawning a Ghost '' for user '78' on connection '78'!
+[13:28:06.3457030]:[ServerWorld] New connection ID:80
+[13:28:06.3457030]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:06.3457030]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 80!
+'Spawning a Ghost '' for user '71' on connection '80'!
+[13:28:06.4595480]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 9
+[13:28:08.9993010]:[ServerWorld] New connection ID:81
+Starting game stream on connection 81!
+'Spawning a Ghost '' for user '82' on connection '81'!
+[13:28:09.0787840]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:09.1083000]:[ServerWorld] New connection ID:82
+[13:28:09.1408540]:[ServerWorld] New connection ID:84
+[13:28:09.1408540]:[ServerWorld] New connection ID:83
+[13:28:09.1803530]:[ServerWorld] New connection ID:85
+[13:28:09.2118670]:[ServerWorld] New connection ID:86
+[13:28:09.2118670]:[ServerWorld] New connection ID:87
+[13:28:09.2118670]:[ServerWorld] New connection ID:88
+[13:28:09.2118670]:[ServerWorld] New connection ID:89
+TerrainLogicSystem Tick 10
+Starting game stream on connection 82!
+Starting game stream on connection 84!
+Starting game stream on connection 83!
+'Spawning a Ghost '' for user '89' on connection '82'!
+'Spawning a Ghost '' for user '87' on connection '84'!
+'Spawning a Ghost '' for user '84' on connection '83'!
+[13:28:09.3174260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:09.3174260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:09.3174260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:09.3199260]:[ServerWorld] New connection ID:90
+Starting game stream on connection 85!
+'Spawning a Ghost '' for user '86' on connection '85'!
+[13:28:09.3223240]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 89!
+Starting game stream on connection 86!
+Starting game stream on connection 87!
+Starting game stream on connection 88!
+Starting game stream on connection 90!
+'Spawning a Ghost '' for user '88' on connection '89'!
+'Spawning a Ghost '' for user '81' on connection '86'!
+'Spawning a Ghost '' for user '90' on connection '87'!
+'Spawning a Ghost '' for user '83' on connection '88'!
+'Spawning a Ghost '' for user '85' on connection '90'!
+[13:28:09.3596970]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:09.3596970]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:09.3596970]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:09.3596970]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:09.3596970]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 11
+[13:28:11.8572350]:[ServerWorld] New connection ID:91
+[13:28:11.9278570]:[ServerWorld] New connection ID:92
+[13:28:11.9463660]:[ServerWorld] New connection ID:93
+Starting game stream on connection 91!
+'Spawning a Ghost '' for user '93' on connection '91'!
+[13:28:11.9596260]:[ServerWorld] New connection ID:94
+[13:28:11.9596260]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:11.9767690]:[ServerWorld] New connection ID:95
+Starting game stream on connection 92!
+'Spawning a Ghost '' for user '96' on connection '92'!
+[13:28:12.0142290]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 93!
+'Spawning a Ghost '' for user '91' on connection '93'!
+[13:28:12.0258240]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 95!
+Starting game stream on connection 94!
+'Spawning a Ghost '' for user '98' on connection '95'!
+'Spawning a Ghost '' for user '95' on connection '94'!
+[13:28:12.0786540]:[ServerWorld] New connection ID:96
+[13:28:12.0786540]:[ServerWorld] New connection ID:97
+[13:28:12.0786540]:[ServerWorld] New connection ID:98
+[13:28:12.0786540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:12.0786540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:12.1279090]:[ServerWorld] New connection ID:99
+Starting game stream on connection 96!
+Starting game stream on connection 97!
+Starting game stream on connection 98!
+'Spawning a Ghost '' for user '94' on connection '96'!
+[13:28:12.1797580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '100' on connection '97'!
+'Spawning a Ghost '' for user '99' on connection '98'!
+[13:28:12.1923950]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:12.1923950]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 99!
+'Spawning a Ghost '' for user '92' on connection '99'!
+[13:28:12.2275990]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:12.2498780]:[ServerWorld] New connection ID:100
+Starting game stream on connection 100!
+'Spawning a Ghost '' for user '97' on connection '100'!
+[13:28:12.3380840]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 12
+TerrainLogicSystem Tick 13
+[13:28:14.9924360]:[ServerWorld] New connection ID:101
+[13:28:15.0411420]:[ServerWorld] New connection ID:102
+[13:28:15.1182270]:[ServerWorld] New connection ID:103
+[13:28:15.1182270]:[ServerWorld] New connection ID:104
+[13:28:15.1210890]:[ServerWorld] New connection ID:106
+[13:28:15.1210890]:[ServerWorld] New connection ID:105
+Starting game stream on connection 101!
+'Spawning a Ghost '' for user '106' on connection '101'!
+[13:28:15.1696470]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 102!
+Starting game stream on connection 103!
+'Spawning a Ghost '' for user '110' on connection '102'!
+'Spawning a Ghost '' for user '109' on connection '103'!
+[13:28:15.1907700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:15.1907700]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 105!
+[13:28:15.1935200]:[ServerWorld] New connection ID:107
+TerrainLogicSystem Tick 14
+Starting game stream on connection 106!
+'Spawning a Ghost '' for user '101' on connection '105'!
+[13:28:15.2868210]:[ServerWorld] New connection ID:109
+[13:28:15.2868210]:[ServerWorld] New connection ID:108
+[13:28:15.2868210]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '108' on connection '106'!
+[13:28:15.2957580]:[ServerWorld] New connection ID:110
+[13:28:15.2957580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 107!
+'Spawning a Ghost '' for user '104' on connection '107'!
+[13:28:15.3010780]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 109!
+Starting game stream on connection 108!
+'Spawning a Ghost '' for user '105' on connection '108'!
+[13:28:15.3288370]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '107' on connection '109'!
+[13:28:15.3411170]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 110!
+'Spawning a Ghost '' for user '102' on connection '110'!
+[13:28:15.3610210]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 104!
+'Spawning a Ghost '' for user '103' on connection '104'!
+[13:28:15.3927920]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 15
+TerrainLogicSystem Tick 16
+[13:28:17.9286640]:[ServerWorld] New connection ID:111
+[13:28:17.9792710]:[ServerWorld] New connection ID:112
+[13:28:18.0143160]:[ServerWorld] New connection ID:113
+Starting game stream on connection 111!
+'Spawning a Ghost '' for user '113' on connection '111'!
+[13:28:18.0450880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 112!
+'Spawning a Ghost '' for user '120' on connection '112'!
+[13:28:18.0774150]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:18.1121290]:[ServerWorld] New connection ID:114
+Starting game stream on connection 113!
+'Spawning a Ghost '' for user '115' on connection '113'!
+[13:28:18.1244050]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[13:28:18.1597530]:[ServerWorld] New connection ID:115
+[13:28:18.1911950]:[ServerWorld] New connection ID:116
+Starting game stream on connection 114!
+'Spawning a Ghost '' for user '118' on connection '114'!
+[13:28:18.2261230]:[ServerWorld] New connection ID:117
+[13:28:18.2261230]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 115!
+'Spawning a Ghost '' for user '112' on connection '115'!
+[13:28:18.2826790]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 116!
+'Spawning a Ghost '' for user '114' on connection '116'!
+[13:28:18.2950970]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 117!
+'Spawning a Ghost '' for user '117' on connection '117'!
+[13:28:18.3628640]:[ServerWorld] New connection ID:118
+[13:28:18.3628640]:[ServerWorld] New connection ID:119
+[13:28:18.3628640]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 118!
+Starting game stream on connection 119!
+'Spawning a Ghost '' for user '111' on connection '118'!
+[13:28:18.4619880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '119' on connection '119'!
+[13:28:18.4771840]:[ServerWorld] New connection ID:120
+[13:28:18.4771840]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 120!
+'Spawning a Ghost '' for user '116' on connection '120'!
+[13:28:18.5969900]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 17
+TerrainLogicSystem Tick 18
+TerrainLogicSystem Tick 19
+TerrainLogicSystem Tick 20
+TerrainLogicSystem Tick 21
+TerrainLogicSystem Tick 22
+TerrainLogicSystem Tick 23
+TerrainLogicSystem Tick 24
+TerrainLogicSystem Tick 25
+TerrainLogicSystem Tick 26
+TerrainLogicSystem Tick 27
+TerrainLogicSystem Tick 28
+TerrainLogicSystem Tick 29
+TerrainLogicSystem Tick 30
+TerrainLogicSystem Tick 31
+TerrainLogicSystem Tick 32
+TerrainLogicSystem Tick 33
+TerrainLogicSystem Tick 34
+TerrainLogicSystem Tick 35
+TerrainLogicSystem Tick 36
+TerrainLogicSystem Tick 37
+TerrainLogicSystem Tick 38
+TerrainLogicSystem Tick 39
+TerrainLogicSystem Tick 40
+TerrainLogicSystem Tick 41
+TerrainLogicSystem Tick 42
+TerrainLogicSystem Tick 43
+TerrainLogicSystem Tick 44
+TerrainLogicSystem Tick 45
+TerrainLogicSystem Tick 46
+TerrainLogicSystem Tick 47
+TerrainLogicSystem Tick 48
+TerrainLogicSystem Tick 49
+TerrainLogicSystem Tick 50
+TerrainLogicSystem Tick 51
+TerrainLogicSystem Tick 52
+TerrainLogicSystem Tick 53
+TerrainLogicSystem Tick 54
+TerrainLogicSystem Tick 55
+TerrainLogicSystem Tick 56
+TerrainLogicSystem Tick 57
+TerrainLogicSystem Tick 58
+TerrainLogicSystem Tick 59
+TerrainLogicSystem Tick 60
+TerrainLogicSystem Tick 61
+TerrainLogicSystem Tick 62
+TerrainLogicSystem Tick 63
+TerrainLogicSystem Tick 64
+TerrainLogicSystem Tick 65
+TerrainLogicSystem Tick 66
+TerrainLogicSystem Tick 67
+TerrainLogicSystem Tick 68
+TerrainLogicSystem Tick 69
+TerrainLogicSystem Tick 70
+TerrainLogicSystem Tick 71
+TerrainLogicSystem Tick 72
+TerrainLogicSystem Tick 73
+Caught fatal signal - signo:15 code:0 errno:0 addr:0x1502000764e6
+Obtained 46 stack frames.
+#0  0x007f1078e339c9 in PlayerMain(int, char**)
+#1  0x007f1078e284b7 in (Unknown)
+#2  0x007f1076b90c20 in funlockfile
+#3  0x007f10787eb518 in (Unknown)
+#4  0x007f10787eb255 in (Unknown)
+#5  0x007f10787ec5da in (Unknown)
+#6  0x007f10787cc848 in (Unknown)
+#7  0x007f10787c2587 in (Unknown)
+#8  0x007f10787f0041 in (Unknown)
+#9  0x007f1078036d59 in (Unknown)
+#10 0x007f0f9ef71e00 in JobsUtility_Schedule_Injected_mC33968491EEF494B38CB6D6AE774D52753AEAB11
+#11 0x007f0f9ef71d5b in JobsUtility_Schedule_mCE884DE9598B84AB8AB49FC03B65603F15275789
+#12 0x007f0f9aada46f in IJobExtensions_Schedule_TisClearJob_t305217E05238D7ABEE4D58E4F1FCF69DED240055_m15C6F0251EB70CA3E810E8099A5F6A92FFFEDE3E_gshared
+#13 0x007f0f9e88400f in BottomLayer_ScheduleSend_mC62613955363606A9D833DE3829846C2303BCA1F
+#14 0x007f0f9acf0fdb in NetworkLayerWrapper_ScheduleSendWrapper_TisBottomLayer_tA1F6446B4F1BEB0D85D5968F4FE47778F2F9C7A9_m09D7805138222920A6E0ADC55D844297322A3E61_gshared
+#15 0x007f0f99d99b41 in ReversePInvokeWrapper_ManagedCallWrapper_Method_m264B34032F3ABC391DB4AFBFCFBD0F411BA36AE4
+#16 0x007f10128690a4 in Unity.Networking.Transport.NetworkStack, Unity.Networking.Transport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ScheduleSend(Unity.Networking.Transport.NetworkStack*, Unity.Networking.Transport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Networking.Transport.NetworkDriverSender&, Unity.Networking.Transport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null driverSender, System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 time, Unity.Jobs.JobHandle, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null dependency) -> Unity.Jobs.JobHandle, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_362f43fd44a9be961edc90136d9814c5 from Unity.Networking.Transport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+#17 0x007f10129d5abd in Unity.Networking.Transport.NetworkDriver, Unity.Networking.Transport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ScheduleUpdate(Unity.Networking.Transport.NetworkDriver*, Unity.Networking.Transport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Jobs.JobHandle, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null dependency) -> Unity.Jobs.JobHandle, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_362f43fd44a9be961edc90136d9814c5 from Unity.NetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+#18 0x007f10129d10a7 in Unity.NetCode.NetworkDriverStore, Unity.NetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ScheduleUpdateAllDrivers(Unity.NetCode.NetworkDriverStore*, Unity.NetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Jobs.JobHandle, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null dependency) -> Unity.Jobs.JobHandle, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_362f43fd44a9be961edc90136d9814c5 from Unity.NetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+#19 0x007f10129d1e6a in Unity.NetCode.NetworkStreamReceiveSystem, Unity.NetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.OnUpdate(Unity.NetCode.NetworkStreamReceiveSystem*, Unity.NetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Entities.SystemState&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null state) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_362f43fd44a9be961edc90136d9814c5 from Unity.NetCode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+#20 0x007f10129cdcf9 in 773a697fbd874c659adc2a66daf876c8_avx2
+#21 0x007f1013399faa in 773a697fbd874c659adc2a66daf876c8
+#22 0x007f1012aaadc1 in Unity.Entities.WorldUnmanagedImpl+UnmanagedUpdate_00001534$BurstDirectCall, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(System.Void*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 pSystemState) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_362f43fd44a9be961edc90136d9814c5 from Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+#23 0x007f1012aa9c59 in 7bf3b3dc1c88cb657fd69b548232391d_avx2
+#24 0x007f101339a0aa in 7bf3b3dc1c88cb657fd69b548232391d
+#25 0x007f0f9e1a0667 in UnmanagedUpdate_00001534U24BurstDirectCall_Invoke_m55B79C7CC8127CC26C857F8B7EF2D354EBB3ADBC
+#26 0x007f0f9e19d311 in WorldUnmanagedImpl_UnmanagedUpdate_m679FEB4A8B994B459B1A4ADF7BBC58B8187633B6
+#27 0x007f0f9e19d072 in WorldUnmanagedImpl_UpdateSystem_m542D9AE08601A66843934B06A609FDA778A0670B
+#28 0x007f0f9e0946d3 in ComponentSystemGroup_UpdateAllSystems_m78B1AA9EAF07133497E9BA556B592AC93935441C
+#29 0x007f0f9e0944d8 in ComponentSystemGroup_OnUpdate_m83128938DF97469E0D1CB883E5C9000C0C2DA9A7
+#30 0x007f0f9e2f642f in SystemBase_Update_m795994EE60C054DFA78C313A60ED025B2668C9B4
+#31 0x007f0f9e094758 in ComponentSystemGroup_UpdateAllSystems_m78B1AA9EAF07133497E9BA556B592AC93935441C
+#32 0x007f0f9e0944cb in ComponentSystemGroup_OnUpdate_m83128938DF97469E0D1CB883E5C9000C0C2DA9A7
+#33 0x007f0f9e2f642f in SystemBase_Update_m795994EE60C054DFA78C313A60ED025B2668C9B4
+#34 0x007f0f9e2e47c6 in DummyDelegateWrapper_TriggerUpdate_m2C37F16899DE9C87FE35B065E0FF7E410E463FE7
+#35 0x007f0f9effb1a0 in UpdateFunction_Invoke_m9BCEE4E5BEE924EB804DA64314B78D0E831C179B
+#36 0x007f0f99e88073 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#37 0x007f0f99e87fdb in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#38 0x007f1078d6cf0b in (Unknown)
+#39 0x007f1078d77cd7 in (Unknown)
+#40 0x007f10788ab2e8 in (Unknown)
+#41 0x007f10788ab201 in (Unknown)
+#42 0x007f10788ab570 in (Unknown)
+#43 0x007f1078e2a077 in PlayerMain(int, char**)
+#44 0x007f10767dc493 in __libc_start_main
+#45 0x00000000201029 in _start
+Setting up 12 worker threads for Enlighten.
+Calling DomainUnloadOrPlayModeChangeShutdown!
+Writing stats to file
+Caught fatal signal - signo:11 code:1 errno:0 addr:0x48
+Obtained 25 stack frames.
+#0  0x007f1078e339c9 in PlayerMain(int, char**)
+#1  0x007f1078e284b7 in (Unknown)
+#2  0x007f1076b90c20 in funlockfile
+#3  0x007f10787ebff3 in (Unknown)
+#4  0x007f10787ec671 in (Unknown)
+#5  0x007f10787cce7a in (Unknown)
+#6  0x007f10791c842e in PlayerMain(int, char**)
+#7  0x007f107817a426 in (Unknown)
+#8  0x007f0f9ef6d320 in ContentLoadInterface_ContentFile_UnloadAsync_Injected_mBD2F1D561285B0DE37DCDA4DEA75931201B5E680
+#9  0x007f0f9ef6c78f in ContentLoadInterface_ContentFile_UnloadAsync_m197A3C60564D4E9F9049BAD57B46FB404A8F17BD
+#10 0x007f0f9ef6c635 in ContentFile_UnloadAsync_mF35518E83FCF4C1701AF2C6CEBF7E507490481D6
+#11 0x007f0f9e1e456a in RuntimeContentManager_ReleaseFile_m12EDB377B39EF4D01B3268E711303D79747A4F4C
+#12 0x007f0f9e1e245c in RuntimeContentManager_ReleaseObjectImpl_m84E24B7727CAA367D95ABC97FC529A5594840414
+#13 0x007f0f9e1e0ae8 in RuntimeContentManager_Cleanup_m6436DF58ED05204D0A7DFACFB212018BD6B813FD
+#14 0x007f0f9e1e1f38 in RuntimeContentManager_OnShutdown_m09B1F0AD37BE7168472DDB84F55C43F02CD40113
+#15 0x007f0f99cdde76 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_Multicast(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*, Il2CppObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, MethodInfo const*)
+#16 0x007f0f9d64f7b0 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96
+#17 0x007f0f99e88073 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#18 0x007f0f99e87fdb in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#19 0x007f0f99e87b1c in il2cpp::vm::Runtime::Shutdown()
+#20 0x007f1078d81f56 in (Unknown)
+#21 0x007f10788bd658 in (Unknown)
+#22 0x007f1078e29ee6 in PlayerMain(int, char**)
+#23 0x007f10767dc493 in __libc_start_main
+#24 0x00000000201029 in _start

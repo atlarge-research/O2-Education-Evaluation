@@ -1,0 +1,1280 @@
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Remaining time:29s
+Found 2 interfaces on host : 0) 10.141.0.4 1) 10.149.0.4
+Player connection [139921531756416] Multi-casting "[IP] 10.141.0.4 [Port] 55011 [Flags] 19 [Guid] 3978898041 [EditorId] 3988235067 [Version] 1048832 [Id] LinuxPlayer(13,10.141.0.4) [Debug] 0 [PackageName] LinuxPlayer [ProjectName] Opencraft" to [225.0.0.222:54997]...
+
+Direct connection to host time out.
+Stopping profiler. Profiler is not able to flush data to a file or socket and exceeded maximum allowed memory for buffering.
+Please use Profiler.maxUsedMemory API or -profiler-maxusedmemory command line parameter to increase maximum allowed memory usage.
+Using 134234112 bytes while Profiler.maxUsedMemory is 134217728 bytes.
+Failed to initialize networking layer after 30 seconds, skipping waiting for connection before starting playback.
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libwebrtc.so'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 47 workers.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path /var/scratch/zmr280/opencraft/opencraft_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+ERROR: Shader Hidden/Universal Render Pipeline/Blit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/CopyDepth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Sampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderLdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderHdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/UberPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Debug/DebugReplacement shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/StencilDeferred shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/CameraMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ObjectMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LensFlareDataDriven shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Stop NaN shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/TemporalAA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Scaling Setup shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/FinalPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 0.628770 ms
+Parsing args: /var/scratch/zmr280/opencraft/opencraft.x86_64, -batchmode, -nographics, -logStats, True, -serverUrl, 10.141.0.1, -statsFile, /var/scratch/zmr280/runs/pareto-activeLogic_5-Layer_8x_6z_200p_120s/opencraft_stats/client112.csv, -userID, 112, -playType, Client, -emulationType, Simulation
+Setting up worlds with playType Client and streaming role Disabled
+Adding type with UniqueSystemAttribute: StatisticsSystem
+Adding type with UniqueSystemAttribute: StatisticsSystem
+Failed to create websocket: System.Net.Sockets.SocketException (0x80004005): Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint localEP) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.NetCode.DebugWebSocket..ctor (System.UInt16 port) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.NetCode.GhostStatsConnection..ctor () [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.NetCode.GhostStatsFlushSystem.OnCreate () [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.ComponentSystemBase.CreateInstance (Unity.Entities.World world) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.World.AddSystem_OnCreate_Internal (Unity.Entities.ComponentSystemBase system) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.World.GetOrCreateSystemsAndLogException (Unity.Collections.NativeList`1[T] types, System.Int32 typesCount, Unity.Collections.AllocatorManager+AllocatorHandle allocator) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.World.GetOrCreateSystemsAndLogException (Unity.Collections.NativeList`1[T] types, Unity.Collections.AllocatorManager+AllocatorHandle allocator) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.DefaultWorldInitialization.AddSystemToRootLevelSystemGroupsInternal[T] (Unity.Entities.World world, Unity.Collections.NativeList`1[T] systemTypesOrig, Unity.Entities.ComponentSystemGroup defaultGroup, T rootGroups) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.DefaultWorldInitialization.AddSystemToRootLevelSystemGroupsInternal (Unity.Entities.World world, Unity.Collections.NativeList`1[T] systemTypesOrig) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.DefaultWorldInitialization.AddSystemsToRootLevelSystemGroups (Unity.Entities.World world, System.Collections.Generic.IReadOnlyList`1[T] systemTypes) [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.CreateClientWorld (System.String name, Unity.Entities.WorldFlags flags, System.Collections.Generic.IReadOnlyList`1[T] systems) [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.CreateDefaultClientWorld (System.String worldName, System.Boolean isHost, System.Boolean isCloudHost) [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.SetupWorlds (PolkaDOTS.Deployment.MultiplayStreamingRoles mRole, PolkaDOTS.Bootstrap.GameBootstrap+BootstrapPlayTypes playTypes, Unity.Collections.NativeList`1[Unity.Entities.WorldUnmanaged]& worldReferences, System.Int32 numSimulatedClients, System.Boolean autoStart, System.Boolean autoConnect, System.String serverUrl, System.UInt16 serverPort, System.String signalingUrl, System.String worldName) [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.SetupWorldsFromLocalConfig () [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.Initialize (System.String defaultWorldName) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.CustomWorldInitialization.Initialize (System.String defaultWorldName, System.Boolean editorWorld) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.CustomAutomaticWorldBootstrap.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.NetCode.DebugWebSocket:.ctor(UInt16)
+Unity.NetCode.GhostStatsConnection:.ctor()
+Unity.NetCode.GhostStatsFlushSystem:OnCreate()
+Unity.Entities.ComponentSystemBase:CreateInstance(World)
+Unity.Entities.World:AddSystem_OnCreate_Internal(ComponentSystemBase)
+Unity.Entities.World:GetOrCreateSystemsAndLogException(NativeList`1, Int32, AllocatorHandle)
+Unity.Entities.World:GetOrCreateSystemsAndLogException(NativeList`1, AllocatorHandle)
+Unity.Entities.DefaultWorldInitialization:AddSystemToRootLevelSystemGroupsInternal(World, NativeList`1, ComponentSystemGroup, T)
+Unity.Entities.DefaultWorldInitialization:AddSystemToRootLevelSystemGroupsInternal(World, NativeList`1)
+Unity.Entities.DefaultWorldInitialization:AddSystemsToRootLevelSystemGroups(World, IReadOnlyList`1)
+PolkaDOTS.Bootstrap.GameBootstrap:CreateClientWorld(String, WorldFlags, IReadOnlyList`1)
+PolkaDOTS.Bootstrap.GameBootstrap:CreateDefaultClientWorld(String, Boolean, Boolean)
+PolkaDOTS.Bootstrap.GameBootstrap:SetupWorlds(MultiplayStreamingRoles, BootstrapPlayTypes, NativeList`1&, Int32, Boolean, Boolean, String, UInt16, String, String)
+PolkaDOTS.Bootstrap.GameBootstrap:SetupWorldsFromLocalConfig()
+PolkaDOTS.Bootstrap.GameBootstrap:Initialize(String)
+Unity.Entities.CustomWorldInitialization:Initialize(String, Boolean)
+Unity.Entities.CustomAutomaticWorldBootstrap:Initialize()
+
+Adding world ClientWorld to update list
+Connecting worlds with playType Client and streaming role Disabled
+Created connection request for 10.141.0.1:7979
+Creating statistics writer!
+Recorder [ServerFixedUpdate] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [TerrainGeneration] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PlayerTerrainGenCheck] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [StructureGeneration] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [TerrainLogicSystem] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [GetUpdates] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [ReevaluatePropagateMarker] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PropagateLogicState] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PropInputBlocks] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PropActiveLogicBlocks] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [CheckGateState] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [GhostSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PredictedSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Initializing multiplay!
+Found non-specified codec: VP8 Internal video/VP8 implementation_name=Internal
+Found codec: VP9 Profile0
+Found codec: VP9 Profile2
+Found codec: VP9 Profile1
+Found codec: VP9 Profile3
+Found codec: AV1 Profile0
+Found codec: AV1 Profile1
+Could not find H264.High as streaming codec!
+Adding terrain areas statistics recorders
+Streamed scene with   44ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/bea83102298cfb741939cdba85abe535.0.entities
+AutoLoading authoring scene in world ClientWorld
+ERROR: Shader Custom/VoxelShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Streamed scene with   41ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/62561c7118c5bbb46929c6bf65331faa.0.entities
+[12:17:25.8417140]:[ClientWorld] New connection ID:117
+Sending start game stream RPC
+Emulation type is Idle, Simulation
+Creating local player object
+Sending spawn player RPC for user 112
+ERROR: Shader UI/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Player 112 has no connection ID!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Opencraft.Player.SamplePlayerInput:OnUpdate(SystemState&)
+Opencraft.Player.SamplePlayerInput:__codegen__OnUpdate(IntPtr, IntPtr)
+
+Linking player entity Entity(282:1) to 112@LOCALPLAYER
+Player simulation searching for path from float3(0.5f, 13.2f, 0.5f) = int3(0, 13, 0) to int3(15, 13, -15)
+Player simulation could not find a path from int3(0, 13, 0) to int3(15, 13, -15), will choose new target
+    1: Could not find target at int3(0, 13, 0)
+Player simulation searching for path from float3(0.5f, 13.2f, 0.5f) = int3(0, 13, 0) to int3(4, 13, 3)
+Player simulation could not find a path from int3(0, 13, 0) to int3(4, 13, 3), will choose new target
+Player simulation searching for path from float3(0.5f, 13.2f, 0.5f) = int3(0, 13, 0) to int3(-6, 13, 9)
+Player simulation could not find a path from int3(0, 13, 0) to int3(-6, 13, 9), will choose new target
+Player simulation searching for path from float3(0.5f, 13.2f, 0.5f) = int3(0, 13, 0) to int3(15, 13, -10)
+Player simulation could not find a path from int3(0, 13, 0) to int3(15, 13, -10), will choose new target
+    5: Could not find target at int3(0, 13, 0)
+Player simulation searching for path from float3(0.5f, 13.2f, 0.5f) = int3(0, 13, 0) to int3(1, 13, -12)
+Player simulation could not find a path from int3(0, 13, 0) to int3(1, 13, -12), will choose new target
+Player simulation searching for path from float3(0.5f, 13.2f, 0.5f) = int3(0, 13, 0) to int3(-8, 13, 12)
+Player simulation could not find a path from int3(0, 13, 0) to int3(-8, 13, 12), will choose new target
+    8: Could not find target at int3(0, 13, 0)
+ClientWorld player simulation could not find a path in 9 attempts, waiting to try again
+Player simulation searching for path from float3(0.5f, 13.1f, 0.5f) = int3(0, 13, 0) to int3(15, 13, -15)
+AStar halted as encountered unloaded blocks, retrying...
+Player simulation could not find a path from int3(0, 13, 0) to int3(15, 13, -15), will choose new target
+Player simulation searching for path from float3(0.5f, 13.1f, 0.5f) = int3(0, 13, 0) to int3(-14, 13, -14)
+ClientWorld player simulation set new target int3(-14, 13, -14)
+ClientWorld player simulation reached target int3(-14, 13, -14)
+Player simulation searching for path from float3(-13.30871f, 13.12929f, -13.48885f) = int3(-14, 13, -14) to int3(-14, 13, -9)
+ClientWorld player simulation set new target int3(-14, 13, -9)
+ClientWorld player simulation reached target int3(-14, 13, -9)
+Player simulation searching for path from float3(-13.52f, 13.12929f, -8.635283f) = int3(-14, 13, -9) to int3(7, 13, 14)
+ClientWorld player simulation set new target int3(7, 13, 14)
+ClientWorld player simulation reached target int3(7, 13, 14)
+Player simulation searching for path from float3(7.306842f, 13.12929f, 14.46813f) = int3(7, 13, 14) to int3(10, 13, -1)
+ClientWorld player simulation set new target int3(10, 13, -1)
+ClientWorld player simulation reached target int3(10, 13, -1)
+Player simulation searching for path from float3(10.31803f, 13.14227f, -0.5217098f) = int3(10, 13, -1) to int3(-7, 13, -14)
+ClientWorld player simulation set new target int3(-7, 13, -14)
+ClientWorld player simulation reached target int3(-7, 13, -14)
+Player simulation searching for path from float3(-6.391131f, 13.12929f, -13.47942f) = int3(-7, 13, -14) to int3(-1, 13, -8)
+ClientWorld player simulation set new target int3(-1, 13, -8)
+ClientWorld player simulation reached target int3(-1, 13, -8)
+Player simulation searching for path from float3(-0.4923147f, 13.12929f, -7.643133f) = int3(-1, 13, -8) to int3(2, 13, -2)
+ClientWorld player simulation set new target int3(2, 13, -2)
+ClientWorld player simulation reached target int3(2, 13, -2)
+Player simulation searching for path from float3(2.521395f, 13.14227f, -1.624712f) = int3(2, 13, -2) to int3(-11, 13, 1)
+ClientWorld player simulation set new target int3(-11, 13, 1)
+ClientWorld player simulation reached target int3(-11, 13, 1)
+Player simulation searching for path from float3(-10.49169f, 13.12929f, 1.361975f) = int3(-11, 13, 1) to int3(-12, 13, 1)
+ClientWorld player simulation set new target int3(-12, 13, 1)
+ClientWorld player simulation reached target int3(-12, 13, 1)
+Player simulation searching for path from float3(-11.31614f, 13.12929f, 1.426843f) = int3(-12, 13, 1) to int3(-4, 13, -5)
+ClientWorld player simulation set new target int3(-4, 13, -5)
+ClientWorld player simulation reached target int3(-4, 13, -5)
+Player simulation searching for path from float3(-3.615267f, 13.14227f, -4.46942f) = int3(-4, 13, -5) to int3(14, 13, -2)
+ClientWorld player simulation set new target int3(14, 13, -2)
+ClientWorld player simulation path has strayed from int3(5, 13, -5) to int3(2, 13, -5), searching for a correction
+ClientWorld player simulation reached target int3(14, 13, -2)
+Player simulation searching for path from float3(14.58745f, 13.14227f, -1.644133f) = int3(14, 13, -2) to int3(9, 13, -15)
+ClientWorld player simulation set new target int3(9, 13, -15)
+ClientWorld player simulation reached target int3(9, 13, -15)
+Player simulation searching for path from float3(9.602595f, 13.12929f, -14.52343f) = int3(9, 13, -15) to int3(4, 13, -10)
+ClientWorld player simulation set new target int3(4, 13, -10)
+ClientWorld player simulation reached target int3(4, 13, -10)
+Player simulation searching for path from float3(4.493895f, 13.12929f, -9.641597f) = int3(4, 13, -10) to int3(-15, 13, -9)
+ClientWorld player simulation set new target int3(-15, 13, -9)
+ClientWorld player simulation reached target int3(-15, 13, -9)
+Player simulation searching for path from float3(-14.50114f, 13.12929f, -8.653576f) = int3(-15, 13, -9) to int3(7, 13, -11)
+ClientWorld player simulation set new target int3(7, 13, -11)
+ClientWorld player simulation path has strayed from int3(-2, 13, -9) to int3(-8, 13, -8), searching for a correction
+ClientWorld player simulation path has strayed from int3(-7, 13, -8) to int3(-3, 13, -8), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.38515
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-7, 13, -8) to int3(-3, 13, -7), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.51047
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(3, 13, -9) to int3(0, 13, -9), searching for a correction
+ClientWorld player simulation reached target int3(7, 13, -11)
+Player simulation searching for path from float3(7.48213f, 13.12929f, -10.35885f) = int3(7, 13, -11) to int3(6, 13, 8)
+ClientWorld player simulation set new target int3(6, 13, 8)
+ClientWorld player simulation path has strayed from int3(7, 13, -7) to int3(7, 13, -10), searching for a correction
+ClientWorld player simulation path has strayed from int3(7, 13, -4) to int3(7, 13, -7), searching for a correction
+ClientWorld player simulation path has strayed from int3(7, 13, 0) to int3(7, 13, -6), searching for a correction
+ClientWorld player simulation path has strayed from int3(7, 13, -5) to int3(7, 13, -1), searching for a correction
+ClientWorld player simulation path has strayed from int3(7, 13, -2) to int3(7, 13, -6), searching for a correction
+ClientWorld player simulation path has strayed from int3(7, 13, -5) to int3(7, 13, -2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.7181
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(7, 13, -4) to int3(7, 13, -1), searching for a correction
+ClientWorld player simulation path has strayed from int3(7, 13, -4) to int3(6, 13, -1), searching for a correction
+ClientWorld player simulation reached target int3(6, 13, 8)
+Player simulation searching for path from float3(6.504448f, 13.12929f, 8.344264f) = int3(6, 13, 8) to int3(-7, 13, 1)
+ClientWorld player simulation set new target int3(-7, 13, 1)
+ClientWorld player simulation path has strayed from int3(-1, 13, 8) to int3(2, 13, 9), searching for a correction
+ClientWorld player simulation reached target int3(-7, 13, 1)
+Player simulation searching for path from float3(-6.504814f, 13.12929f, 1.625474f) = int3(-7, 13, 1) to int3(-1, 13, 4)
+ClientWorld player simulation set new target int3(-1, 13, 4)
+ClientWorld player simulation path has strayed from int3(-4, 13, 1) to int3(-6, 13, 4), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.09162
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-5, 13, 2) to int3(-9, 13, 4), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.11949
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-6, 13, 3) to int3(-9, 13, 4), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.5158
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.51602
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-4, 13, 2) to int3(-7, 13, 4), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.25217
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-4, 13, 3) to int3(-7, 13, 4), searching for a correction
+ClientWorld player simulation reached target int3(-1, 13, 4)
+Player simulation searching for path from float3(-0.4736577f, 13.12929f, 4.322736f) = int3(-1, 13, 4) to int3(2, 13, -2)
+ClientWorld player simulation set new target int3(2, 13, -2)
+ClientWorld player simulation path has strayed from int3(-1, 13, 3) to int3(-7, 13, 4), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -23.56719
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-4, 13, 4) to int3(-7, 13, 5), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.53227
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-5, 13, 5) to int3(-7, 13, 8), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.23871
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-5, 13, 5) to int3(-7, 13, 8), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -12.61469
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-7, 13, 7) to int3(-6, 13, 11), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.35928
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-5, 13, 4) to int3(-4, 13, 8), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.66072
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -12.41979
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-3, 13, 4) to int3(-5, 13, 1), searching for a correction
+ClientWorld player simulation path has strayed from int3(-4, 13, 3) to int3(-4, 13, -2), searching for a correction
+ClientWorld player simulation path has strayed from int3(-2, 13, 4) to int3(-3, 13, -1), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -15.45343
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-3, 13, 0) to int3(-2, 13, 3), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.34311
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.46182
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.38437
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(1, 13, 0) to int3(-3, 13, 3), searching for a correction
+ClientWorld player simulation path has strayed from int3(-2, 13, 3) to int3(0, 13, 1), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.35143
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-1, 13, 3) to int3(0, 13, 0), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.35904
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(0, 13, 1) to int3(3, 13, 0), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.42449
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -12.50649
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(2, 13, -2) to int3(2, 13, 2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.45026
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation reached target int3(2, 13, -2)
+Player simulation searching for path from float3(2.511232f, 13.14227f, -1.397661f) = int3(2, 13, -2) to int3(-11, 13, 1)
+ClientWorld player simulation set new target int3(-11, 13, 1)
+ClientWorld player simulation path has strayed from int3(1, 13, -2) to int3(2, 13, 2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.31939
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(2, 13, 1) to int3(0, 13, 3), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.49506
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(0, 13, -2) to int3(0, 13, 1), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.60647
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-1, 13, -2) to int3(2, 13, 2), searching for a correction
+ClientWorld player simulation path has strayed from int3(2, 13, 1) to int3(1, 13, -2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.06923
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(1, 13, 0) to int3(3, 13, 2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.35495
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.38313
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.29293
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-1, 13, -1) to int3(1, 13, 1), searching for a correction
+ClientWorld player simulation path has strayed from int3(-4, 13, -2) to int3(-1, 13, -3), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.42333
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-11, 13, 1) to int3(-10, 13, -2), searching for a correction
+ClientWorld player simulation reached target int3(-11, 13, 1)
+Player simulation searching for path from float3(-10.47058f, 13.12929f, 1.386553f) = int3(-11, 13, 1) to int3(-12, 13, 1)
+ClientWorld player simulation set new target int3(-12, 13, 1)
+ClientWorld player simulation reached target int3(-12, 13, 1)
+Player simulation searching for path from float3(-11.31201f, 13.12929f, 1.527975f) = int3(-12, 13, 1) to int3(-4, 13, -5)
+ClientWorld player simulation set new target int3(-4, 13, -5)
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.38354
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-8, 13, 0) to int3(-12, 13, 2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.81391
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-8, 13, -1) to int3(-12, 13, 2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.2812
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-11, 13, 2) to int3(-7, 13, 1), searching for a correction
+ClientWorld player simulation path has strayed from int3(-11, 13, 2) to int3(-6, 13, -1), searching for a correction
+ClientWorld player simulation path has strayed from int3(-10, 13, 0) to int3(-6, 13, -1), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -12.53609
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.52631
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-9, 13, 0) to int3(-6, 13, -3), searching for a correction
+ClientWorld player simulation path has strayed from int3(-7, 13, -3) to int3(-9, 13, 0), searching for a correction
+ClientWorld player simulation path has strayed from int3(-8, 13, -2) to int3(-3, 13, -3), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.91046
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.44758
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.59806
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-11, 13, 1) to int3(-6, 13, -1), searching for a correction
+ClientWorld player simulation path has strayed from int3(-7, 13, -1) to int3(-10, 13, 2), searching for a correction
+ClientWorld player simulation path has strayed from int3(-10, 13, 1) to int3(-6, 13, -1), searching for a correction
+ClientWorld player simulation path has strayed from int3(-7, 13, -1) to int3(-9, 13, 2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.62564
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.4081
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-7, 13, -1) to int3(-10, 13, 1), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.52584
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-10, 13, 0) to int3(-7, 13, -1), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.4272
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-7, 13, -3) to int3(-5, 13, -5), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -19.63839
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -17.45441
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-6, 13, -5) to int3(-8, 13, -3), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.56837
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-6, 13, -5) to int3(-9, 13, 0), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.72874
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.2861
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-8, 13, -3) to int3(-9, 13, 4), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.82632
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.44461
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -16.41686
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-9, 13, 0) to int3(-9, 13, 4), searching for a correction
+ClientWorld player simulation path has strayed from int3(-9, 13, 1) to int3(-8, 13, 7), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.67375
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-8, 13, 4) to int3(-8, 13, 7), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.54002
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-9, 13, 1) to int3(-8, 13, 7), searching for a correction
+ClientWorld player simulation path has strayed from int3(-8, 13, 6) to int3(-7, 13, 3), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.46986
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-7, 13, 4) to int3(-8, 13, 7), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.42718
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-8, 13, 6) to int3(-2, 13, 7), searching for a correction
+ClientWorld player simulation path has strayed from int3(-3, 13, 7) to int3(-2, 13, 4), searching for a correction
+ClientWorld player simulation path has strayed from int3(-7, 13, 7) to int3(-2, 13, 7), searching for a correction
+ClientWorld player simulation path has strayed from int3(-3, 13, 7) to int3(-5, 13, 9), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.35018
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-4, 13, 9) to int3(-2, 13, 7), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.74591
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-3, 13, 7) to int3(-5, 13, 9), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -12.5229
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-4, 13, 8) to int3(-1, 13, 1), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.38472
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.45505
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-1, 13, 4) to int3(-6, 13, -2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.89272
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.41924
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-2, 13, 2) to int3(-6, 13, -2), searching for a correction
+ClientWorld player simulation path has strayed from int3(-6, 13, -1) to int3(-3, 13, 0), searching for a correction
+ClientWorld player simulation path has strayed from int3(-4, 13, 0) to int3(-6, 13, -2), searching for a correction
+ClientWorld player simulation path has strayed from int3(-5, 13, -2) to int3(-3, 13, 0), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.47583
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.57874
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-4, 13, 0) to int3(-6, 13, -3), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.40935
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -12.47645
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.67438
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-6, 13, -1) to int3(-2, 13, -2), searching for a correction
+ClientWorld player simulation path has strayed from int3(-3, 13, -2) to int3(-1, 13, 0), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.42948
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.5594
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-5, 13, 0) to int3(2, 13, -2), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.87812
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.56283
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.45878
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-4, 13, -1) to int3(0, 13, -3), searching for a correction
+ClientWorld player simulation path has strayed from int3(-1, 13, -3) to int3(-4, 13, -4), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -12.76715
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-3, 13, -4) to int3(0, 13, -3), searching for a correction
+ClientWorld player simulation path has strayed from int3(-1, 13, -3) to int3(-4, 13, -4), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.39207
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -16.44563
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-3, 13, -4) to int3(0, 13, -3), searching for a correction
+ClientWorld player simulation path has strayed from int3(-1, 13, -3) to int3(2, 13, -3), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.64584
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(1, 13, -3) to int3(-4, 13, -5), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.37981
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.39511
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.42366
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.36902
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(0, 13, -4) to int3(-7, 13, -7), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -12.27277
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.59318
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-2, 13, -7) to int3(-7, 13, -7), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.43231
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.367
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-5, 13, -7) to int3(-10, 13, -5), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.29059
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-7, 13, -5) to int3(-10, 13, -5), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.43215
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-6, 13, -5) to int3(-12, 13, -5), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.75576
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-2, 13, -7) to int3(-12, 13, -5), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -20.49002
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-11, 13, -5) to int3(-9, 13, -8), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.44598
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.5338
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-11, 13, -6) to int3(-8, 13, -5), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.02402
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-2, 13, -7) to int3(-9, 13, -6), searching for a correction
+ClientWorld player simulation path has strayed from int3(-8, 13, -6) to int3(-5, 13, -6), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -23.74588
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-6, 13, -6) to int3(-9, 13, -6), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -20.73228
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -18.97386
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -14.78633
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -11.57074
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -10.63429
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-6, 13, -6) to int3(-3, 13, -6), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -15.19055
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.53497
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-4, 13, -6) to int3(-1, 13, -6), searching for a correction
+ClientWorld player simulation path has strayed from int3(-6, 13, -6) to int3(-3, 13, -6), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -16.62873
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -22.60593
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -20.5343
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -16.8047
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-3, 13, -7) to int3(-6, 13, -6), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.91913
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+ClientWorld player simulation path has strayed from int3(-3, 13, -7) to int3(-6, 13, -6), searching for a correction
+Large serverTick prediction error. Server tick rollback to Unity.NetCode.NetworkTick delta: -13.53523
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.Logging.Sinks.ManagedUnityEngineDebugLogWrapper:WriteFunc(LogLevel, Byte*, Int32)
+
+[12:19:46.2523790]:[ClientWorld] Connection disconnected ID:117 Reason:ClosedByRemote
+Caught fatal signal - signo:15 code:0 errno:0 addr:0x15020009a646
+Obtained 26 stack frames.
+#0  0x007f4203a749c9 in PlayerMain(int, char**)
+#1  0x007f4203a694b7 in (Unknown)
+#2  0x007f42017d1c20 in funlockfile
+#3  0x007f420155a90a in __memmove_avx_unaligned_erms
+#4  0x007f413d6bd60c in Buffer_InternalMemcpy_mFABC315DCD001655DDA90A2531F56366794E72C5
+#5  0x007f413d6bd55b in Buffer_Memcpy_m87345ACEE449F8CEA42341BC9F4AFC3743EF96D1
+#6  0x007f413d6bdb95 in Buffer_Memmove_mAA31A45BF1B1FA6490F0913B7FB59537767E5EF3
+#7  0x007f413d4175cf in String_wstrcpy_m7F8C35DCD0E2D5AAC35B153EF73E6B0F1501406B
+#8  0x007f413d4174fb in String_FillStringChecked_m3413709C427A00C5AB0F94E659DB63E6B4816D62
+#9  0x007f413d404599 in String_Concat_m9E3155FB84015C823606188F53B47CB44C444991
+#10 0x007f413d8bd857 in StatisticsWriter_Update_m24123BF001E17A5463E4292E5A6CFD276BBDA76C
+#11 0x007f413d8bd523 in StatisticsWriterInstance_Update_m336F478398EDE3BFB1A5F3FBFF6830892C7A1FF0
+#12 0x007f4139e88073 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#13 0x007f4139e87fdb in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#14 0x007f42039adf0b in (Unknown)
+#15 0x007f42039b8cd7 in (Unknown)
+#16 0x007f42039df9a4 in (Unknown)
+#17 0x007f42031e2c96 in (Unknown)
+#18 0x007f42031e2aae in (Unknown)
+#19 0x007f42035008cd in (Unknown)
+#20 0x007f42034ec247 in (Unknown)
+#21 0x007f42034ec201 in (Unknown)
+#22 0x007f42034ec570 in (Unknown)
+#23 0x007f4203a6b077 in PlayerMain(int, char**)
+#24 0x007f420141d493 in __libc_start_main
+#25 0x00000000201029 in _start
+Setting up 12 worker threads for Enlighten.
+Calling DomainUnloadOrPlayModeChangeShutdown!
+Writing stats to file
+Caught fatal signal - signo:11 code:1 errno:0 addr:0x48
+Obtained 25 stack frames.
+#0  0x007f4203a749c9 in PlayerMain(int, char**)
+#1  0x007f4203a694b7 in (Unknown)
+#2  0x007f42017d1c20 in funlockfile
+#3  0x007f420342cff3 in (Unknown)
+#4  0x007f420342d671 in (Unknown)
+#5  0x007f420340de7a in (Unknown)
+#6  0x007f4203e0942e in PlayerMain(int, char**)
+#7  0x007f4202dbb426 in (Unknown)
+#8  0x007f413ef6d320 in ContentLoadInterface_ContentFile_UnloadAsync_Injected_mBD2F1D561285B0DE37DCDA4DEA75931201B5E680
+#9  0x007f413ef6c78f in ContentLoadInterface_ContentFile_UnloadAsync_m197A3C60564D4E9F9049BAD57B46FB404A8F17BD
+#10 0x007f413ef6c635 in ContentFile_UnloadAsync_mF35518E83FCF4C1701AF2C6CEBF7E507490481D6
+#11 0x007f413e1e456a in RuntimeContentManager_ReleaseFile_m12EDB377B39EF4D01B3268E711303D79747A4F4C
+#12 0x007f413e1e245c in RuntimeContentManager_ReleaseObjectImpl_m84E24B7727CAA367D95ABC97FC529A5594840414
+#13 0x007f413e1e0ae8 in RuntimeContentManager_Cleanup_m6436DF58ED05204D0A7DFACFB212018BD6B813FD
+#14 0x007f413e1e1f38 in RuntimeContentManager_OnShutdown_m09B1F0AD37BE7168472DDB84F55C43F02CD40113
+#15 0x007f4139cdde76 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_Multicast(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*, Il2CppObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, MethodInfo const*)
+#16 0x007f413d64f7b0 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96
+#17 0x007f4139e88073 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#18 0x007f4139e87fdb in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#19 0x007f4139e87b1c in il2cpp::vm::Runtime::Shutdown()
+#20 0x007f42039c2f56 in (Unknown)
+#21 0x007f42034fe658 in (Unknown)
+#22 0x007f4203a6aee6 in PlayerMain(int, char**)
+#23 0x007f420141d493 in __libc_start_main
+#24 0x00000000201029 in _start

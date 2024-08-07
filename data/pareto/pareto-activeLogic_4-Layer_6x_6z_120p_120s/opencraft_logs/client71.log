@@ -1,0 +1,487 @@
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Remaining time:29s
+Found 2 interfaces on host : 0) 10.141.0.2 1) 10.149.0.2
+Player connection [139799676292992] Multi-casting "[IP] 10.141.0.2 [Port] 55007 [Flags] 19 [Guid] 2764740692 [EditorId] 3988235067 [Version] 1048832 [Id] LinuxPlayer(13,10.141.0.2) [Debug] 0 [PackageName] LinuxPlayer [ProjectName] Opencraft" to [225.0.0.222:54997]...
+
+Direct connection to host time out.
+Stopping profiler. Profiler is not able to flush data to a file or socket and exceeded maximum allowed memory for buffering.
+Please use Profiler.maxUsedMemory API or -profiler-maxusedmemory command line parameter to increase maximum allowed memory usage.
+Using 134234112 bytes while Profiler.maxUsedMemory is 134217728 bytes.
+Failed to initialize networking layer after 30 seconds, skipping waiting for connection before starting playback.
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libwebrtc.so'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 47 workers.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path /var/scratch/zmr280/opencraft/opencraft_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+ERROR: Shader Hidden/Universal Render Pipeline/Blit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/CopyDepth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Sampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderLdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderHdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/UberPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Debug/DebugReplacement shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/StencilDeferred shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/CameraMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ObjectMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LensFlareDataDriven shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Stop NaN shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/TemporalAA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Scaling Setup shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/FinalPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 1.609258 ms
+Parsing args: /var/scratch/zmr280/opencraft/opencraft.x86_64, -batchmode, -nographics, -logStats, True, -serverUrl, 10.141.0.1, -statsFile, /var/scratch/zmr280/runs/pareto-activeLogic_4-Layer_6x_6z_120p_120s/opencraft_stats/client71.csv, -userID, 71, -playType, Client, -emulationType, Simulation
+Setting up worlds with playType Client and streaming role Disabled
+Adding type with UniqueSystemAttribute: StatisticsSystem
+Adding type with UniqueSystemAttribute: StatisticsSystem
+Failed to create websocket: System.Net.Sockets.SocketException (0x80004005): Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint localEP) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.NetCode.DebugWebSocket..ctor (System.UInt16 port) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.NetCode.GhostStatsConnection..ctor () [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.NetCode.GhostStatsFlushSystem.OnCreate () [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.ComponentSystemBase.CreateInstance (Unity.Entities.World world) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.World.AddSystem_OnCreate_Internal (Unity.Entities.ComponentSystemBase system) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.World.GetOrCreateSystemsAndLogException (Unity.Collections.NativeList`1[T] types, System.Int32 typesCount, Unity.Collections.AllocatorManager+AllocatorHandle allocator) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.World.GetOrCreateSystemsAndLogException (Unity.Collections.NativeList`1[T] types, Unity.Collections.AllocatorManager+AllocatorHandle allocator) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.DefaultWorldInitialization.AddSystemToRootLevelSystemGroupsInternal[T] (Unity.Entities.World world, Unity.Collections.NativeList`1[T] systemTypesOrig, Unity.Entities.ComponentSystemGroup defaultGroup, T rootGroups) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.DefaultWorldInitialization.AddSystemToRootLevelSystemGroupsInternal (Unity.Entities.World world, Unity.Collections.NativeList`1[T] systemTypesOrig) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.DefaultWorldInitialization.AddSystemsToRootLevelSystemGroups (Unity.Entities.World world, System.Collections.Generic.IReadOnlyList`1[T] systemTypes) [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.CreateClientWorld (System.String name, Unity.Entities.WorldFlags flags, System.Collections.Generic.IReadOnlyList`1[T] systems) [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.CreateDefaultClientWorld (System.String worldName, System.Boolean isHost, System.Boolean isCloudHost) [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.SetupWorlds (PolkaDOTS.Deployment.MultiplayStreamingRoles mRole, PolkaDOTS.Bootstrap.GameBootstrap+BootstrapPlayTypes playTypes, Unity.Collections.NativeList`1[Unity.Entities.WorldUnmanaged]& worldReferences, System.Int32 numSimulatedClients, System.Boolean autoStart, System.Boolean autoConnect, System.String serverUrl, System.UInt16 serverPort, System.String signalingUrl, System.String worldName) [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.SetupWorldsFromLocalConfig () [0x00000] in <00000000000000000000000000000000>:0 
+  at PolkaDOTS.Bootstrap.GameBootstrap.Initialize (System.String defaultWorldName) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.CustomWorldInitialization.Initialize (System.String defaultWorldName, System.Boolean editorWorld) [0x00000] in <00000000000000000000000000000000>:0 
+  at Unity.Entities.CustomAutomaticWorldBootstrap.Initialize () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Unity.NetCode.DebugWebSocket:.ctor(UInt16)
+Unity.NetCode.GhostStatsConnection:.ctor()
+Unity.NetCode.GhostStatsFlushSystem:OnCreate()
+Unity.Entities.ComponentSystemBase:CreateInstance(World)
+Unity.Entities.World:AddSystem_OnCreate_Internal(ComponentSystemBase)
+Unity.Entities.World:GetOrCreateSystemsAndLogException(NativeList`1, Int32, AllocatorHandle)
+Unity.Entities.World:GetOrCreateSystemsAndLogException(NativeList`1, AllocatorHandle)
+Unity.Entities.DefaultWorldInitialization:AddSystemToRootLevelSystemGroupsInternal(World, NativeList`1, ComponentSystemGroup, T)
+Unity.Entities.DefaultWorldInitialization:AddSystemToRootLevelSystemGroupsInternal(World, NativeList`1)
+Unity.Entities.DefaultWorldInitialization:AddSystemsToRootLevelSystemGroups(World, IReadOnlyList`1)
+PolkaDOTS.Bootstrap.GameBootstrap:CreateClientWorld(String, WorldFlags, IReadOnlyList`1)
+PolkaDOTS.Bootstrap.GameBootstrap:CreateDefaultClientWorld(String, Boolean, Boolean)
+PolkaDOTS.Bootstrap.GameBootstrap:SetupWorlds(MultiplayStreamingRoles, BootstrapPlayTypes, NativeList`1&, Int32, Boolean, Boolean, String, UInt16, String, String)
+PolkaDOTS.Bootstrap.GameBootstrap:SetupWorldsFromLocalConfig()
+PolkaDOTS.Bootstrap.GameBootstrap:Initialize(String)
+Unity.Entities.CustomWorldInitialization:Initialize(String, Boolean)
+Unity.Entities.CustomAutomaticWorldBootstrap:Initialize()
+
+Adding world ClientWorld to update list
+Connecting worlds with playType Client and streaming role Disabled
+Created connection request for 10.141.0.1:7979
+Creating statistics writer!
+Recorder [ServerFixedUpdate] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [TerrainGeneration] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PlayerTerrainGenCheck] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [StructureGeneration] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [TerrainLogicSystem] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [GetUpdates] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [ReevaluatePropagateMarker] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PropagateLogicState] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PropInputBlocks] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PropActiveLogicBlocks] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [CheckGateState] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [GhostSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PredictedSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Initializing multiplay!
+Found non-specified codec: VP8 Internal video/VP8 implementation_name=Internal
+Found codec: VP9 Profile0
+Found codec: VP9 Profile2
+Found codec: VP9 Profile1
+Found codec: VP9 Profile3
+Found codec: AV1 Profile0
+Found codec: AV1 Profile1
+Could not find H264.High as streaming codec!
+Streamed scene with    3ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/bea83102298cfb741939cdba85abe535.0.entities
+Adding terrain areas statistics recorders
+AutoLoading authoring scene in world ClientWorld
+[13:28:06.3613970]:[ClientWorld] New connection ID:80
+ERROR: Shader Custom/VoxelShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Streamed scene with   52ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/62561c7118c5bbb46929c6bf65331faa.0.entities
+Sending start game stream RPC
+Emulation type is Idle, Simulation
+Creating local player object
+Sending spawn player RPC for user 71
+ERROR: Shader UI/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Player 71 has no connection ID!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Opencraft.Player.SamplePlayerInput:OnUpdate(SystemState&)
+Opencraft.Player.SamplePlayerInput:__codegen__OnUpdate(IntPtr, IntPtr)
+
+Linking player entity Entity(182:1) to 71@LOCALPLAYER
+    0: Could not find target at int3(0, 10, 0)
+Player simulation searching for path from float3(0.5f, 10.8f, 0.5f) = int3(0, 10, 0) to int3(3, 11, 2)
+Player simulation could not find a path from int3(0, 10, 0) to int3(3, 11, 2), will choose new target
+    2: Could not find target at int3(0, 10, 0)
+    3: Could not find target at int3(0, 10, 0)
+    4: Could not find target at int3(0, 10, 0)
+    5: Could not find target at int3(0, 10, 0)
+    6: Could not find target at int3(0, 10, 0)
+    7: Could not find target at int3(0, 10, 0)
+Player simulation searching for path from float3(0.5f, 10.8f, 0.5f) = int3(0, 10, 0) to int3(14, 11, 7)
+Player simulation could not find a path from int3(0, 10, 0) to int3(14, 11, 7), will choose new target
+ClientWorld player simulation could not find a path in 9 attempts, waiting to try again
+Player simulation searching for path from float3(0.5f, 11f, 0.5f) = int3(0, 11, 0) to int3(-9, 11, 5)
+AStar halted as encountered unloaded blocks, retrying...
+Player simulation could not find a path from int3(0, 11, 0) to int3(-9, 11, 5), will choose new target
+Player simulation searching for path from float3(0.5f, 11f, 0.5f) = int3(0, 11, 0) to int3(5, 11, -1)
+AStar halted as encountered unloaded blocks, retrying...
+Player simulation could not find a path from int3(0, 11, 0) to int3(5, 11, -1), will choose new target
+Player simulation searching for path from float3(0.5f, 11f, 0.5f) = int3(0, 11, 0) to int3(-9, 11, 4)
+AStar halted as encountered unloaded blocks, retrying...
+Player simulation could not find a path from int3(0, 11, 0) to int3(-9, 11, 4), will choose new target
+    3: Could not find target at int3(0, 11, 0)
+Player simulation searching for path from float3(0.5f, 11f, 0.5f) = int3(0, 11, 0) to int3(1, 11, -4)
+AStar halted as encountered unloaded blocks, retrying...
+Player simulation could not find a path from int3(0, 11, 0) to int3(1, 11, -4), will choose new target
+Player simulation searching for path from float3(0.5f, 11f, 0.5f) = int3(0, 11, 0) to int3(8, 11, -4)
+AStar halted as encountered unloaded blocks, retrying...
+Player simulation could not find a path from int3(0, 11, 0) to int3(8, 11, -4), will choose new target
+Player simulation searching for path from float3(0.5f, 11f, 0.5f) = int3(0, 11, 0) to int3(-7, 11, 9)
+AStar halted as encountered unloaded blocks, retrying...
+Player simulation could not find a path from int3(0, 11, 0) to int3(-7, 11, 9), will choose new target
+Player simulation searching for path from float3(0.5f, 11f, 0.5f) = int3(0, 11, 0) to int3(3, 11, 2)
+AStar halted as encountered unloaded blocks, retrying...
+Player simulation could not find a path from int3(0, 11, 0) to int3(3, 11, 2), will choose new target
+    8: Could not find target at int3(0, 11, 0)
+ClientWorld player simulation could not find a path in 9 attempts, waiting to try again
+Player simulation searching for path from float3(0.5f, 11.1f, 0.5f) = int3(0, 11, 0) to int3(-9, 11, 5)
+ClientWorld player simulation set new target int3(-9, 11, 5)
+ClientWorld player simulation reached target int3(-9, 11, 5)
+Player simulation searching for path from float3(-8.354869f, 11.14227f, 5.465024f) = int3(-9, 11, 5) to int3(1, 11, -11)
+ClientWorld player simulation set new target int3(1, 11, -11)
+ClientWorld player simulation reached target int3(1, 11, -11)
+Player simulation searching for path from float3(1.314711f, 11.12929f, -10.499f) = int3(1, 11, -11) to int3(0, 11, -11)
+ClientWorld player simulation set new target int3(0, 11, -11)
+ClientWorld player simulation reached target int3(0, 11, -11)
+Player simulation searching for path from float3(0.6732894f, 11.12929f, -10.499f) = int3(0, 11, -11) to int3(-4, 11, 7)
+ClientWorld player simulation set new target int3(-4, 11, 7)
+ClientWorld player simulation reached target int3(-4, 11, 7)
+Player simulation searching for path from float3(-3.529f, 11.12929f, 7.358711f) = int3(-4, 11, 7) to int3(-14, 11, 2)
+ClientWorld player simulation set new target int3(-14, 11, 2)
+ClientWorld player simulation reached target int3(-14, 11, 2)
+Player simulation searching for path from float3(-13.37471f, 11.12929f, 2.503f) = int3(-14, 11, 2) to int3(-13, 11, 6)
+ClientWorld player simulation set new target int3(-13, 11, 6)
+ClientWorld player simulation reached target int3(-13, 11, 6)
+Player simulation searching for path from float3(-12.62129f, 11.12929f, 6.481f) = int3(-13, 11, 6) to int3(-12, 11, -3)
+ClientWorld player simulation set new target int3(-12, 11, -3)
+ClientWorld player simulation path has strayed from int3(-13, 11, 1) to int3(-13, 11, 4), searching for a correction
+ClientWorld player simulation reached target int3(-12, 11, -3)
+Player simulation searching for path from float3(-11.50998f, 11.14227f, -2.342445f) = int3(-12, 11, -3) to int3(14, 11, 3)
+ClientWorld player simulation set new target int3(14, 11, 3)
+ClientWorld player simulation reached target int3(14, 11, 3)
+Player simulation searching for path from float3(14.524f, 11.12929f, 3.387711f) = int3(14, 11, 3) to int3(2, 11, 1)
+ClientWorld player simulation set new target int3(2, 11, 1)
+ClientWorld player simulation reached target int3(2, 11, 1)
+Player simulation searching for path from float3(2.60529f, 11.12929f, 1.486f) = int3(2, 11, 1) to int3(-4, 11, -13)
+ClientWorld player simulation set new target int3(-4, 11, -13)
+ClientWorld player simulation reached target int3(-4, 11, -13)
+Player simulation searching for path from float3(-3.310735f, 11.14227f, -12.58374f) = int3(-4, 11, -13) to int3(-4, 11, -6)
+ClientWorld player simulation set new target int3(-4, 11, -6)
+ClientWorld player simulation reached target int3(-4, 11, -6)
+Player simulation searching for path from float3(-3.494f, 11.12929f, -5.68929f) = int3(-4, 11, -6) to int3(11, 11, -5)
+ClientWorld player simulation set new target int3(11, 11, -5)
+ClientWorld player simulation reached target int3(11, 11, -5)
+Player simulation searching for path from float3(11.472f, 11.12929f, -4.66529f) = int3(11, 11, -5) to int3(0, 11, -3)
+ClientWorld player simulation set new target int3(0, 11, -3)
+ClientWorld player simulation reached target int3(0, 11, -3)
+Player simulation searching for path from float3(0.4814467f, 11.12929f, -2.61658f) = int3(0, 11, -3) to int3(-11, 11, 5)
+ClientWorld player simulation set new target int3(-11, 11, 5)
+ClientWorld player simulation reached target int3(-11, 11, 5)
+Player simulation searching for path from float3(-10.51f, 11.12929f, 5.312132f) = int3(-11, 11, 5) to int3(-1, 11, 0)
+ClientWorld player simulation set new target int3(-1, 11, 0)
+ClientWorld player simulation reached target int3(-1, 11, 0)
+Player simulation searching for path from float3(-0.6122893f, 11.12929f, 0.498f) = int3(-1, 11, 0) to int3(-4, 11, -8)
+ClientWorld player simulation set new target int3(-4, 11, -8)
+ClientWorld player simulation reached target int3(-4, 11, -8)
+Player simulation searching for path from float3(-3.397711f, 11.12929f, -7.528f) = int3(-4, 11, -8) to int3(13, 11, 11)
+ClientWorld player simulation set new target int3(13, 11, 11)
+ClientWorld player simulation reached target int3(13, 11, 11)
+Player simulation searching for path from float3(13.47671f, 11.12929f, 11.34542f) = int3(13, 11, 11) to int3(3, 11, -8)
+ClientWorld player simulation set new target int3(3, 11, -8)
+ClientWorld player simulation reached target int3(3, 11, -8)
+Player simulation searching for path from float3(3.492157f, 11.12929f, -7.397553f) = int3(3, 11, -8) to int3(-12, 11, 9)
+ClientWorld player simulation set new target int3(-12, 11, 9)
+ClientWorld player simulation reached target int3(-12, 11, 9)
+Player simulation searching for path from float3(-11.55971f, 11.12929f, 9.323423f) = int3(-12, 11, 9) to int3(10, 11, 11)
+ClientWorld player simulation set new target int3(10, 11, 11)
+ClientWorld player simulation reached target int3(10, 11, 11)
+Player simulation searching for path from float3(10.32945f, 11.14227f, 11.56098f) = int3(10, 11, 11) to int3(-4, 11, 6)
+ClientWorld player simulation set new target int3(-4, 11, 6)
+ClientWorld player simulation reached target int3(-4, 11, 6)
+Player simulation searching for path from float3(-3.314711f, 11.12929f, 6.468f) = int3(-4, 11, 6) to int3(13, 11, 11)
+ClientWorld player simulation set new target int3(13, 11, 11)
+ClientWorld player simulation reached target int3(13, 11, 11)
+Player simulation searching for path from float3(13.33071f, 11.12929f, 11.472f) = int3(13, 11, 11) to int3(3, 11, -8)
+ClientWorld player simulation set new target int3(3, 11, -8)
+ClientWorld player simulation reached target int3(3, 11, -8)
+Player simulation searching for path from float3(3.61029f, 11.12929f, -7.476f) = int3(3, 11, -8) to int3(-12, 11, 9)
+ClientWorld player simulation set new target int3(-12, 11, 9)
+ClientWorld player simulation reached target int3(-12, 11, 9)
+Player simulation searching for path from float3(-11.488f, 11.12929f, 9.480712f) = int3(-12, 11, 9) to int3(10, 11, 11)
+ClientWorld player simulation set new target int3(10, 11, 11)
+ClientWorld player simulation reached target int3(10, 11, 11)
+Player simulation searching for path from float3(10.36571f, 11.12929f, 11.483f) = int3(10, 11, 11) to int3(-4, 11, 6)
+ClientWorld player simulation set new target int3(-4, 11, 6)
+ClientWorld player simulation reached target int3(-4, 11, 6)
+Player simulation searching for path from float3(-3.367446f, 11.14227f, 6.520025f) = int3(-4, 11, 6) to int3(13, 11, 11)
+ClientWorld player simulation set new target int3(13, 11, 11)
+ClientWorld player simulation reached target int3(13, 11, 11)
+Player simulation searching for path from float3(13.37571f, 11.12929f, 11.5f) = int3(13, 11, 11) to int3(3, 11, -8)
+ClientWorld player simulation set new target int3(3, 11, -8)
+ClientWorld player simulation reached target int3(3, 11, -8)
+Player simulation searching for path from float3(3.63829f, 11.12929f, -7.493001f) = int3(3, 11, -8) to int3(-12, 11, 9)
+ClientWorld player simulation set new target int3(-12, 11, 9)
+ClientWorld player simulation reached target int3(-12, 11, 9)
+Player simulation searching for path from float3(-11.54669f, 11.14227f, 9.375158f) = int3(-12, 11, 9) to int3(10, 11, 11)
+ClientWorld player simulation set new target int3(10, 11, 11)
+ClientWorld player simulation reached target int3(10, 11, 11)
+Player simulation searching for path from float3(10.34342f, 11.12929f, 11.47771f) = int3(10, 11, 11) to int3(-4, 11, 6)
+ClientWorld player simulation set new target int3(-4, 11, 6)
+ClientWorld player simulation reached target int3(-4, 11, 6)
+Player simulation searching for path from float3(-3.325156f, 11.14227f, 6.477265f) = int3(-4, 11, 6) to int3(13, 11, 11)
+ClientWorld player simulation set new target int3(13, 11, 11)
+ClientWorld player simulation reached target int3(13, 11, 11)
+Player simulation searching for path from float3(13.30113f, 11.12929f, 11.478f) = int3(13, 11, 11) to int3(3, 11, -8)
+ClientWorld player simulation set new target int3(3, 11, -8)
+ClientWorld player simulation reached target int3(3, 11, -8)
+Player simulation searching for path from float3(3.657869f, 11.12929f, -7.529843f) = int3(3, 11, -8) to int3(-12, 11, 9)
+ClientWorld player simulation set new target int3(-12, 11, 9)
+ClientWorld player simulation reached target int3(-12, 11, 9)
+Player simulation searching for path from float3(-11.48798f, 11.14227f, 9.367448f) = int3(-12, 11, 9) to int3(10, 11, 11)
+ClientWorld player simulation set new target int3(10, 11, 11)
+ClientWorld player simulation reached target int3(10, 11, 11)
+Player simulation searching for path from float3(10.32071f, 11.12929f, 11.505f) = int3(10, 11, 11) to int3(-4, 11, 6)
+ClientWorld player simulation set new target int3(-4, 11, 6)
+ClientWorld player simulation reached target int3(-4, 11, 6)
+Player simulation searching for path from float3(-3.334446f, 11.14227f, 6.453024f) = int3(-4, 11, 6) to int3(13, 11, 11)
+ClientWorld player simulation set new target int3(13, 11, 11)
+[13:30:16.5364810]:[ClientWorld] Connection disconnected ID:80 Reason:ClosedByRemote
+Caught fatal signal - signo:15 code:0 errno:0 addr:0x1502000aca91
+Obtained 18 stack frames.
+#0  0x007f25a48079c9 in PlayerMain(int, char**)
+#1  0x007f25a47fc4b7 in (Unknown)
+#2  0x007f25a2564c20 in funlockfile
+#3  0x007f24d9f1323e in GC_mark_from
+#4  0x007f24d9f0f339 in GC_mark_some
+#5  0x007f24d9f0e4cd in GC_stopped_mark
+#6  0x007f24d9f0db2c in GC_maybe_gc
+#7  0x007f24d9f0f117 in GC_collect_a_little_inner
+#8  0x007f24d9f0da75 in GC_collect_a_little
+#9  0x007f25a4747088 in (Unknown)
+#10 0x007f25a474717e in (Unknown)
+#11 0x007f25a4292373 in (Unknown)
+#12 0x007f25a427f247 in (Unknown)
+#13 0x007f25a427f201 in (Unknown)
+#14 0x007f25a427f570 in (Unknown)
+#15 0x007f25a47fe077 in PlayerMain(int, char**)
+#16 0x007f25a21b0493 in __libc_start_main
+#17 0x00000000201029 in _start
+Setting up 12 worker threads for Enlighten.
+Calling DomainUnloadOrPlayModeChangeShutdown!
+Writing stats to file
+Caught fatal signal - signo:11 code:1 errno:0 addr:0x48
+Obtained 25 stack frames.
+#0  0x007f25a48079c9 in PlayerMain(int, char**)
+#1  0x007f25a47fc4b7 in (Unknown)
+#2  0x007f25a2564c20 in funlockfile
+#3  0x007f25a41bfff3 in (Unknown)
+#4  0x007f25a41c0671 in (Unknown)
+#5  0x007f25a41a0e7a in (Unknown)
+#6  0x007f25a4b9c42e in PlayerMain(int, char**)
+#7  0x007f25a3b4e426 in (Unknown)
+#8  0x007f24def6d320 in ContentLoadInterface_ContentFile_UnloadAsync_Injected_mBD2F1D561285B0DE37DCDA4DEA75931201B5E680
+#9  0x007f24def6c78f in ContentLoadInterface_ContentFile_UnloadAsync_m197A3C60564D4E9F9049BAD57B46FB404A8F17BD
+#10 0x007f24def6c635 in ContentFile_UnloadAsync_mF35518E83FCF4C1701AF2C6CEBF7E507490481D6
+#11 0x007f24de1e456a in RuntimeContentManager_ReleaseFile_m12EDB377B39EF4D01B3268E711303D79747A4F4C
+#12 0x007f24de1e245c in RuntimeContentManager_ReleaseObjectImpl_m84E24B7727CAA367D95ABC97FC529A5594840414
+#13 0x007f24de1e0ae8 in RuntimeContentManager_Cleanup_m6436DF58ED05204D0A7DFACFB212018BD6B813FD
+#14 0x007f24de1e1f38 in RuntimeContentManager_OnShutdown_m09B1F0AD37BE7168472DDB84F55C43F02CD40113
+#15 0x007f24d9cdde76 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_Multicast(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*, Il2CppObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, MethodInfo const*)
+#16 0x007f24dd64f7b0 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96
+#17 0x007f24d9e88073 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#18 0x007f24d9e87fdb in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#19 0x007f24d9e87b1c in il2cpp::vm::Runtime::Shutdown()
+#20 0x007f25a4755f56 in (Unknown)
+#21 0x007f25a4291658 in (Unknown)
+#22 0x007f25a47fdee6 in PlayerMain(int, char**)
+#23 0x007f25a21b0493 in __libc_start_main
+#24 0x00000000201029 in _start
