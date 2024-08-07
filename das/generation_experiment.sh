@@ -8,7 +8,6 @@ active_status=() # either "" or "-activeLogic"
 num_players=1
 
 # Folder locations
-student_id="zmr280"
 build_location="/var/scratch/${student_id}/"
 home_folder="/home/${student_id}/"
 

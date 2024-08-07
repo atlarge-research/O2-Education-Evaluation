@@ -9,7 +9,6 @@ active_status=() # either "" or "-activeLogic"
 radiuses=() # Numbers up to 6
 
 # Folder locations
-student_id="zmr280"
 build_location="/var/scratch/${student_id}/"
 home_folder="/home/${student_id}/"
 

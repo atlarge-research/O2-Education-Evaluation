@@ -10,7 +10,6 @@ circuitZes=() # Numbers up to 6
 num_players=1
 
 # Folder locations
-student_id="zmr280"
 build_location="/var/scratch/${student_id}/"
 home_folder="/home/${student_id}/"
 
