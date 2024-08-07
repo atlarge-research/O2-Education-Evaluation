@@ -1,0 +1,315 @@
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Remaining time:29s
+Found 2 interfaces on host : 0) 10.141.0.1 1) 10.149.0.1
+Player connection [139795412754304] Multi-casting "[IP] 10.141.0.1 [Port] 55000 [Flags] 19 [Guid] 1254684249 [EditorId] 3765082745 [Version] 1048832 [Id] LinuxPlayer(13,10.141.0.1) [Debug] 0 [PackageName] LinuxPlayer [ProjectName] Opencraft" to [225.0.0.222:54997]...
+
+Direct connection to host time out.
+Stopping profiler. Profiler is not able to flush data to a file or socket and exceeded maximum allowed memory for buffering.
+Please use Profiler.maxUsedMemory API or -profiler-maxusedmemory command line parameter to increase maximum allowed memory usage.
+Using 134234112 bytes while Profiler.maxUsedMemory is 134217728 bytes.
+Failed to initialize networking layer after 30 seconds, skipping waiting for connection before starting playback.
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libwebrtc.so'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 47 workers.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path /var/scratch/zmr280/opencraft/opencraft_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+ERROR: Shader Hidden/Universal Render Pipeline/Blit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/CopyDepth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Sampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderLdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderHdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/UberPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Debug/DebugReplacement shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/StencilDeferred shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/CameraMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ObjectMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LensFlareDataDriven shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Stop NaN shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/TemporalAA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Scaling Setup shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/FinalPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 0.829266 ms
+Parsing args: /var/scratch/zmr280/opencraft/opencraft.x86_64, -batchmode, -nographics, -logStats, True, -terrainType, Empty, -statsFile, /var/scratch/zmr280/runs/players_Empty_0x_0z_30p_120s/opencraft_stats/server.csv, -circuitX, 0, -circuitZ, 0, -playType, Server
+Setting up worlds with playType Server and streaming role Disabled
+Connecting worlds with playType Server and streaming role Disabled
+Created listen request for 0.0.0.0:7979
+Creating statistics writer!
+Recorder [GhostSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Recorder [PredictedSimulationSystemGroup] is invalid!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PolkaDOTS.Statistics.StatisticsWriter:.ctor()
+PolkaDOTS.Statistics.StatisticsWriterInstance:Awake()
+
+Initializing multiplay!
+Found non-specified codec: VP8 Internal video/VP8 implementation_name=Internal
+Found codec: VP9 Profile0
+Found codec: VP9 Profile2
+Found codec: VP9 Profile1
+Found codec: VP9 Profile3
+Found codec: AV1 Profile0
+Found codec: AV1 Profile1
+Could not find H264.High as streaming codec!
+Adding terrain areas statistics recorders
+Streamed scene with   34ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/bea83102298cfb741939cdba85abe535.0.entities
+AutoLoading authoring scene in world ServerWorld
+ERROR: Shader Custom/VoxelShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Streamed scene with   39ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/62561c7118c5bbb46929c6bf65331faa.0.entities
+Setting player spawn to 0, 3, 0
+[00:40:08.0536610]:[ServerWorld] New connection ID:1
+[00:40:08.0866560]:[ServerWorld] New connection ID:2
+[00:40:08.1055040]:[ServerWorld] New connection ID:3
+[00:40:08.1206340]:[ServerWorld] New connection ID:4
+[00:40:08.1386520]:[ServerWorld] New connection ID:5
+Starting game stream on connection 1!
+'Spawning a Ghost '' for user '3' on connection '1'!
+[00:40:08.1533180]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 2!
+'Spawning a Ghost '' for user '5' on connection '2'!
+[00:40:08.1887540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 3!
+'Spawning a Ghost '' for user '4' on connection '3'!
+[00:40:08.2034120]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 4!
+'Spawning a Ghost '' for user '9' on connection '4'!
+[00:40:08.2218810]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 5!
+'Spawning a Ghost '' for user '6' on connection '5'!
+[00:40:08.2379210]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:08.3370920]:[ServerWorld] New connection ID:6
+Starting game stream on connection 6!
+'Spawning a Ghost '' for user '2' on connection '6'!
+[00:40:08.4401480]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:08.4544280]:[ServerWorld] New connection ID:7
+[00:40:08.4740280]:[ServerWorld] New connection ID:8
+[00:40:08.4873680]:[ServerWorld] New connection ID:9
+Starting game stream on connection 7!
+'Spawning a Ghost '' for user '1' on connection '7'!
+[00:40:08.5733120]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 9!
+Starting game stream on connection 8!
+'Spawning a Ghost '' for user '10' on connection '9'!
+'Spawning a Ghost '' for user '8' on connection '8'!
+[00:40:08.5877500]:[ServerWorld] New connection ID:10
+[00:40:08.5877500]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:08.5877500]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 10!
+'Spawning a Ghost '' for user '7' on connection '10'!
+[00:40:08.7239770]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:11.1062720]:[ServerWorld] New connection ID:11
+[00:40:11.1914400]:[ServerWorld] New connection ID:12
+[00:40:11.1914400]:[ServerWorld] New connection ID:13
+Starting game stream on connection 11!
+'Spawning a Ghost '' for user '14' on connection '11'!
+[00:40:11.2248300]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:11.2586870]:[ServerWorld] New connection ID:14
+[00:40:11.2586870]:[ServerWorld] New connection ID:15
+[00:40:11.2715530]:[ServerWorld] New connection ID:17
+[00:40:11.2715530]:[ServerWorld] New connection ID:16
+Starting game stream on connection 12!
+Starting game stream on connection 13!
+'Spawning a Ghost '' for user '11' on connection '13'!
+[00:40:11.3050230]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '20' on connection '12'!
+[00:40:11.3196010]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 16!
+Starting game stream on connection 14!
+'Spawning a Ghost '' for user '19' on connection '16'!
+[00:40:11.3717770]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 15!
+'Spawning a Ghost '' for user '16' on connection '15'!
+'Spawning a Ghost '' for user '17' on connection '14'!
+[00:40:11.3906580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:11.3906580]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 17!
+'Spawning a Ghost '' for user '18' on connection '17'!
+[00:40:11.4054570]:[ServerWorld] New connection ID:18
+[00:40:11.4054570]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:11.4238280]:[ServerWorld] New connection ID:19
+[00:40:11.4371880]:[ServerWorld] New connection ID:20
+Starting game stream on connection 18!
+'Spawning a Ghost '' for user '12' on connection '18'!
+[00:40:11.5235780]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 20!
+Starting game stream on connection 19!
+'Spawning a Ghost '' for user '13' on connection '19'!
+[00:40:11.5570300]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+'Spawning a Ghost '' for user '15' on connection '20'!
+[00:40:11.5701220]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:14.1535810]:[ServerWorld] New connection ID:21
+Starting game stream on connection 21!
+'Spawning a Ghost '' for user '30' on connection '21'!
+[00:40:14.2870710]:[ServerWorld] New connection ID:22
+[00:40:14.2870710]:[ServerWorld] New connection ID:23
+[00:40:14.2870710]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:14.3392810]:[ServerWorld] New connection ID:24
+[00:40:14.3563190]:[ServerWorld] New connection ID:25
+Starting game stream on connection 22!
+Starting game stream on connection 23!
+'Spawning a Ghost '' for user '25' on connection '22'!
+'Spawning a Ghost '' for user '29' on connection '23'!
+[00:40:14.4030390]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:14.4030390]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:14.4212160]:[ServerWorld] New connection ID:26
+Starting game stream on connection 25!
+Starting game stream on connection 24!
+'Spawning a Ghost '' for user '28' on connection '25'!
+'Spawning a Ghost '' for user '26' on connection '24'!
+[00:40:14.4533520]:[ServerWorld] New connection ID:27
+[00:40:14.4533520]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:14.4533520]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 26!
+'Spawning a Ghost '' for user '22' on connection '26'!
+[00:40:14.5389520]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:14.5539680]:[ServerWorld] New connection ID:28
+Starting game stream on connection 27!
+'Spawning a Ghost '' for user '23' on connection '27'!
+[00:40:14.5721540]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+[00:40:14.5868680]:[ServerWorld] New connection ID:29
+Starting game stream on connection 28!
+'Spawning a Ghost '' for user '21' on connection '28'!
+[00:40:14.6875080]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 29!
+'Spawning a Ghost '' for user '24' on connection '29'!
+[00:40:14.7063880]:[ServerWorld] New connection ID:30
+[00:40:14.7063880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Starting game stream on connection 30!
+'Spawning a Ghost '' for user '27' on connection '30'!
+[00:40:14.8379190]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+Caught fatal signal - signo:15 code:0 errno:0 addr:0x15020006c0ad
+Obtained 20 stack frames.
+#0  0x007f24a66009c9 in PlayerMain(int, char**)
+#1  0x007f24a65f54b7 in (Unknown)
+#2  0x007f24a435dc20 in funlockfile
+#3  0x007ffd5dcdabba in clock_gettime
+#4  0x007f24a404997a in clock_gettime
+#5  0x007f24a403da35 in __clock_gettime
+#6  0x007f23d9f0d97e in clock
+#7  0x007f23d9f0e4d7 in GC_timeout_stop_func
+#8  0x007f23d9f0db2c in GC_stopped_mark
+#9  0x007f23d9f0f117 in GC_maybe_gc
+#10 0x007f23d9f0da75 in GC_collect_a_little_inner
+#11 0x007f24a6540088 in GC_collect_a_little
+#12 0x007f24a654017e in (Unknown)
+#13 0x007f24a608b373 in (Unknown)
+#14 0x007f24a6078247 in (Unknown)
+#15 0x007f24a6078201 in (Unknown)
+#16 0x007f24a6078570 in (Unknown)
+#17 0x007f24a65f7077 in (Unknown)
+#18 0x007f24a3fa9493 in PlayerMain(int, char**)
+#19 0x00000000201029 in __libc_start_main
+Setting up 12 worker threads for Enlighten.
+Writing stats to file
+Calling DomainUnloadOrPlayModeChangeShutdown!
+Caught fatal signal - signo:11 code:1 errno:0 addr:0x48
+Obtained 25 stack frames.
+#0  0x007f24a66009c9 in PlayerMain(int, char**)
+#1  0x007f24a65f54b7 in (Unknown)
+#2  0x007f24a435dc20 in funlockfile
+#3  0x007f24a5fb8ff3 in (Unknown)
+#4  0x007f24a5fb9671 in (Unknown)
+#5  0x007f24a5f99e7a in (Unknown)
+#6  0x007f24a699542e in PlayerMain(int, char**)
+#7  0x007f24a5947426 in (Unknown)
+#8  0x007f23def6d320 in ContentLoadInterface_ContentFile_UnloadAsync_Injected_mBD2F1D561285B0DE37DCDA4DEA75931201B5E680
+#9  0x007f23def6c78f in ContentLoadInterface_ContentFile_UnloadAsync_m197A3C60564D4E9F9049BAD57B46FB404A8F17BD
+#10 0x007f23def6c635 in ContentFile_UnloadAsync_mF35518E83FCF4C1701AF2C6CEBF7E507490481D6
+#11 0x007f23de1e456a in RuntimeContentManager_ReleaseFile_m12EDB377B39EF4D01B3268E711303D79747A4F4C
+#12 0x007f23de1e245c in RuntimeContentManager_ReleaseObjectImpl_m84E24B7727CAA367D95ABC97FC529A5594840414
+#13 0x007f23de1e0ae8 in RuntimeContentManager_Cleanup_m6436DF58ED05204D0A7DFACFB212018BD6B813FD
+#14 0x007f23de1e1f38 in RuntimeContentManager_OnShutdown_m09B1F0AD37BE7168472DDB84F55C43F02CD40113
+#15 0x007f23d9cdde76 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_Multicast(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*, Il2CppObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, MethodInfo const*)
+#16 0x007f23dd64f7b0 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96
+#17 0x007f23d9e88073 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#18 0x007f23d9e87fdb in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#19 0x007f23d9e87b1c in il2cpp::vm::Runtime::Shutdown()
+#20 0x007f24a654ef56 in (Unknown)
+#21 0x007f24a608a658 in (Unknown)
+#22 0x007f24a65f6ee6 in PlayerMain(int, char**)
+#23 0x007f24a3fa9493 in __libc_start_main
+#24 0x00000000201029 in _start
