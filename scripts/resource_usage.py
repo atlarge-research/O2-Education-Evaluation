@@ -30,7 +30,7 @@ options = [
         "name": "CPU Usage",
         "addition": "cpu",
         "client_column_name": "cpu_percent",
-        "server_column_name": "proc.cpu_percent", # cpu.percent potentially
+        "server_column_name": "proc.cpu_percent",
         "units": "%",
         "clients_data": True,
     },

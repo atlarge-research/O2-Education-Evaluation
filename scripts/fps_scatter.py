@@ -1,8 +1,6 @@
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
 import shared_config as sc
-import seaborn as sns
 import numpy as np
 
 def create_fps_scatter():

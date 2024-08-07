@@ -1,21 +1,16 @@
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
 import shared_config as sc
-import seaborn as sns
-import numpy as np
 import os
 import sys
 import re
 from PIL import Image
 import matplotlib.patches as mpatches
-
 from reportlab.pdfgen import canvas
 from PyPDF2 import PdfWriter, PdfReader
 
 
 def add_to_pdf(pdf_path, image_paths, shift_constant, addition):
-    # Get our files ready
     output_file = PdfWriter()
     input_file = PdfReader(open(pdf_path, "rb"))
     input_page = input_file.pages[0]
@@ -27,7 +22,6 @@ def add_to_pdf(pdf_path, image_paths, shift_constant, addition):
             pdf_file, pagesize=(input_page.mediabox.width, input_page.mediabox.width)
         )
 
-        # Draw the image at x, y. I positioned the x,y to be where i like here
         c.scale(0.72, 0.72)
         c.drawImage(image, i * shift_constant, 0, mask="auto")
         c.save()
@@ -38,7 +32,6 @@ def add_to_pdf(pdf_path, image_paths, shift_constant, addition):
 
     output_file.add_page(input_page)
 
-    # finally, write "output" to document-output.pdf
     with open(
         f"{sc.plots_directory}players-bar-combined-{addition}.pdf", "wb"
     ) as outputStream:
@@ -46,6 +39,7 @@ def add_to_pdf(pdf_path, image_paths, shift_constant, addition):
     print(f"Combined PDF saved to {sc.plots_directory}players-bar-combined-{addition}.pdf")
     for graph in graphs:
         graph.stream.close()
+    
     input_file.stream.close()
 
 
@@ -88,7 +82,7 @@ def create_bar_graph(all_data=False, logic=False):
     player_experiments = [
         f"{sc.data_directory}{x}/"
         for x in os.listdir(sc.data_directory)
-        if "players" in x and not "TerrainCircuitry" in x
+        if "players" in x
     ]
     average_csvs = [exp + "averaged_output.csv" for exp in player_experiments]
 
@@ -100,9 +94,7 @@ def create_bar_graph(all_data=False, logic=False):
         "RollingHills",
         "RollingHills (Logic Active)",
     ]
-    # , "TerrainCircuitry (Logic Active)"]
     patterns = ["", "/", "-", "x", "o", ".", "*"]
-    
     
     columns = [
             "StatisticsSystem",
@@ -195,13 +187,13 @@ def create_bar_graph(all_data=False, logic=False):
             bars = ax.patches
             pattern = patterns[
                 hatching_index
-            ]  # set hatch patterns in the correct order
-            hatches = []  # list for hatches in the order of the bars
+            ]  
+            hatches = []  
             for i in range(int(len(bars))):
                 hatches.append(pattern)
             for bar, hatch in zip(
                 bars, hatches
-            ):  # loop over bars and hatches to set hatches in correct order
+            ):  
                 bar.set_hatch(hatch)
 
         ax.set_xticklabels(x, rotation=0)
@@ -213,10 +205,6 @@ def create_bar_graph(all_data=False, logic=False):
         # plt.close(fig)
 
     output_files = sort_list2_by_list1(order, output_files)
-
-    # overlayed_image = overlay_images(output_files[0], output_files[1:], 13)
-    # overlayed_image.save(f"{sc.plots_directory}players-bar-combined-{addition}.png",
-    # )
 
     add_to_pdf(output_files[0], output_files[1:], 13, addition)
 

@@ -7,7 +7,7 @@ matplotlib.rcParams.update({"font.size": 15})
 plt.style.use("seaborn-v0_8-colorblind")
 sns.set_palette("colorblind")
 
-data_directory = "../Data/"
+data_directory = "../data/"
 experiment_name = "base_v2"
 filter_by_max_terrainarea = False
 filter_by_max_players = True
@@ -16,7 +16,7 @@ experiment_directory = f"{data_directory}{experiment_name}/"
 formatted_stats_directory = f"{experiment_directory}formatted_stats/"
 if not os.path.exists(formatted_stats_directory):
     os.makedirs(formatted_stats_directory)
-plots_directory = f"../Plots/"
+plots_directory = f"../plots/"
 if not os.path.exists(plots_directory):
     os.makedirs(plots_directory)
 

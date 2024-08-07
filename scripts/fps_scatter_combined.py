@@ -1,8 +1,6 @@
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
 import shared_config as sc
-import seaborn as sns
 import numpy as np
 import os
 import re
@@ -31,7 +29,7 @@ def create_fps_scatter():
     player_experiments = [
         f"{sc.data_directory}{x}/"
         for x in os.listdir(sc.data_directory)
-        if "players" in x and not "Dummy" in x and not "TerrainCircuitry" in x
+        if "players" in x and not "Dummy" in x
     ]
     average_dfes = [exp + "averaged_output.csv" for exp in player_experiments]
 
@@ -42,7 +40,6 @@ def create_fps_scatter():
         "2-Layer (Logic Active)",
         "RollingHills",
         "RollingHills (Logic Active)",
-        # "TerrainCircuitry (Logic Active)",
     ]
     markers = ["", "o", "s", "p", "*", "X", "D"]
     fig, ax = plt.subplots(1, 1, sharex=True, height_ratios=[10], figsize=(10, 6))
