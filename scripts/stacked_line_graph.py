@@ -21,28 +21,32 @@ def create_stacked_line_graph(all_data=False):
     else:
         raise ValueError("Invalid experiment name")
 
-    final_columns = [
-        # "Main Thread_other",
-        # "ServerFixedUpdate_other",
-        "StatisticsSystem",
-        "PlayerTerrainGenCheck",
-        "TerrainGeneration",
-        "StructureGeneration",
-        "TerrainLogicSystem",
-        # "GetUpdates",
-        # "ReevaluatePropagateMarker",
-        # "PropagateLogicState",
-        # "CheckGateState", 
-        # "Main Thread"   
-    ]
-    
     addition=1
-    legend = "lower right"
-    if all_data:
+    legend = "upper left"
+    if not all_data:
+        final_columns = [
+            "StatisticsSystem",
+            "PlayerTerrainGenCheck",
+            "TerrainGeneration",
+            "StructureGeneration",
+            "TerrainLogicSystem_other",
+            "GetUpdates",
+            "ReevaluatePropagateMarker",
+            "PropagateLogicState",
+            "CheckGateState",
+        ]
+        plt.legend(framealpha=0)
+        
+    else:
         final_columns = [
             "Main Thread_other",
             "ServerFixedUpdate_other",
-        ] + final_columns
+            "StatisticsSystem",
+            "PlayerTerrainGenCheck",
+            "TerrainGeneration",
+            "StructureGeneration",
+            "TerrainLogicSystem",
+        ]
         addition = 2
         legend = "lower right"
     
@@ -57,6 +61,7 @@ def create_stacked_line_graph(all_data=False):
 
     plt.ylim(bottom=0)
     plt.legend(loc=legend)
+
 
     plt.tight_layout()
     # plt.show()

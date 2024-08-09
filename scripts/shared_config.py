@@ -3,13 +3,13 @@ import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-matplotlib.rcParams.update({"font.size": 15})
+matplotlib.rcParams.update({"font.size": 18})
 plt.style.use("seaborn-v0_8-colorblind")
 sns.set_palette("colorblind")
 
 data_directory = "../data/"
-experiment_name = "pareto"
-filter_by_max_terrainarea = False
+experiment_name = "base_v2"
+filter_by_max_terrainarea = True
 filter_by_max_players = True
 
 experiment_directory = f"{data_directory}{experiment_name}/"
