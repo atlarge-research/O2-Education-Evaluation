@@ -103,7 +103,25 @@ def average_data():
 
     average_df.to_csv(sc.average_output, index=True)
     print("Averaged CSV created successfully!")
-
+    
+    
+    print("Some statistics:")
+    main_thread_total = average_df["Main Thread"].sum()
+    logic_total = average_df["TerrainLogicSystem"].sum()
+    print(f"Total time spent in main thread: {main_thread_total}")
+    print(f"Total time spent in logic: {logic_total}")
+    
+    percent_logic = (logic_total / main_thread_total) * 100
+    percent_rest = 100 - percent_logic
+    print(f"Time spent in logic %: {percent_logic}")
+    print(f"Time spent in rest %: {percent_rest}")
+    
+    max_main_thread = average_df["Main Thread"].max() / 1e6
+    max_logic = average_df["TerrainLogicSystem"].max() / 1e6
+    max_stats = average_df["StatisticsSystem"].max() / 1e6
+    print(f"Max time spent in main thread: {max_main_thread}")
+    print(f"Max time spent in logic: {max_logic}")
+    print(f"Max time spent in stats: {max_stats}")
 
 if __name__ == "__main__":
     average_data()

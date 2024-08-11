@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import shared_config as sc
 import os
@@ -23,7 +24,7 @@ def add_to_pdf(pdf_path, image_paths, shift_constant, addition):
         )
 
         c.scale(0.72, 0.72)
-        c.drawImage(image, i * shift_constant, 0, mask="auto")
+        c.drawImage(image, i * shift_constant - 24, 0, mask="auto")
         c.save()
 
         graph = PdfReader(open(pdf_file, "rb"))
@@ -41,29 +42,6 @@ def add_to_pdf(pdf_path, image_paths, shift_constant, addition):
         graph.stream.close()
     
     input_file.stream.close()
-
-
-def overlay_images(base_image_path, overlay_images_paths, shift_constant):
-    base_image = Image.open(base_image_path).convert("RGBA")
-    print(base_image_path)
-
-    for i, overlay_image_path in enumerate(overlay_images_paths):
-        print(overlay_image_path)
-        overlay_image = Image.open(overlay_image_path).convert("RGBA")
-
-        horizontal_shift = i * shift_constant
-
-        new_image_width = base_image.width + horizontal_shift
-        new_image_height = max(base_image.height, overlay_image.height)
-        new_image = Image.new("RGBA", (new_image_width, new_image_height), (0, 0, 0, 0))
-
-        new_image.paste(base_image, (0, 0), base_image)
-
-        new_image.paste(overlay_image, (horizontal_shift, 0), overlay_image)
-
-        base_image = new_image
-
-    return base_image
 
 
 def sort_list2_by_list1(list1, list2):
@@ -151,7 +129,7 @@ def create_bar_graph(all_data=False, logic=False):
         hatching_index = order.index(val)
 
         ax = y.plot(
-            kind="bar", stacked=True, figsize=(10, 6), width=bar_width, legend=False
+            kind="bar", stacked=True, figsize=(20, 7), width=bar_width, legend=False
         )
 
         ax.set_xlabel("Players")
@@ -161,15 +139,15 @@ def create_bar_graph(all_data=False, logic=False):
         
         extension = "png"
         transparent = True
+        ax.set_xlim(-0.5, len(x) - 0.5)
+
+        box = ax.get_position()
+        ax.set_position([box.x0 * 0.68, box.y0, box.width * 0.75, box.height])
+
         if val == "Dummy":
             first_legend = ax.legend(loc="upper left", bbox_to_anchor=(1, 1))
             ax.add_artist(first_legend)
-            ax.figure.set_figwidth(13.5)
             transparent = False
-            ax.set_xlim(-0.5, len(x) - 0.5)
-
-            box = ax.get_position()
-            ax.set_position([box.x0 * 0.8, box.y0, box.width * 0.77, box.height])
 
             legend_marker = []
             for order_val in order[1:]:
@@ -180,7 +158,7 @@ def create_bar_graph(all_data=False, logic=False):
                     label=order_val,
                 )
                 legend_marker.append(circ)
-            ax.legend(handles=legend_marker, loc="center", bbox_to_anchor=(1.22, 0.2))
+            ax.legend(handles=legend_marker,loc="lower left", bbox_to_anchor=(1, 0))
             extension = "pdf"
         else:
             ax.set_axis_off()
@@ -198,7 +176,8 @@ def create_bar_graph(all_data=False, logic=False):
 
         ax.set_xticklabels(x, rotation=0)
         ax.tick_params(bottom=False)
-
+        matplotlib.rcParams.update({"font.size": 20})
+        
         output_filename = f"{val}.{extension}"
         output_files.append(output_filename)
         ax.figure.savefig(output_filename, transparent=transparent, format=extension)

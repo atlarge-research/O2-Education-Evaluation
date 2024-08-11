@@ -35,6 +35,10 @@ def run_formatter():
                 max_circuits = filtered_df["NumInputTypeBlocks"].max()
                 filtered_df = filtered_df[filtered_df["NumInputTypeBlocks"] == max_circuits]
                 filtered_df = filtered_df.iloc[1:]
+        if sc.filter_by_only_logic_frames:
+            filtered_df = filtered_df[filtered_df["TerrainLogicSystem"] > 0]
+        if sc.filter_by_only_server_frames:
+            filtered_df = filtered_df[filtered_df["ServerFixedUpdate"] > 0]
         
         filtered_df.to_csv(output_file, index=False)
         

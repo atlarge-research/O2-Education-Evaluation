@@ -1,0 +1,913 @@
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Remaining time:29s
+Found 2 interfaces on host : 0) 10.141.0.1 1) 10.149.0.1
+Player connection [140264823582592] Multi-casting "[IP] 10.141.0.1 [Port] 55000 [Flags] 19 [Guid] 2981673840 [EditorId] 1679853332 [Version] 1048832 [Id] LinuxPlayer(13,10.141.0.1) [Debug] 0 [PackageName] LinuxPlayer [ProjectName] Opencraft" to [225.0.0.222:54997]...
+
+Direct connection to host time out.
+Stopping profiler. Profiler is not able to flush data to a file or socket and exceeded maximum allowed memory for buffering.
+Please use Profiler.maxUsedMemory API or -profiler-maxusedmemory command line parameter to increase maximum allowed memory usage.
+Using 134234112 bytes while Profiler.maxUsedMemory is 134217728 bytes.
+Failed to initialize networking layer after 30 seconds, skipping waiting for connection before starting playback.
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libwebrtc.so'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 47 workers.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path /var/scratch/zmr280/opencraft/opencraft_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+ERROR: Shader Hidden/Universal Render Pipeline/Blit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/CopyDepth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Sampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderLdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LutBuilderHdr shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/UberPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Debug/DebugReplacement shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/StencilDeferred shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/StencilDeferred' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/CameraMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ObjectMotionVectors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/LensFlareDataDriven shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Stop NaN shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/TemporalAA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Scaling Setup shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/Universal Render Pipeline/FinalPost shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 0.880491 ms
+Parsing args: /var/scratch/zmr280/opencraft/opencraft.x86_64, -batchmode, -nographics, -logStats, True, -terrainType, 3-Layer, -statsFile, /var/scratch/zmr280/runs/base-activeLogic_3-Layer_6x_6z_1p_300s/opencraft_stats/server.csv, -activeLogic, -circuitX, 6, -circuitZ, 6, -playType, Server
+Setting up worlds with playType Server and streaming role Disabled
+Connecting worlds with playType Server and streaming role Disabled
+Created listen request for 0.0.0.0:7979
+Creating statistics writer!
+Initializing multiplay!
+Found non-specified codec: VP8 Internal video/VP8 implementation_name=Internal
+Found codec: VP9 Profile0
+Found codec: VP9 Profile2
+Found codec: VP9 Profile1
+Found codec: VP9 Profile3
+Found codec: AV1 Profile0
+Found codec: AV1 Profile1
+Could not find H264.High as streaming codec!
+Adding terrain areas statistics recorders
+Streamed scene with   33ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/bea83102298cfb741939cdba85abe535.0.entities
+AutoLoading authoring scene in world ServerWorld
+ERROR: Shader Custom/VoxelShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Universal Render Pipeline/FallbackError shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/FallbackError' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Universal Render Pipeline/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Streamed scene with   46ms latency from /var/scratch/zmr280/opencraft/opencraft_Data/StreamingAssets/EntityScenes/62561c7118c5bbb46929c6bf65331faa.0.entities
+Setting player spawn to 0, 9, 0
+TerrainLogicSystem Tick 1
+[10:20:17.4715840]:[ServerWorld] New connection ID:1
+Starting game stream on connection 1!
+'Spawning a Ghost '' for user '1' on connection '1'!
+[10:20:17.6053880]:[ServerWorld] Connection disconnected ID:0 Reason:ConnectionClose
+TerrainLogicSystem Tick 2
+TerrainLogicSystem Tick 3
+TerrainLogicSystem Tick 4
+TerrainLogicSystem Tick 5
+TerrainLogicSystem Tick 6
+TerrainLogicSystem Tick 7
+TerrainLogicSystem Tick 8
+TerrainLogicSystem Tick 9
+TerrainLogicSystem Tick 10
+TerrainLogicSystem Tick 11
+TerrainLogicSystem Tick 12
+TerrainLogicSystem Tick 13
+TerrainLogicSystem Tick 14
+TerrainLogicSystem Tick 15
+TerrainLogicSystem Tick 16
+TerrainLogicSystem Tick 17
+TerrainLogicSystem Tick 18
+TerrainLogicSystem Tick 19
+TerrainLogicSystem Tick 20
+TerrainLogicSystem Tick 21
+TerrainLogicSystem Tick 22
+TerrainLogicSystem Tick 23
+TerrainLogicSystem Tick 24
+TerrainLogicSystem Tick 25
+TerrainLogicSystem Tick 26
+TerrainLogicSystem Tick 27
+TerrainLogicSystem Tick 28
+TerrainLogicSystem Tick 29
+TerrainLogicSystem Tick 30
+TerrainLogicSystem Tick 31
+TerrainLogicSystem Tick 32
+TerrainLogicSystem Tick 33
+TerrainLogicSystem Tick 34
+TerrainLogicSystem Tick 35
+TerrainLogicSystem Tick 36
+TerrainLogicSystem Tick 37
+TerrainLogicSystem Tick 38
+TerrainLogicSystem Tick 39
+TerrainLogicSystem Tick 40
+TerrainLogicSystem Tick 41
+TerrainLogicSystem Tick 42
+TerrainLogicSystem Tick 43
+TerrainLogicSystem Tick 44
+TerrainLogicSystem Tick 45
+TerrainLogicSystem Tick 46
+TerrainLogicSystem Tick 47
+TerrainLogicSystem Tick 48
+TerrainLogicSystem Tick 49
+TerrainLogicSystem Tick 50
+TerrainLogicSystem Tick 51
+TerrainLogicSystem Tick 52
+TerrainLogicSystem Tick 53
+TerrainLogicSystem Tick 54
+TerrainLogicSystem Tick 55
+TerrainLogicSystem Tick 56
+TerrainLogicSystem Tick 57
+TerrainLogicSystem Tick 58
+TerrainLogicSystem Tick 59
+TerrainLogicSystem Tick 60
+TerrainLogicSystem Tick 61
+TerrainLogicSystem Tick 62
+TerrainLogicSystem Tick 63
+TerrainLogicSystem Tick 64
+TerrainLogicSystem Tick 65
+TerrainLogicSystem Tick 66
+TerrainLogicSystem Tick 67
+TerrainLogicSystem Tick 68
+TerrainLogicSystem Tick 69
+TerrainLogicSystem Tick 70
+TerrainLogicSystem Tick 71
+TerrainLogicSystem Tick 72
+TerrainLogicSystem Tick 73
+TerrainLogicSystem Tick 74
+TerrainLogicSystem Tick 75
+TerrainLogicSystem Tick 76
+TerrainLogicSystem Tick 77
+TerrainLogicSystem Tick 78
+TerrainLogicSystem Tick 79
+TerrainLogicSystem Tick 80
+TerrainLogicSystem Tick 81
+TerrainLogicSystem Tick 82
+TerrainLogicSystem Tick 83
+TerrainLogicSystem Tick 84
+TerrainLogicSystem Tick 85
+TerrainLogicSystem Tick 86
+TerrainLogicSystem Tick 87
+TerrainLogicSystem Tick 88
+TerrainLogicSystem Tick 89
+TerrainLogicSystem Tick 90
+TerrainLogicSystem Tick 91
+TerrainLogicSystem Tick 92
+TerrainLogicSystem Tick 93
+TerrainLogicSystem Tick 94
+TerrainLogicSystem Tick 95
+TerrainLogicSystem Tick 96
+TerrainLogicSystem Tick 97
+TerrainLogicSystem Tick 98
+TerrainLogicSystem Tick 99
+TerrainLogicSystem Tick 100
+TerrainLogicSystem Tick 101
+TerrainLogicSystem Tick 102
+TerrainLogicSystem Tick 103
+TerrainLogicSystem Tick 104
+TerrainLogicSystem Tick 105
+TerrainLogicSystem Tick 106
+TerrainLogicSystem Tick 107
+TerrainLogicSystem Tick 108
+TerrainLogicSystem Tick 109
+TerrainLogicSystem Tick 110
+TerrainLogicSystem Tick 111
+TerrainLogicSystem Tick 112
+TerrainLogicSystem Tick 113
+TerrainLogicSystem Tick 114
+TerrainLogicSystem Tick 115
+TerrainLogicSystem Tick 116
+TerrainLogicSystem Tick 117
+TerrainLogicSystem Tick 118
+TerrainLogicSystem Tick 119
+TerrainLogicSystem Tick 120
+TerrainLogicSystem Tick 121
+TerrainLogicSystem Tick 122
+TerrainLogicSystem Tick 123
+TerrainLogicSystem Tick 124
+TerrainLogicSystem Tick 125
+TerrainLogicSystem Tick 126
+TerrainLogicSystem Tick 127
+TerrainLogicSystem Tick 128
+TerrainLogicSystem Tick 129
+TerrainLogicSystem Tick 130
+TerrainLogicSystem Tick 131
+TerrainLogicSystem Tick 132
+TerrainLogicSystem Tick 133
+TerrainLogicSystem Tick 134
+TerrainLogicSystem Tick 135
+TerrainLogicSystem Tick 136
+TerrainLogicSystem Tick 137
+TerrainLogicSystem Tick 138
+TerrainLogicSystem Tick 139
+TerrainLogicSystem Tick 140
+TerrainLogicSystem Tick 141
+TerrainLogicSystem Tick 142
+TerrainLogicSystem Tick 143
+TerrainLogicSystem Tick 144
+TerrainLogicSystem Tick 145
+TerrainLogicSystem Tick 146
+TerrainLogicSystem Tick 147
+TerrainLogicSystem Tick 148
+TerrainLogicSystem Tick 149
+TerrainLogicSystem Tick 150
+TerrainLogicSystem Tick 151
+TerrainLogicSystem Tick 152
+TerrainLogicSystem Tick 153
+TerrainLogicSystem Tick 154
+TerrainLogicSystem Tick 155
+TerrainLogicSystem Tick 156
+TerrainLogicSystem Tick 157
+TerrainLogicSystem Tick 158
+TerrainLogicSystem Tick 159
+TerrainLogicSystem Tick 160
+TerrainLogicSystem Tick 161
+TerrainLogicSystem Tick 162
+TerrainLogicSystem Tick 163
+TerrainLogicSystem Tick 164
+TerrainLogicSystem Tick 165
+TerrainLogicSystem Tick 166
+TerrainLogicSystem Tick 167
+TerrainLogicSystem Tick 168
+TerrainLogicSystem Tick 169
+TerrainLogicSystem Tick 170
+TerrainLogicSystem Tick 171
+TerrainLogicSystem Tick 172
+TerrainLogicSystem Tick 173
+TerrainLogicSystem Tick 174
+TerrainLogicSystem Tick 175
+TerrainLogicSystem Tick 176
+TerrainLogicSystem Tick 177
+TerrainLogicSystem Tick 178
+TerrainLogicSystem Tick 179
+TerrainLogicSystem Tick 180
+TerrainLogicSystem Tick 181
+TerrainLogicSystem Tick 182
+TerrainLogicSystem Tick 183
+TerrainLogicSystem Tick 184
+TerrainLogicSystem Tick 185
+TerrainLogicSystem Tick 186
+TerrainLogicSystem Tick 187
+TerrainLogicSystem Tick 188
+TerrainLogicSystem Tick 189
+TerrainLogicSystem Tick 190
+TerrainLogicSystem Tick 191
+TerrainLogicSystem Tick 192
+TerrainLogicSystem Tick 193
+TerrainLogicSystem Tick 194
+TerrainLogicSystem Tick 195
+TerrainLogicSystem Tick 196
+TerrainLogicSystem Tick 197
+TerrainLogicSystem Tick 198
+TerrainLogicSystem Tick 199
+TerrainLogicSystem Tick 200
+TerrainLogicSystem Tick 201
+TerrainLogicSystem Tick 202
+TerrainLogicSystem Tick 203
+TerrainLogicSystem Tick 204
+TerrainLogicSystem Tick 205
+TerrainLogicSystem Tick 206
+TerrainLogicSystem Tick 207
+TerrainLogicSystem Tick 208
+TerrainLogicSystem Tick 209
+TerrainLogicSystem Tick 210
+TerrainLogicSystem Tick 211
+TerrainLogicSystem Tick 212
+TerrainLogicSystem Tick 213
+TerrainLogicSystem Tick 214
+TerrainLogicSystem Tick 215
+TerrainLogicSystem Tick 216
+TerrainLogicSystem Tick 217
+TerrainLogicSystem Tick 218
+TerrainLogicSystem Tick 219
+TerrainLogicSystem Tick 220
+TerrainLogicSystem Tick 221
+TerrainLogicSystem Tick 222
+TerrainLogicSystem Tick 223
+TerrainLogicSystem Tick 224
+TerrainLogicSystem Tick 225
+TerrainLogicSystem Tick 226
+TerrainLogicSystem Tick 227
+TerrainLogicSystem Tick 228
+TerrainLogicSystem Tick 229
+TerrainLogicSystem Tick 230
+TerrainLogicSystem Tick 231
+TerrainLogicSystem Tick 232
+TerrainLogicSystem Tick 233
+TerrainLogicSystem Tick 234
+TerrainLogicSystem Tick 235
+TerrainLogicSystem Tick 236
+TerrainLogicSystem Tick 237
+TerrainLogicSystem Tick 238
+TerrainLogicSystem Tick 239
+TerrainLogicSystem Tick 240
+TerrainLogicSystem Tick 241
+TerrainLogicSystem Tick 242
+TerrainLogicSystem Tick 243
+TerrainLogicSystem Tick 244
+TerrainLogicSystem Tick 245
+TerrainLogicSystem Tick 246
+TerrainLogicSystem Tick 247
+TerrainLogicSystem Tick 248
+TerrainLogicSystem Tick 249
+TerrainLogicSystem Tick 250
+TerrainLogicSystem Tick 251
+TerrainLogicSystem Tick 252
+TerrainLogicSystem Tick 253
+TerrainLogicSystem Tick 254
+TerrainLogicSystem Tick 255
+TerrainLogicSystem Tick 256
+TerrainLogicSystem Tick 257
+TerrainLogicSystem Tick 258
+TerrainLogicSystem Tick 259
+TerrainLogicSystem Tick 260
+TerrainLogicSystem Tick 261
+TerrainLogicSystem Tick 262
+TerrainLogicSystem Tick 263
+TerrainLogicSystem Tick 264
+TerrainLogicSystem Tick 265
+TerrainLogicSystem Tick 266
+TerrainLogicSystem Tick 267
+TerrainLogicSystem Tick 268
+TerrainLogicSystem Tick 269
+TerrainLogicSystem Tick 270
+TerrainLogicSystem Tick 271
+TerrainLogicSystem Tick 272
+TerrainLogicSystem Tick 273
+TerrainLogicSystem Tick 274
+TerrainLogicSystem Tick 275
+TerrainLogicSystem Tick 276
+TerrainLogicSystem Tick 277
+TerrainLogicSystem Tick 278
+TerrainLogicSystem Tick 279
+TerrainLogicSystem Tick 280
+TerrainLogicSystem Tick 281
+TerrainLogicSystem Tick 282
+TerrainLogicSystem Tick 283
+TerrainLogicSystem Tick 284
+TerrainLogicSystem Tick 285
+TerrainLogicSystem Tick 286
+TerrainLogicSystem Tick 287
+TerrainLogicSystem Tick 288
+TerrainLogicSystem Tick 289
+TerrainLogicSystem Tick 290
+TerrainLogicSystem Tick 291
+TerrainLogicSystem Tick 292
+TerrainLogicSystem Tick 293
+TerrainLogicSystem Tick 294
+TerrainLogicSystem Tick 295
+TerrainLogicSystem Tick 296
+TerrainLogicSystem Tick 297
+TerrainLogicSystem Tick 298
+TerrainLogicSystem Tick 299
+TerrainLogicSystem Tick 300
+TerrainLogicSystem Tick 301
+TerrainLogicSystem Tick 302
+TerrainLogicSystem Tick 303
+TerrainLogicSystem Tick 304
+TerrainLogicSystem Tick 305
+TerrainLogicSystem Tick 306
+TerrainLogicSystem Tick 307
+TerrainLogicSystem Tick 308
+TerrainLogicSystem Tick 309
+TerrainLogicSystem Tick 310
+TerrainLogicSystem Tick 311
+TerrainLogicSystem Tick 312
+TerrainLogicSystem Tick 313
+TerrainLogicSystem Tick 314
+TerrainLogicSystem Tick 315
+TerrainLogicSystem Tick 316
+TerrainLogicSystem Tick 317
+TerrainLogicSystem Tick 318
+TerrainLogicSystem Tick 319
+TerrainLogicSystem Tick 320
+TerrainLogicSystem Tick 321
+TerrainLogicSystem Tick 322
+TerrainLogicSystem Tick 323
+TerrainLogicSystem Tick 324
+TerrainLogicSystem Tick 325
+TerrainLogicSystem Tick 326
+TerrainLogicSystem Tick 327
+TerrainLogicSystem Tick 328
+TerrainLogicSystem Tick 329
+TerrainLogicSystem Tick 330
+TerrainLogicSystem Tick 331
+TerrainLogicSystem Tick 332
+TerrainLogicSystem Tick 333
+TerrainLogicSystem Tick 334
+TerrainLogicSystem Tick 335
+TerrainLogicSystem Tick 336
+TerrainLogicSystem Tick 337
+TerrainLogicSystem Tick 338
+TerrainLogicSystem Tick 339
+TerrainLogicSystem Tick 340
+TerrainLogicSystem Tick 341
+TerrainLogicSystem Tick 342
+TerrainLogicSystem Tick 343
+TerrainLogicSystem Tick 344
+TerrainLogicSystem Tick 345
+TerrainLogicSystem Tick 346
+TerrainLogicSystem Tick 347
+TerrainLogicSystem Tick 348
+TerrainLogicSystem Tick 349
+TerrainLogicSystem Tick 350
+TerrainLogicSystem Tick 351
+TerrainLogicSystem Tick 352
+TerrainLogicSystem Tick 353
+TerrainLogicSystem Tick 354
+TerrainLogicSystem Tick 355
+TerrainLogicSystem Tick 356
+TerrainLogicSystem Tick 357
+TerrainLogicSystem Tick 358
+TerrainLogicSystem Tick 359
+TerrainLogicSystem Tick 360
+TerrainLogicSystem Tick 361
+TerrainLogicSystem Tick 362
+TerrainLogicSystem Tick 363
+TerrainLogicSystem Tick 364
+TerrainLogicSystem Tick 365
+TerrainLogicSystem Tick 366
+TerrainLogicSystem Tick 367
+TerrainLogicSystem Tick 368
+TerrainLogicSystem Tick 369
+TerrainLogicSystem Tick 370
+TerrainLogicSystem Tick 371
+TerrainLogicSystem Tick 372
+TerrainLogicSystem Tick 373
+TerrainLogicSystem Tick 374
+TerrainLogicSystem Tick 375
+TerrainLogicSystem Tick 376
+TerrainLogicSystem Tick 377
+TerrainLogicSystem Tick 378
+TerrainLogicSystem Tick 379
+TerrainLogicSystem Tick 380
+TerrainLogicSystem Tick 381
+TerrainLogicSystem Tick 382
+TerrainLogicSystem Tick 383
+TerrainLogicSystem Tick 384
+TerrainLogicSystem Tick 385
+TerrainLogicSystem Tick 386
+TerrainLogicSystem Tick 387
+TerrainLogicSystem Tick 388
+TerrainLogicSystem Tick 389
+TerrainLogicSystem Tick 390
+TerrainLogicSystem Tick 391
+TerrainLogicSystem Tick 392
+TerrainLogicSystem Tick 393
+TerrainLogicSystem Tick 394
+TerrainLogicSystem Tick 395
+TerrainLogicSystem Tick 396
+TerrainLogicSystem Tick 397
+TerrainLogicSystem Tick 398
+TerrainLogicSystem Tick 399
+TerrainLogicSystem Tick 400
+TerrainLogicSystem Tick 401
+TerrainLogicSystem Tick 402
+TerrainLogicSystem Tick 403
+TerrainLogicSystem Tick 404
+TerrainLogicSystem Tick 405
+TerrainLogicSystem Tick 406
+TerrainLogicSystem Tick 407
+TerrainLogicSystem Tick 408
+TerrainLogicSystem Tick 409
+TerrainLogicSystem Tick 410
+TerrainLogicSystem Tick 411
+TerrainLogicSystem Tick 412
+TerrainLogicSystem Tick 413
+TerrainLogicSystem Tick 414
+TerrainLogicSystem Tick 415
+TerrainLogicSystem Tick 416
+TerrainLogicSystem Tick 417
+TerrainLogicSystem Tick 418
+TerrainLogicSystem Tick 419
+TerrainLogicSystem Tick 420
+TerrainLogicSystem Tick 421
+TerrainLogicSystem Tick 422
+TerrainLogicSystem Tick 423
+TerrainLogicSystem Tick 424
+TerrainLogicSystem Tick 425
+TerrainLogicSystem Tick 426
+TerrainLogicSystem Tick 427
+TerrainLogicSystem Tick 428
+TerrainLogicSystem Tick 429
+TerrainLogicSystem Tick 430
+TerrainLogicSystem Tick 431
+TerrainLogicSystem Tick 432
+TerrainLogicSystem Tick 433
+TerrainLogicSystem Tick 434
+TerrainLogicSystem Tick 435
+TerrainLogicSystem Tick 436
+TerrainLogicSystem Tick 437
+TerrainLogicSystem Tick 438
+TerrainLogicSystem Tick 439
+TerrainLogicSystem Tick 440
+TerrainLogicSystem Tick 441
+TerrainLogicSystem Tick 442
+TerrainLogicSystem Tick 443
+TerrainLogicSystem Tick 444
+TerrainLogicSystem Tick 445
+TerrainLogicSystem Tick 446
+TerrainLogicSystem Tick 447
+TerrainLogicSystem Tick 448
+TerrainLogicSystem Tick 449
+TerrainLogicSystem Tick 450
+TerrainLogicSystem Tick 451
+TerrainLogicSystem Tick 452
+TerrainLogicSystem Tick 453
+TerrainLogicSystem Tick 454
+TerrainLogicSystem Tick 455
+TerrainLogicSystem Tick 456
+TerrainLogicSystem Tick 457
+TerrainLogicSystem Tick 458
+TerrainLogicSystem Tick 459
+TerrainLogicSystem Tick 460
+TerrainLogicSystem Tick 461
+TerrainLogicSystem Tick 462
+TerrainLogicSystem Tick 463
+TerrainLogicSystem Tick 464
+TerrainLogicSystem Tick 465
+TerrainLogicSystem Tick 466
+TerrainLogicSystem Tick 467
+TerrainLogicSystem Tick 468
+TerrainLogicSystem Tick 469
+TerrainLogicSystem Tick 470
+TerrainLogicSystem Tick 471
+TerrainLogicSystem Tick 472
+TerrainLogicSystem Tick 473
+TerrainLogicSystem Tick 474
+TerrainLogicSystem Tick 475
+TerrainLogicSystem Tick 476
+TerrainLogicSystem Tick 477
+TerrainLogicSystem Tick 478
+TerrainLogicSystem Tick 479
+TerrainLogicSystem Tick 480
+TerrainLogicSystem Tick 481
+TerrainLogicSystem Tick 482
+TerrainLogicSystem Tick 483
+TerrainLogicSystem Tick 484
+TerrainLogicSystem Tick 485
+TerrainLogicSystem Tick 486
+TerrainLogicSystem Tick 487
+TerrainLogicSystem Tick 488
+TerrainLogicSystem Tick 489
+TerrainLogicSystem Tick 490
+TerrainLogicSystem Tick 491
+TerrainLogicSystem Tick 492
+TerrainLogicSystem Tick 493
+TerrainLogicSystem Tick 494
+TerrainLogicSystem Tick 495
+TerrainLogicSystem Tick 496
+TerrainLogicSystem Tick 497
+TerrainLogicSystem Tick 498
+TerrainLogicSystem Tick 499
+TerrainLogicSystem Tick 500
+TerrainLogicSystem Tick 501
+TerrainLogicSystem Tick 502
+TerrainLogicSystem Tick 503
+TerrainLogicSystem Tick 504
+TerrainLogicSystem Tick 505
+TerrainLogicSystem Tick 506
+TerrainLogicSystem Tick 507
+TerrainLogicSystem Tick 508
+TerrainLogicSystem Tick 509
+TerrainLogicSystem Tick 510
+TerrainLogicSystem Tick 511
+TerrainLogicSystem Tick 512
+TerrainLogicSystem Tick 513
+TerrainLogicSystem Tick 514
+TerrainLogicSystem Tick 515
+TerrainLogicSystem Tick 516
+TerrainLogicSystem Tick 517
+TerrainLogicSystem Tick 518
+TerrainLogicSystem Tick 519
+TerrainLogicSystem Tick 520
+TerrainLogicSystem Tick 521
+TerrainLogicSystem Tick 522
+TerrainLogicSystem Tick 523
+TerrainLogicSystem Tick 524
+TerrainLogicSystem Tick 525
+TerrainLogicSystem Tick 526
+TerrainLogicSystem Tick 527
+TerrainLogicSystem Tick 528
+TerrainLogicSystem Tick 529
+TerrainLogicSystem Tick 530
+TerrainLogicSystem Tick 531
+TerrainLogicSystem Tick 532
+TerrainLogicSystem Tick 533
+TerrainLogicSystem Tick 534
+TerrainLogicSystem Tick 535
+TerrainLogicSystem Tick 536
+TerrainLogicSystem Tick 537
+TerrainLogicSystem Tick 538
+TerrainLogicSystem Tick 539
+TerrainLogicSystem Tick 540
+TerrainLogicSystem Tick 541
+TerrainLogicSystem Tick 542
+TerrainLogicSystem Tick 543
+TerrainLogicSystem Tick 544
+TerrainLogicSystem Tick 545
+TerrainLogicSystem Tick 546
+TerrainLogicSystem Tick 547
+TerrainLogicSystem Tick 548
+TerrainLogicSystem Tick 549
+TerrainLogicSystem Tick 550
+TerrainLogicSystem Tick 551
+TerrainLogicSystem Tick 552
+TerrainLogicSystem Tick 553
+TerrainLogicSystem Tick 554
+TerrainLogicSystem Tick 555
+TerrainLogicSystem Tick 556
+TerrainLogicSystem Tick 557
+TerrainLogicSystem Tick 558
+TerrainLogicSystem Tick 559
+TerrainLogicSystem Tick 560
+TerrainLogicSystem Tick 561
+TerrainLogicSystem Tick 562
+TerrainLogicSystem Tick 563
+TerrainLogicSystem Tick 564
+TerrainLogicSystem Tick 565
+TerrainLogicSystem Tick 566
+TerrainLogicSystem Tick 567
+TerrainLogicSystem Tick 568
+TerrainLogicSystem Tick 569
+TerrainLogicSystem Tick 570
+TerrainLogicSystem Tick 571
+TerrainLogicSystem Tick 572
+TerrainLogicSystem Tick 573
+TerrainLogicSystem Tick 574
+TerrainLogicSystem Tick 575
+TerrainLogicSystem Tick 576
+TerrainLogicSystem Tick 577
+TerrainLogicSystem Tick 578
+TerrainLogicSystem Tick 579
+TerrainLogicSystem Tick 580
+TerrainLogicSystem Tick 581
+TerrainLogicSystem Tick 582
+TerrainLogicSystem Tick 583
+TerrainLogicSystem Tick 584
+TerrainLogicSystem Tick 585
+TerrainLogicSystem Tick 586
+TerrainLogicSystem Tick 587
+TerrainLogicSystem Tick 588
+TerrainLogicSystem Tick 589
+TerrainLogicSystem Tick 590
+TerrainLogicSystem Tick 591
+TerrainLogicSystem Tick 592
+TerrainLogicSystem Tick 593
+TerrainLogicSystem Tick 594
+TerrainLogicSystem Tick 595
+TerrainLogicSystem Tick 596
+TerrainLogicSystem Tick 597
+TerrainLogicSystem Tick 598
+TerrainLogicSystem Tick 599
+TerrainLogicSystem Tick 600
+TerrainLogicSystem Tick 601
+TerrainLogicSystem Tick 602
+TerrainLogicSystem Tick 603
+TerrainLogicSystem Tick 604
+TerrainLogicSystem Tick 605
+TerrainLogicSystem Tick 606
+TerrainLogicSystem Tick 607
+TerrainLogicSystem Tick 608
+TerrainLogicSystem Tick 609
+TerrainLogicSystem Tick 610
+TerrainLogicSystem Tick 611
+TerrainLogicSystem Tick 612
+TerrainLogicSystem Tick 613
+TerrainLogicSystem Tick 614
+TerrainLogicSystem Tick 615
+TerrainLogicSystem Tick 616
+TerrainLogicSystem Tick 617
+TerrainLogicSystem Tick 618
+TerrainLogicSystem Tick 619
+TerrainLogicSystem Tick 620
+TerrainLogicSystem Tick 621
+TerrainLogicSystem Tick 622
+TerrainLogicSystem Tick 623
+TerrainLogicSystem Tick 624
+TerrainLogicSystem Tick 625
+TerrainLogicSystem Tick 626
+TerrainLogicSystem Tick 627
+TerrainLogicSystem Tick 628
+TerrainLogicSystem Tick 629
+TerrainLogicSystem Tick 630
+TerrainLogicSystem Tick 631
+TerrainLogicSystem Tick 632
+TerrainLogicSystem Tick 633
+TerrainLogicSystem Tick 634
+TerrainLogicSystem Tick 635
+TerrainLogicSystem Tick 636
+TerrainLogicSystem Tick 637
+TerrainLogicSystem Tick 638
+TerrainLogicSystem Tick 639
+TerrainLogicSystem Tick 640
+TerrainLogicSystem Tick 641
+TerrainLogicSystem Tick 642
+TerrainLogicSystem Tick 643
+TerrainLogicSystem Tick 644
+TerrainLogicSystem Tick 645
+TerrainLogicSystem Tick 646
+TerrainLogicSystem Tick 647
+TerrainLogicSystem Tick 648
+TerrainLogicSystem Tick 649
+TerrainLogicSystem Tick 650
+TerrainLogicSystem Tick 651
+TerrainLogicSystem Tick 652
+TerrainLogicSystem Tick 653
+TerrainLogicSystem Tick 654
+TerrainLogicSystem Tick 655
+TerrainLogicSystem Tick 656
+TerrainLogicSystem Tick 657
+TerrainLogicSystem Tick 658
+TerrainLogicSystem Tick 659
+TerrainLogicSystem Tick 660
+TerrainLogicSystem Tick 661
+TerrainLogicSystem Tick 662
+TerrainLogicSystem Tick 663
+TerrainLogicSystem Tick 664
+TerrainLogicSystem Tick 665
+TerrainLogicSystem Tick 666
+TerrainLogicSystem Tick 667
+TerrainLogicSystem Tick 668
+TerrainLogicSystem Tick 669
+TerrainLogicSystem Tick 670
+TerrainLogicSystem Tick 671
+TerrainLogicSystem Tick 672
+TerrainLogicSystem Tick 673
+TerrainLogicSystem Tick 674
+TerrainLogicSystem Tick 675
+TerrainLogicSystem Tick 676
+TerrainLogicSystem Tick 677
+TerrainLogicSystem Tick 678
+TerrainLogicSystem Tick 679
+TerrainLogicSystem Tick 680
+TerrainLogicSystem Tick 681
+TerrainLogicSystem Tick 682
+TerrainLogicSystem Tick 683
+TerrainLogicSystem Tick 684
+TerrainLogicSystem Tick 685
+TerrainLogicSystem Tick 686
+TerrainLogicSystem Tick 687
+TerrainLogicSystem Tick 688
+TerrainLogicSystem Tick 689
+TerrainLogicSystem Tick 690
+TerrainLogicSystem Tick 691
+TerrainLogicSystem Tick 692
+TerrainLogicSystem Tick 693
+TerrainLogicSystem Tick 694
+TerrainLogicSystem Tick 695
+TerrainLogicSystem Tick 696
+TerrainLogicSystem Tick 697
+TerrainLogicSystem Tick 698
+TerrainLogicSystem Tick 699
+TerrainLogicSystem Tick 700
+TerrainLogicSystem Tick 701
+TerrainLogicSystem Tick 702
+TerrainLogicSystem Tick 703
+TerrainLogicSystem Tick 704
+TerrainLogicSystem Tick 705
+TerrainLogicSystem Tick 706
+TerrainLogicSystem Tick 707
+TerrainLogicSystem Tick 708
+TerrainLogicSystem Tick 709
+TerrainLogicSystem Tick 710
+TerrainLogicSystem Tick 711
+TerrainLogicSystem Tick 712
+TerrainLogicSystem Tick 713
+TerrainLogicSystem Tick 714
+TerrainLogicSystem Tick 715
+TerrainLogicSystem Tick 716
+TerrainLogicSystem Tick 717
+TerrainLogicSystem Tick 718
+Caught fatal signal - signo:15 code:0 errno:0 addr:0x150200024ed3
+Obtained 31 stack frames.
+#0  0x007f91f170c9c9 in PlayerMain(int, char**)
+#1  0x007f91f17014b7 in (Unknown)
+#2  0x007f91ef469c20 in funlockfile
+#3  0x007f911bf5c60f in Segment_get_FreezeOffset_m00117CB06A46E4E550670CA20F83033F6A6F2E0D_gshared
+#4  0x007f911c681f3a in ConcurrentQueue_1_GetCount_m4BDC0C99DE91BA8826BEBB2E40070ED250276038_gshared
+#5  0x007f911c681b3e in ConcurrentQueue_1_get_Count_m0D507D8DEE7AE9027E160C42391220AB9909AD2D_gshared
+#6  0x007f9119f92c17 in TerrainLogicSystem_PropagateLogicState_mE3BCE208E733AF493937880F58C1F7F8BB564D7B
+#7  0x007f9119f92262 in TerrainLogicSystem_OnUpdate_m8165F3084375C0ED13EDDDEEAB2F000F435CFC55
+#8  0x007f9119f90fc8 in TerrainLogicSystem___codegen__OnUpdate_mFCC7995FDD231B02502CF3D752F3A2A814EF7AA9
+#9  0x007f91195dde1d in ReversePInvokeWrapper_TerrainLogicSystem___codegen__OnUpdate_mFCC7995FDD231B02502CF3D752F3A2A814EF7AA9
+#10 0x007f90ff6abdc1 in Unity.Entities.WorldUnmanagedImpl+UnmanagedUpdate_00001534$BurstDirectCall, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(System.Void*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 pSystemState) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_362f43fd44a9be961edc90136d9814c5 from Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+#11 0x007f90ff6aac59 in 7bf3b3dc1c88cb657fd69b548232391d_avx2
+#12 0x007f90fff9b0aa in 7bf3b3dc1c88cb657fd69b548232391d
+#13 0x007f911e1a0ae7 in UnmanagedUpdate_00001534U24BurstDirectCall_Invoke_m55B79C7CC8127CC26C857F8B7EF2D354EBB3ADBC
+#14 0x007f911e19d791 in WorldUnmanagedImpl_UnmanagedUpdate_m679FEB4A8B994B459B1A4ADF7BBC58B8187633B6
+#15 0x007f911e19d4f2 in WorldUnmanagedImpl_UpdateSystem_m542D9AE08601A66843934B06A609FDA778A0670B
+#16 0x007f911e094b53 in ComponentSystemGroup_UpdateAllSystems_m78B1AA9EAF07133497E9BA556B592AC93935441C
+#17 0x007f911e09494b in ComponentSystemGroup_OnUpdate_m83128938DF97469E0D1CB883E5C9000C0C2DA9A7
+#18 0x007f911e2f68af in SystemBase_Update_m795994EE60C054DFA78C313A60ED025B2668C9B4
+#19 0x007f911e2e4c46 in DummyDelegateWrapper_TriggerUpdate_m2C37F16899DE9C87FE35B065E0FF7E410E463FE7
+#20 0x007f911effb620 in UpdateFunction_Invoke_m9BCEE4E5BEE924EB804DA64314B78D0E831C179B
+#21 0x007f9119e8b713 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#22 0x007f9119e8b67b in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#23 0x007f91f1645f0b in (Unknown)
+#24 0x007f91f1650cd7 in (Unknown)
+#25 0x007f91f11842e8 in (Unknown)
+#26 0x007f91f1184201 in (Unknown)
+#27 0x007f91f1184570 in (Unknown)
+#28 0x007f91f1703077 in PlayerMain(int, char**)
+#29 0x007f91ef0b5493 in __libc_start_main
+#30 0x00000000201029 in _start
+TerrainLogicSystem Tick 719
+Setting up 12 worker threads for Enlighten.
+Calling DomainUnloadOrPlayModeChangeShutdown!
+Writing stats to file
+Caught fatal signal - signo:11 code:1 errno:0 addr:0x48
+Obtained 25 stack frames.
+#0  0x007f91f170c9c9 in PlayerMain(int, char**)
+#1  0x007f91f17014b7 in (Unknown)
+#2  0x007f91ef469c20 in funlockfile
+#3  0x007f91f10c4ff3 in (Unknown)
+#4  0x007f91f10c5671 in (Unknown)
+#5  0x007f91f10a5e7a in (Unknown)
+#6  0x007f91f1aa142e in PlayerMain(int, char**)
+#7  0x007f91f0a53426 in (Unknown)
+#8  0x007f911ef6d7a0 in ContentLoadInterface_ContentFile_UnloadAsync_Injected_mBD2F1D561285B0DE37DCDA4DEA75931201B5E680
+#9  0x007f911ef6cc0f in ContentLoadInterface_ContentFile_UnloadAsync_m197A3C60564D4E9F9049BAD57B46FB404A8F17BD
+#10 0x007f911ef6cab5 in ContentFile_UnloadAsync_mF35518E83FCF4C1701AF2C6CEBF7E507490481D6
+#11 0x007f911e1e49ea in RuntimeContentManager_ReleaseFile_m12EDB377B39EF4D01B3268E711303D79747A4F4C
+#12 0x007f911e1e28dc in RuntimeContentManager_ReleaseObjectImpl_m84E24B7727CAA367D95ABC97FC529A5594840414
+#13 0x007f911e1e0f68 in RuntimeContentManager_Cleanup_m6436DF58ED05204D0A7DFACFB212018BD6B813FD
+#14 0x007f911e1e23b8 in RuntimeContentManager_OnShutdown_m09B1F0AD37BE7168472DDB84F55C43F02CD40113
+#15 0x007f9119ce1516 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96_Multicast(EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82*, Il2CppObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, MethodInfo const*)
+#16 0x007f911d64fcd0 in EventHandler_Invoke_m9D3126CBE291A3E7E7C304094E1DA846832F9B96
+#17 0x007f9119e8b713 in il2cpp::vm::Runtime::InvokeWithThrow(MethodInfo const*, void*, void**)
+#18 0x007f9119e8b67b in il2cpp::vm::Runtime::Invoke(MethodInfo const*, void*, void**, Il2CppException**)
+#19 0x007f9119e8b1bc in il2cpp::vm::Runtime::Shutdown()
+#20 0x007f91f165af56 in (Unknown)
+#21 0x007f91f1196658 in (Unknown)
+#22 0x007f91f1702ee6 in PlayerMain(int, char**)
+#23 0x007f91ef0b5493 in __libc_start_main
+#24 0x00000000201029 in _start

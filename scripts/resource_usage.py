@@ -219,3 +219,7 @@ for option in options:
     # plt.show()
     plt.savefig(f"{output_file}_server.pdf", format="pdf")
     print(f"Saved to {output_file}_server.pdf")
+    
+    
+    server_averages_df = pd.DataFrame(server_averages)
+    server_averages_df.to_csv(f"{output_file}_server.csv", sep=";")
