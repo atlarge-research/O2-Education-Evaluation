@@ -66,8 +66,8 @@ def create_bar_graph(all_data=False, logic=False):
 
     order = [
         "Dummy",
-        "Empty",
-        "Empty (Logic Active)",
+        "Flat",
+        "Flat (Logic Active)",
         "2-Layer (Logic Active)",
         "RollingHills",
         "RollingHills (Logic Active)",
@@ -113,9 +113,9 @@ def create_bar_graph(all_data=False, logic=False):
         if search:
             val = search.group(1)
             if "-activeLogic" in val:
-                val = f"{val.replace('-activeLogic_', '')} (Logic Active)"
+                val = f"{val.replace('-activeLogic_', '').replace('Empty', 'Flat')} (Logic Active)"
             else:
-                val = val.replace("_", "")
+                val = val.replace("_", "").replace('Empty', 'Flat')
         else:
             raise ValueError("Invalid experiment name")
 

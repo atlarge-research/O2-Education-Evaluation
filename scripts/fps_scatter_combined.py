@@ -14,16 +14,15 @@ def sort_list2_by_list1(list1, list2):
         if search:
             val = search.group(1)
             if "-activeLogic" in val:
-                key_part = f"{val.replace('-activeLogic_', '')} (Logic Active)"
+                key_part = f"{val.replace('-activeLogic_', '').replace('Empty', 'Flat')} (Logic Active)"
             else:
-                key_part = val.replace("_", "")
+                key_part = val.replace("_", "").replace('Empty', 'Flat')
 
         return order_dict.get(key_part, float("inf"))
 
     sorted_list2 = sorted(list2, key=extract_key)
 
     return sorted_list2
-
 
 def create_fps_scatter():
     player_experiments = [
@@ -35,14 +34,14 @@ def create_fps_scatter():
 
     order = [
         "Dummy",
-        "Empty",
-        "Empty (Logic Active)",
+        "Flat",
+        "Flat (Logic Active)",
         "2-Layer (Logic Active)",
         "RollingHills",
         "RollingHills (Logic Active)",
     ]
     markers = ["", "o", "s", "p", "*", "X", "D"]
-    fig, ax = plt.subplots(1, 1, sharex=True, height_ratios=[10], figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(10, 6))
 
     handles = []
     labels = []
@@ -60,9 +59,9 @@ def create_fps_scatter():
         if search:
             val = search.group(1)
             if "-activeLogic" in val:
-                labels.append(f"{val.replace('-activeLogic_', '')} (Logic Active)")
+                labels.append(f"{val.replace('-activeLogic_', '').replace('Empty', 'Flat')} (Logic Active)")
             else:
-                labels.append(val.replace("_", ""))
+                labels.append(val.replace("_", "").replace("Empty", "Flat"))
         else:
             raise ValueError("Invalid experiment name")
 
@@ -82,17 +81,15 @@ def create_fps_scatter():
 
         handles.append((scatter, line))
 
-
     legend_handles = [h[0] for h in handles] + [h[1] for h in handles]
-    fig.legend(legend_handles, labels, bbox_to_anchor=[0.1, 0.1], loc="lower left")
+    fig.legend(legend_handles, labels, bbox_to_anchor=[0.12, 0.15], loc="lower left")
 
-    fig.text(0.5, 0, "Players", ha="center")
-    fig.text(0, 0.5, "Server FPS", va="center", rotation="vertical")
+    ax.set_xlabel("Players")
+    ax.set_ylabel("Server FPS")
 
     plt.ylim(bottom=0)
 
     plt.tight_layout()
-    # plt.show()
     plt.savefig(f"{sc.plots_directory}players-fps-1.pdf", format="pdf")
     print(f"Saved plot to {sc.plots_directory}players-fps.pdf")
 

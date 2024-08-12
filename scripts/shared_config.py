@@ -8,7 +8,7 @@ plt.style.use("seaborn-v0_8-colorblind")
 sns.set_palette("colorblind")
 
 data_directory = "../data/"
-experiment_name = "base_v1"
+experiment_name = "base_v2"
 filter_by_max_terrainarea = True
 filter_by_max_players = True
 filter_by_only_logic_frames = False

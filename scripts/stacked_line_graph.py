@@ -60,7 +60,7 @@ def create_stacked_line_graph(all_data=False):
 
 
     plt.ylim(bottom=0)
-    plt.legend(loc=legend)
+    plt.legend(loc=legend) #, framealpha=0.0)
 
 
     plt.tight_layout()

@@ -19,7 +19,7 @@ Experiments are designed to be run on the DAS[5](https://cs.vu.nl/das5/home.shtm
 
 ## Running experiments
 There are 3 main experiment scripts: base, players and pareto. Each have different configuration options at the top of the file.
-- Potential terrain types include "Empty", "1-Layer", "2-Layer", "3-Layer", "4-Layer", "5-Layer", "RollinghHills"
+- Potential terrain types include "Empty", "1-Layer", "2-Layer", "3-Layer", "4-Layer", "5-Layer", "RollingHills"
 - Active logic can either be "" or "-activeLogic"
 - CircuitX / CircuitZ / Radius specify the dimensions of circuit generation
 

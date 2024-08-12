@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import re
 import shared_config as sc
+import matplotlib
 
 def sort_list2_by_list1(list1, list2):
     order_dict = {value: index for index, value in enumerate(list1)}
@@ -53,8 +54,8 @@ options = [
 ]
 
 order = [
-    "Empty",
-    "Empty (Logic Active)",
+    "Flat",
+    "Flat (Logic Active)",
     "2-Layer (Logic Active)",
     "RollingHills",
     "RollingHills (Logic Active)",
@@ -86,9 +87,9 @@ for option in options:
         if search:
             val = search.group(1)
             if "-activeLogic" in val:
-                val = f"{val.replace('-activeLogic_', '')} (Logic Active)"
+                val = f"{val.replace('-activeLogic_', '').replace('Empty', 'Flat')} (Logic Active)"
             else:
-                val = val.replace("_", "")
+                val = val.replace("_", "").replace('Empty', 'Flat')
         else:
             raise ValueError(f"Invalid experiment name: {experiment}")
 
@@ -170,10 +171,11 @@ for option in options:
     bar_width = 1 / (len(experiments) + 1)
     index = np.arange(len(all_player_nums))
 
+    matplotlib.rcParams.update({"font.size": 22})
 
     if clients_data:
         # Plotting client usage
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(10, 7))
         plt.tight_layout()
 
         client_sum_averages = np.zeros(len(all_player_nums))
@@ -189,14 +191,21 @@ for option in options:
         plt.xlabel("Number of Players")
         plt.ylabel(f"{name} ({units}) (Client)")
         plt.xticks(index + bar_width * (len(experiments) - 1) / 2, all_player_nums)
-        plt.legend()
+        
+        
+        
+        if "CPU" in name:
+            plt.legend(reverse=True, loc="lower right")
+        else:
+            plt.legend(reverse=True, framealpha=0.0)
+        
 
         # plt.show()
         plt.savefig(f"{output_file}_client.pdf", format="pdf")
         print(f"Saved to {output_file}_client.pdf")
 
     # Plotting server usage
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10, 7))
     plt.tight_layout()
 
     server_sum_averages = np.zeros(len(all_player_nums))
@@ -214,12 +223,12 @@ for option in options:
     plt.xlabel("Number of Players")
     plt.ylabel(f"{name} ({units}) (Server)")
     plt.xticks(index + bar_width * (len(experiments) - 1) / 2, all_player_nums)
-    plt.legend()
+    plt.legend(reverse=True, framealpha=0.0)
 
     # plt.show()
     plt.savefig(f"{output_file}_server.pdf", format="pdf")
     print(f"Saved to {output_file}_server.pdf")
     
     
-    server_averages_df = pd.DataFrame(server_averages)
-    server_averages_df.to_csv(f"{output_file}_server.csv", sep=";")
+    # server_averages_df = pd.DataFrame(server_averages)
+    # server_averages_df.to_csv(f"{output_file}_server.csv", sep=";")
