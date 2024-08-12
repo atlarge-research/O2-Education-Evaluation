@@ -3,10 +3,17 @@
 # Node details, benchmark duration and client interval
 source config.cfg
 
+# Used configurations
+# 10 20 30 40 50 60 70 80 90 100 10 20 30 40 50 60 70 80 90 100 10 20 30 40 50 60 70 80 90 100 10 20 30 40 50 60 70 80 90 100 10 20 30 40 50 60 70 80 90 100
+# Empty RollingHills 2-Layer Empty RollingHills
+# "" "" "-activeLogic" "-activeLogic" "-activeLogic"
+# 0 0 6 0 0
+
 num_players_options=() # Increments of 10 usually
-terrain_types=() # "Empty", "1-Layer" etc.
-active_status=() # either "" or "-activeLogic"
-radiuses=() # Numbers up to 6
+terrain_types=()       # "Empty", "1-Layer" etc.
+active_status=()       # either "" or "-activeLogic"
+radius=()              # either 0 or 6
+benchmark_duration=120
 
 # Folder locations
 build_location="/var/scratch/${student_id}/"
@@ -26,11 +33,16 @@ client_system_monitor_script="${das_folder}client_system_monitor.py"
 
 for index in "${!num_players_options[@]}"; do
     num_players2=${num_players_options[$index]}
-    terrain_type2=${terrain_types[$index]}
-    active_logic=${active_status[$index]}
-    radius=${radiuses[$index]}
+    terrain_type2=${terrain_types[$index / 10]}
+    active_logic=${active_status[$index / 10]}
+    radius=${radius[$index / 10]}
     run_config="players${active_logic}_${terrain_type2}_${radius}x_${radius}z_${num_players2}p_${benchmark_duration}s"
     echo "Running benchmark for ${run_config} players..."
+
+    if [[ $client_nodes_number -lt 10 ]]; then
+        echo "Not enough client nodes specified. Need all 10. Exiting..."
+        exit 1
+    fi
 
     run_dir="${runs_dir}${run_config}/"
     opencraft_stats="${run_dir}opencraft_stats/"
@@ -63,12 +75,12 @@ for index in "${!num_players_options[@]}"; do
     echo "Starting clients..."
 
     for i in $(seq 1 $num_players2); do
-        node_index=$(( ((i-1) % client_nodes_number) + 1 ))
+        node_index=$((((i - 1) % client_nodes_number) + 1))
         client_node_var="client_node$node_index"
         client_node=${!client_node_var}
-        
+
         # If this is the first client on the node, start system monitoring
-        if (( ((i - 1) / client_nodes_number)  == 0 )); then
+        if ((((i - 1) / client_nodes_number) == 0)); then
             client_monitor_log="${system_logs}client_node${node_index}.csv"
             echo "Starting system monitoring script on $client_node..."
             ssh $client_node "python3 ${client_system_monitor_script} ${client_monitor_log} &" &

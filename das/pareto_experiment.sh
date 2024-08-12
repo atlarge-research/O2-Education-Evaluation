@@ -3,11 +3,17 @@
 # Node details, benchmark duration and client interval
 source config.cfg
 
-num_players_options=() # Increments of 10 usually
-terrain_types=() # "Empty", "1-Layer" etc.
-active_logic="" # either "" or "-activeLogic"
-circuitX="" # Numbers up to 10
-circuitZ="" # Numbers up to 6
+# Used configurations
+# 120 160 200 40 80 120 160 200 40 80 120 160 200 40 80 120 160 200 40 80 120 40 80 120 160 200 40 80 120 160 200 40 80 120 160 200 40 80 120 160 40 80 120 160 200 40 80
+# "1-Layer" "1-Layer" "1-Layer" "1-Layer" "1-Layer" "2-Layer" "2-Layer" "2-Layer" "2-Layer" "2-Layer" "3-Layer" "3-Layer" "3-Layer" "3-Layer" "3-Layer" "4-Layer" "4-Layer" "4-Layer" "4-Layer" "4-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "5-Layer" "Empty" "Empty" "Empty" "Empty" "Empty"
+# 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 10 10 10 6 6 6 6 6 7 7 7 7 7 8 8 8 8 8 9 9 9 9 0 0 0 0 0
+# 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 0 0 0 0 0
+
+num_players_options=() # Increments of 40 usually
+terrain_types=()       # "Empty", "1-Layer" etc.
+circuitXes=()          # Numbers up to 10
+circuitZes=()          # Numbers up to 6
+benchmark_duration=120
 
 # Folder locations
 build_location="/var/scratch/${student_id}/"
@@ -27,9 +33,16 @@ client_system_monitor_script="${das_folder}client_system_monitor.py"
 
 for index in "${!num_players_options[@]}"; do
     num_players2=${num_players_options[$index]}
-    terrain_type2=${terrain_types[$index % 6]}
-    run_config="pareto${active_logic}_${terrain_type2}_${circuitX}x_${circuitZ}z_${num_players2}p_${benchmark_duration}s"
-    echo "Running benchmark for ${run_config} players..."
+    terrain_type2=${terrain_types[$index]}
+    circuitX=${circuitXes[$index]}
+    circuitZ=${circuitZes[$index]}
+    run_config="pareto-activeLogic_${terrain_type2}_${circuitX}x_${circuitZ}z_${num_players2}p_${benchmark_duration}s"
+    # echo "Running benchmark for ${run_config} players..."
+
+    if [[ $client_nodes_number -lt 10 ]]; then
+        echo "Not enough client nodes specified. Need all 10. Exiting..."
+        exit 1
+    fi
 
     run_dir="${runs_dir}${run_config}/"
     opencraft_stats="${run_dir}opencraft_stats/"
@@ -48,7 +61,7 @@ for index in "${!num_players_options[@]}"; do
     server_stats="${opencraft_stats}server.csv"
     server_log="${opencraft_logs}server.log"
     echo "Starting server on $server_node at $server_ip:7777 with config ${run_config}..."
-    server_command="${shared_command} -terrainType ${terrain_type2} -statsFile ${server_stats} ${active_logic} -circuitX $circuitX -circuitZ $circuitZ -playType Server > ${server_log} 2>&1 &"
+    server_command="${shared_command} -terrainType ${terrain_type2} -statsFile ${server_stats} -activeLogic -circuitX $circuitX -circuitZ $circuitZ -playType Server > ${server_log} 2>&1 &"
     ssh $server_node "${server_command}" &
     sleep 10
 
@@ -57,26 +70,27 @@ for index in "${!num_players_options[@]}"; do
     monitor_command="python3 ${system_monitor_script} ${system_logs}server.csv $server_pid"
     ssh $server_node "${monitor_command}" &
 
-    # Starting moving clients for more circuits (if circuitX > 6)
-    # echo "Starting moving clients on $client_node1 and $client_node2..."
-    # simulation_type=" -emulationType Simulation -playerSimulationBehaviour FixedDirection "
-    # client_mover_id1=202
-    # client_mover_id2=204
-    # client_command1="${shared_command} -serverUrl $server_ip -statsFile ${opencraft_stats}client$client_mover_id1.csv -userID $client_mover_id1 -playType Client ${simulation_type} > ${opencraft_logs}client${client_mover_id1}.log 2>&1 &"
-    # client_command2="${shared_command} -serverUrl $server_ip -statsFile ${opencraft_stats}client$client_mover_id2.csv -userID $client_mover_id2 -playType Client ${simulation_type} > ${opencraft_logs}client${client_mover_id2}.log 2>&1 &"
-    # ssh $client_node1 "${client_command1}" &
-    # ssh $client_node2 "${client_command2}" &
-    # sleep $client_interval
-    # client_pid1=$(ssh $client_node1 "pgrep -f '$raw_executable'")
-    # client_pid2=$(ssh $client_node2 "pgrep -f '$raw_executable'")
-    # echo "client_pid1: $client_pid1, client_pid2: $client_pid2, sleeping for 20 seconds..."
-    # sleep 15
-    # ssh $client_node1 "pkill opencraft"
-    # ssh $client_node2 "pkill opencraft"
-    # sleep 2
-    # ssh $client_node1 "pkill -0 opencraft" && ssh $client_node1 "pkill -9 opencraft"
-    # ssh $client_node2 "pkill -0 opencraft" && ssh $client_node2 "pkill -9 opencraft"
-
+    if [[ $circuitX -gt 6 ]]; then
+        # Starting moving clients for more circuits (if circuitX > 6)
+        echo "Starting moving clients on $client_node1 and $client_node2..."
+        simulation_type=" -emulationType Simulation -playerSimulationBehaviour FixedDirection "
+        client_mover_id1=202
+        client_mover_id2=204
+        client_command1="${shared_command} -serverUrl $server_ip -statsFile ${opencraft_stats}client$client_mover_id1.csv -userID $client_mover_id1 -playType Client ${simulation_type} > ${opencraft_logs}client${client_mover_id1}.log 2>&1 &"
+        client_command2="${shared_command} -serverUrl $server_ip -statsFile ${opencraft_stats}client$client_mover_id2.csv -userID $client_mover_id2 -playType Client ${simulation_type} > ${opencraft_logs}client${client_mover_id2}.log 2>&1 &"
+        ssh $client_node1 "${client_command1}" &
+        ssh $client_node2 "${client_command2}" &
+        sleep $client_interval
+        client_pid1=$(ssh $client_node1 "pgrep -f '$raw_executable'")
+        client_pid2=$(ssh $client_node2 "pgrep -f '$raw_executable'")
+        echo "client_pid1: $client_pid1, client_pid2: $client_pid2, sleeping for 20 seconds..."
+        sleep 15
+        ssh $client_node1 "pkill opencraft"
+        ssh $client_node2 "pkill opencraft"
+        sleep 2
+        ssh $client_node1 "pkill -0 opencraft" && ssh $client_node1 "pkill -9 opencraft"
+        ssh $client_node2 "pkill -0 opencraft" && ssh $client_node2 "pkill -9 opencraft"
+    fi
 
     # Initialising Clients
     ## Calculate number of clients per node
